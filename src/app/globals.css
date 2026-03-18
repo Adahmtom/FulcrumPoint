@@ -1248,12 +1248,18 @@ body {
   /* Homepage: Criteria */
   .criteria-inner { padding: 56px 24px; }
   .criteria-stats-row { grid-template-columns: repeat(2, 1fr); gap: 0; }
+  .criteria-stat { border-bottom: 1px solid var(--mid-gray); }
+  .criteria-stat:nth-child(2n) { border-right: none; }
+  .criteria-stat:nth-last-child(-n+2) { border-bottom: none; }
   .criteria-grid { grid-template-columns: repeat(2, 1fr); overflow-x: visible; }
   .criteria-card { padding: 24px; }
 
   /* Homepage: Sectors */
   .sectors-inner { padding: 56px 24px; }
-  .sectors-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .sectors-grid { grid-template-columns: repeat(2, 1fr); gap: 0; }
+  .sector-card { border-bottom: 1px solid var(--mid-gray); }
+  .sector-card:nth-child(2n) { border-right: none; }
+  .sector-card:last-child { border-bottom: none; }
   .sectors-header { flex-direction: column; align-items: flex-start; gap: 16px; }
 
   /* Homepage: Value */
@@ -1262,6 +1268,9 @@ body {
   /* Homepage: Insights */
   .insights-inner { padding: 56px 24px; }
   .insights-grid { grid-template-columns: repeat(2, 1fr); }
+  .insight-card { border-bottom: 1px solid var(--mid-gray); }
+  .insight-card:nth-child(2n) { border-right: none; }
+  .insight-card:last-child { border-bottom: none; }
   .insights-header { flex-direction: column; align-items: flex-start; gap: 12px; }
 
   /* Homepage: CTA */
@@ -1270,8 +1279,11 @@ body {
   /* Portfolio */
   .portfolio-section { padding: 56px 24px 80px; }
   .portfolio-inner { padding: 0 24px; }
-  .portfolio-filter-bar { overflow-x: auto; padding-bottom: 4px; flex-wrap: nowrap; }
+  .portfolio-filter-bar { flex-direction: column; align-items: flex-start; gap: 12px; overflow-x: visible; padding-bottom: 16px; }
+  .portfolio-filters { overflow-x: auto; width: 100%; padding-bottom: 4px; flex-wrap: nowrap; display: flex; }
   .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+  .portfolio-card:nth-child(3n) { border-right: 1px solid var(--mid-gray); }
+  .portfolio-card:nth-child(2n) { border-right: none; }
   .portfolio-cta { padding: 48px 24px; }
   .portfolio-cta-inner { flex-direction: column; align-items: flex-start; gap: 24px; }
 
@@ -1295,7 +1307,7 @@ body {
   /* Submit */
   .submit-hero { padding: 72px 24px 48px; }
   .submit-inner { grid-template-columns: 1fr; gap: 48px; padding: 48px 24px 80px; }
-  .submit-sidebar { border-left: none; border-top: 1px solid var(--mid-gray); padding: 32px 0 0; }
+  .submit-sidebar { grid-row: auto; grid-column: auto; border-left: none; border-top: 1px solid var(--mid-gray); padding: 32px 0 0; }
 
   /* Investment Focus */
   .if-inner { padding: 56px 24px; }
@@ -1373,6 +1385,7 @@ body {
   /* Homepage: Sectors */
   .sectors-inner { padding: 48px 20px; }
   .sectors-grid { grid-template-columns: 1fr; }
+  .sector-card { border-right: none; }
 
   /* Homepage: Value */
   .value-inner { padding: 48px 20px; }
@@ -1380,6 +1393,7 @@ body {
   /* Homepage: Insights */
   .insights-inner { padding: 48px 20px; }
   .insights-grid { grid-template-columns: 1fr; }
+  .insight-card { border-right: none; }
 
   /* Homepage: CTA */
   .cta-section { padding: 56px 20px; }
@@ -1393,12 +1407,14 @@ body {
   .portfolio-section { padding: 48px 20px 64px; }
   .portfolio-inner { padding: 0 20px; }
   .portfolio-grid { grid-template-columns: 1fr; }
+  .portfolio-card { border-right: none; }
   .portfolio-cta { padding: 40px 20px; }
 
   /* Team */
   .team-section { padding: 48px 20px 64px; }
   .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
+  .team-card { border-right: none; padding: 28px 20px; gap: 20px; }
   .team-join { padding: 40px 20px; }
 
   /* About */
