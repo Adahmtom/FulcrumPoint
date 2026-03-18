@@ -1252,27 +1252,35 @@ body {
   .criteria-card { padding: 24px; }
 
   /* Homepage: Sectors */
-  .sectors-section .if-inner { padding: 56px 24px; }
+  .sectors-inner { padding: 56px 24px; }
   .sectors-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .sectors-header { flex-direction: column; align-items: flex-start; gap: 16px; }
 
   /* Homepage: Value */
   .value-inner { grid-template-columns: 1fr; gap: 40px; padding: 56px 24px; }
 
   /* Homepage: Insights */
-  .insights-section .if-inner { padding: 56px 24px; }
+  .insights-inner { padding: 56px 24px; }
   .insights-grid { grid-template-columns: repeat(2, 1fr); }
+  .insights-header { flex-direction: column; align-items: flex-start; gap: 12px; }
 
   /* Homepage: CTA */
   .cta-section { padding: 64px 24px; }
 
   /* Portfolio */
   .portfolio-section { padding: 56px 24px 80px; }
+  .portfolio-inner { padding: 0 24px; }
   .portfolio-filter-bar { overflow-x: auto; padding-bottom: 4px; flex-wrap: nowrap; }
   .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+  .portfolio-cta { padding: 48px 24px; }
+  .portfolio-cta-inner { flex-direction: column; align-items: flex-start; gap: 24px; }
 
   /* Team */
   .team-section { padding: 56px 24px 80px; }
+  .team-inner { padding: 0 24px; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .team-join { padding: 48px 24px; }
+  .team-join-inner { flex-direction: column; align-items: flex-start; gap: 24px; }
 
   /* About */
   .about-story-inner { grid-template-columns: 1fr; gap: 32px; padding: 56px 24px; }
@@ -1363,14 +1371,14 @@ body {
   .criteria-cta { flex-direction: column; gap: 12px; }
 
   /* Homepage: Sectors */
-  .sectors-section .if-inner { padding: 48px 20px; }
+  .sectors-inner { padding: 48px 20px; }
   .sectors-grid { grid-template-columns: 1fr; }
 
   /* Homepage: Value */
   .value-inner { padding: 48px 20px; }
 
   /* Homepage: Insights */
-  .insights-section .if-inner { padding: 48px 20px; }
+  .insights-inner { padding: 48px 20px; }
   .insights-grid { grid-template-columns: 1fr; }
 
   /* Homepage: CTA */
@@ -1378,13 +1386,20 @@ body {
   .cta-actions { flex-direction: column; width: 100%; gap: 12px; }
   .cta-btn-primary, .cta-btn-outline { justify-content: center; text-align: center; }
 
+  /* Forms */
+  .form-row { grid-template-columns: 1fr; }
+
   /* Portfolio */
   .portfolio-section { padding: 48px 20px 64px; }
+  .portfolio-inner { padding: 0 20px; }
   .portfolio-grid { grid-template-columns: 1fr; }
+  .portfolio-cta { padding: 40px 20px; }
 
   /* Team */
   .team-section { padding: 48px 20px 64px; }
+  .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
+  .team-join { padding: 40px 20px; }
 
   /* About */
   .about-story-inner { padding: 48px 20px; }
