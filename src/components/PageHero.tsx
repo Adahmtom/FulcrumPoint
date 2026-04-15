@@ -8,6 +8,8 @@ interface PageHeroProps {
 export default function PageHero({ eyebrow, headline, sub, dark }: PageHeroProps) {
   return (
     <section className={`page-hero ${dark ? 'page-hero-dark' : ''}`}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/geo-accent.svg" className="page-geo-accent" alt="" aria-hidden="true" />
       <div className="page-hero-inner">
         <div className="eyebrow anim-up">{eyebrow}</div>
         <h1

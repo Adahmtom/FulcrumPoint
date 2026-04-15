@@ -1,0 +1,132 @@
+<svg id="FulcrumPoint_Footer_Mark" xmlns="http://www.w3.org/2000/svg"
+  width="370" height="394" viewBox="0 0 370 394">
+
+  <!--
+    FulcrumPoint Holdings wordmark
+    Source: FulcrumPoint.svg  viewBox 0 0 2048 793
+    Scale: 340/2048 = 0.16602  →  rendered 340 × 131.6px
+    Centered: translate(15, 8)
+    White fills (#FDFDFD) are letter counters — transparent against near-white bg
+  -->
+  <g transform="translate(15,8) scale(0.16602)">
+    <!-- P body — orange -->
+    <path transform="translate(340,314)"
+      d="m0 0h66l16 3 15 6 14 8 10 8 10 10 10 15 6 13 5 19 1 7v16l-2 14-5 15-7 14-8 11-10 11-15 11-17 8-19 5-14 1h-94l-10 1-1 68h-58l-1-1-1-28v-101l166-1 10-2 12-6 7-8 4-9 1-4v-13l-3-9-6-9-8-7-7-3-16-2h-106l-3-2 30-30 7-8z"
+      fill="#EC8647"/>
+    <!-- o in Point — orange with white counter -->
+    <path transform="translate(1464,349)"
+      d="m0 0h20l15 4 11 6 8 6 7 8 8 16 3 13v19l-4 15-6 11-9 10-9 7-10 5-14 4h-21l-16-5-10-6-9-8-7-10-6-16-2-12v-11l3-15 5-12 7-10 9-8 16-8z"
+      fill="#EC8647"/>
+    <path transform="translate(1472,371)"
+      d="m0 0 11 1 10 4 8 7 5 7 3 9 1 7v10l-3 12-4 8-6 7-14 7-13 1-9-2-10-6-6-8-4-9-2-11v-8l2-11 6-12 7-7 8-4z"
+      fill="#FDFDFD"/>
+    <!-- m — slate -->
+    <path transform="translate(1154,349)"
+      d="m0 0h16l12 3 10 5 9 8 3 5h2l6-8 13-9 13-4h15l16 4 11 7 8 9 6 12 2 7v83h-25l-1-76-4-11-6-7-8-4-5-1h-11l-9 3-8 7-4 7-2 6-1 76h-25l-1-72-2-10-6-10-8-5-8-2h-10l-10 3-7 6-6 11-1 7-1 72h-25v-120h25v11l7-4 10-6z"
+      fill="#4E546B"/>
+    <!-- P in FulcrumPoint — orange -->
+    <path transform="translate(1342,319)"
+      d="m0 0h20l18 2 14 5 9 7 6 7 5 11 2 8v16l-4 10-7 10-9 7-10 5-16 3-34 1-1 60h-25v-151z"
+      fill="#EC8647"/>
+    <!-- P counter -->
+    <path transform="translate(1336,341)"
+      d="m0 0h35l9 3 7 8 2 4 1 12-3 10-8 8-6 2-7 1h-30l-1-1v-46z"
+      fill="#FDFDFD"/>
+    <!-- F blade — slate -->
+    <path transform="translate(233,234)"
+      d="m0 0h137l-6 7-19 19-1 2h-2l-2 4-69 69-7 8-31 31h-2v-138z"
+      fill="#4D546B"/>
+    <!-- F topbar — slate -->
+    <path transform="translate(420,234)"
+      d="m0 0h94l1 3v37l-1 21h-152v-3l37-37 7-8 12-12z"
+      fill="#4D546B"/>
+    <!-- n in FulcrumPoint — orange -->
+    <path transform="translate(1634,349)"
+      d="m0 0h19l15 5 10 7 7 8 6 13 1 5 1 37v32l-1 15h-24l-1-1-1-74-2-8-4-7-8-6-10-3h-9l-10 3-7 6-6 11-1 5-1 74h-25v-120l24-1 1 1 1 10 15-9z"
+      fill="#EC8647"/>
+    <!-- u — slate -->
+    <path transform="translate(978,351)"
+      d="m0 0h24l1 1 1 74 3 10 4 6 7 5 6 2h16l10-4 8-9 2-6 1-7 1-72h25v120h-24l-1-1v-11l-10 7-10 5-9 2h-13l-12-3-10-5-10-9-6-10-4-13-1-16v-60z"
+      fill="#4D546B"/>
+    <!-- u (Fulcrum) — slate -->
+    <path transform="translate(743,350)"
+      d="m0 0 2 1v119l-1 1h-24v-12l-15 10-14 4h-13l-13-3-11-6-10-10-6-12-2-7-1-8v-75l1-1h24l1 68 2 13 5 10 10 6 13 2 10-2 6-3 5-4 5-9 1-4 1-18 1-59z"
+      fill="#4E546B"/>
+    <!-- c — slate -->
+    <path transform="translate(840,349)"
+      d="m0 0h20l16 4 12 7 7 7 7 11 3 7v4h-26l-8-11-8-5-9-2h-7l-13 4-7 6-6 10-2 8-1 15 3 16 5 10 7 6 9 4h17l9-4 5-4 5-9 4-1h21l2 1-1 6-5 10-9 10-9 7-12 5-9 2h-19l-12-3-12-6-12-11-7-11-5-14-2-14 1-16 3-12 6-12 9-11 10-7 11-5z"
+      fill="#4D546B"/>
+    <!-- F (Fulcrum) — slate -->
+    <path transform="translate(542,320)"
+      d="m0 0h89v20l-1 1h-63v43h49l1 1v20l-49 1-1 65h-25z"
+      fill="#4D546B"/>
+    <!-- t — orange -->
+    <path transform="translate(1710,321)"
+      d="m0 0h25l1 5 1 24 27 1v21l-28 1v62l1 9 5 4 23 2v21l-1 1h-25l-10-2-10-7-6-7-3-10v-74h-12l-2-1v-20l3-1h10v-28z"
+      fill="#EB8547"/>
+    <!-- l (Fulcrum) — slate -->
+    <path transform="translate(760,310)"
+      d="m0 0h25v161h-25l-1-4v-156z"
+      fill="#4D546B"/>
+    <!-- r — slate -->
+    <path transform="translate(970,348)"
+      d="m0 0h3l1 24-1 3-20 3-6 4-4 5-3 6-1 5-1 73h-25l-1-5v-114l1-1h25v13l4-2 8-7 10-5z"
+      fill="#4D546B"/>
+    <!-- i dot — orange -->
+    <path transform="translate(1553,303)"
+      d="m0 0 8 1 6 4 4 6 1 9-3 6-6 5-4 2h-7l-6-3-6-7-1-9 3-7 5-5z"
+      fill="#EB8547"/>
+    <!-- i stem — orange -->
+    <path transform="translate(1564,350)"
+      d="m0 0h4v121h-25l-1-35v-85z"
+      fill="#EB8547"/>
+    <!-- Small caps subtitle row (Holdings) -->
+    <path transform="translate(1381,490)"
+      d="m0 0 5 3 8 11 14 22 1-35h5v46l-5-1-9-12-10-16-4-6-1 34-3 1-3-1v-44z"
+      fill="#4D546B"/>
+    <path transform="translate(1570,491)"
+      d="m0 0h10l7 3 7 6 1 6-5-2-8-6-3-1h-8l-8 5-3 5-1 8 3 9 7 6 7 1 7-2 5-5 2-3 1-5-17 1-1-4 2-1h21l1 1-1 9-5 8-7 5-3 1h-12l-6-3-5-4-5-10v-11l5-10 9-6z"
+      fill="#4E546B"/>
+    <path transform="translate(732,491)"
+      d="m0 0h12l8 4 6 7 2 7v9l-3 8-4 5-10 5-7 1-10-3-5-4-5-9-1-4v-7l4-10 7-7zm1 5-6 4-5 6-1 4v7l3 8 7 6 9 1 7-3 6-7 1-3v-12l-4-6-5-4-3-1z"
+      fill="#4F546B"/>
+    <path transform="translate(733,496)"
+      d="m0 0h9l6 3 5 6 1 2v12l-3 6-7 6-9 1-7-3-5-5-2-7v-7l3-7 7-6z"
+      fill="#FDFDFD"/>
+    <path transform="translate(1058,491)"
+      d="m0 0h16l9 2 8 7 3 7v13l-4 8-6 5-8 3h-19l-1-44zm5 5-1 1v33l1 2h9l10-3 5-6 1-2v-15l-4-6-5-3-6-1z"
+      fill="#4E546B"/>
+    <path transform="translate(1063,496)"
+      d="m0 0h10l7 3 7 6 1 6-5-2-8-6-3-1h-8l-8 5-3 5-1 8 3 9 7 6 7 1 7-2 5-5 2-3 1-5-17 1-1-4 2-1h21l1 1-1 9-5 8-7 5-3 1h-12l-6-3-5-4-5-10v-11l5-10 9-6z"
+      fill="#FDFDFD"/>
+    <path transform="translate(543,491)"
+      d="m0 0 5 1v19l22-1 1-19h5l1 5v40h-6l-1-19-21-1-1 20h-6z"
+      fill="#4D546B"/>
+    <path transform="translate(1748,490)"
+      d="m0 0 8 2 7 6 1 5-4-1-7-5h-8l-5 6 3 5 16 6 5 5v8l-4 6-5 3-9 1-6-3-5-5-1-6 5 1 4 5 4 2h6l5-5v-5l-3-3-12-4-6-4-3-4 1-7 5-6z"
+      fill="#4E546B"/>
+    <path transform="translate(899,491)"
+      d="m0 0h5l1 40h14l1 4-2 1h-19l-1-1v-43z"
+      fill="#4E546B"/>
+    <path transform="translate(1234,491)"
+      d="m0 0h4l1 3v42h-6v-44z"
+      fill="#4E546B"/>
+  </g>
+
+  <!--
+    Geometric colour blocks — brand palette
+    Triangle  : #7aa2ce  (brand light blue)
+    Orange sq : #EC8647  (brand orange)
+    Navy sq   : #0d2756  (brand dark navy)
+    Shifted down from original translate(0 123.544) → translate(0 150)
+  -->
+  <g transform="translate(0 150)">
+    <path id="tri-blue"  d="M908.564,535.557V658.784h123.228Z"
+      transform="translate(-908.564 -412.329)" fill="#7aa2ce"/>
+    <path id="sq-orange" d="M-.312-.34H122.915V122.888H-.312Z"
+      transform="translate(123.54 0.34)"       fill="#EC8647"/>
+    <path id="sq-navy"   d="M.092-.125H123.32V123.1H.092Z"
+      transform="translate(246.363 123.353)"   fill="#0d2756"/>
+  </g>
+
+</svg>

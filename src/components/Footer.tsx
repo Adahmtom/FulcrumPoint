@@ -1,43 +1,20 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-/* ── The geometric FP colour blocks — mirrors THL's logo-blocks in footer ── */
-function FooterGeoBlocks() {
-  return (
-    <div style={{ position: 'relative', width: 110, height: 88, marginTop: 16 }}>
-      {/* Orange square — top right */}
-      <div style={{
-        position: 'absolute', top: 0, left: 52,
-        width: 58, height: 46,
-        background: '#EC8647',
-      }} />
-      {/* Light blue-grey triangle — bottom left */}
-      <div style={{
-        position: 'absolute', bottom: 0, left: 0,
-        width: 0, height: 0,
-        borderStyle: 'solid',
-        borderWidth: '0 0 46px 58px',
-        borderColor: 'transparent transparent #b8bdd0 transparent',
-      }} />
-      {/* Dark slate square — bottom right */}
-      <div style={{
-        position: 'absolute', bottom: 0, left: 52,
-        width: 58, height: 46,
-        background: '#4E546B',
-      }} />
-    </div>
-  );
-}
-
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-main">
 
-        {/* ── Left: logo + geo blocks ── */}
+        {/* ── Left: combined FP mark (monogram + geo shapes) ── */}
         <div className="footer-brand">
-          <Image src="/logo.svg" alt="FulcrumPoint Holdings" width={170} height={32} />
-          <FooterGeoBlocks />
+          <Image
+            src="/footer-mark.svg"
+            alt="FulcrumPoint Holdings"
+            width={220}
+            height={234}
+            priority
+          />
         </div>
 
         {/* ── Center: sitemap columns ── */}
