@@ -4772,3 +4772,9 @@ body {
   .criteria-cta .btn-primary,
   .criteria-cta .btn-outline { justify-content: center; text-align: center; }
 }
+
+/* ── Homepage mission section — hide geo cluster on mobile/tablet ───────── */
+@media (max-width: 900px) {
+  .mission-geo { display: none; }
+  .mission-section { min-height: unset; }
+}

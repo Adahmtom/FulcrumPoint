@@ -71,7 +71,7 @@ const leadership = [
     bio: 'Sedar sets the vision for FulcrumPoint and inspires its execution with clarity, credibility, and conviction. With nearly three decades of leadership in highly regulated medical device and semiconductor environments, he has built a career aligning people, processes, and priorities around a clear long-term direction. Leveraging advanced degrees from ASU\'s W. P. Carey School of Business and executive private equity training at Columbia Business School, he translates market insight and investment thesis into an actionable portfolio vision. At Roche Diagnostics, Sedar was one of three selected for an elite enterprise leadership rotation program, leading cross-functional initiatives through automation, systems thinking, and talent enablement.',
     focus: ['Vision & Strategy', 'Portfolio Direction', 'Operator Leadership'],
     initials: 'SB',
-    photo: null,
+    photo: '/images/sedar-brown.jpg',
   },
   {
     name: 'Dylan Traver',
@@ -79,7 +79,7 @@ const leadership = [
     bio: 'Dylan brings the rare combination of hands-on operational mastery and cross-sector perspective that makes him an exceptional COO. With nearly two decades of building construction experience spanning commercial and residential projects, he has repeatedly proven his ability to scale complexity into disciplined execution—managing multi-million-dollar developments and high-value residential transformations with equal precision. His dual-contractor background gives him end-to-end understanding of cost control, scheduling, subcontractor orchestration, and quality management across diverse asset types. Dylan is a force multiplier who can professionalize operations, translate strategy into consistent performance, and turn portfolio complexity into durable, repeatable value creation.',
     focus: ['Operations', 'Construction', 'Value Creation'],
     initials: 'DT',
-    photo: null,
+    photo: '/images/dylan-traver.jpg',
   },
   {
     name: 'Olaoluwa Kolawole',
@@ -87,7 +87,7 @@ const leadership = [
     bio: 'Olaoluwa brings a rare combination of institutional-grade financial rigor and operator-minded execution, making him a strategic force in translating operational performance into measurable returns. With senior finance leadership experience at Microsoft and Intel, he has managed and influenced decisions across tens of billions of dollars in COGS, CapEx, and revenue—building scalable forecasting models, accelerating close cycles, strengthening SOX-compliant controls, and delivering decision-ready insights to executive leadership. His ability to connect operational levers to financial outcomes equips FulcrumPoint with a CFO who can professionalize portfolio company finance functions, support buy-and-build strategies, and enhance exit readiness.',
     focus: ['Financial Strategy', 'Capital Allocation', 'Deal Underwriting'],
     initials: 'OK',
-    photo: null,
+    photo: '/images/olaoluwa-kolawole.jpg',
   },
   {
     name: 'Darrell Wright',
@@ -95,7 +95,7 @@ const leadership = [
     bio: 'With over 25 years of dedicated service in Arizona, Darrell has established a distinguished career advocating for underserved populations and driving legislative and policy reform. As an accomplished Executive Director, he has effectively collaborated with local and state governments, like organizations, and community stakeholders to develop and implement programs that enhance quality of life. His leadership has been instrumental in securing critical funding, shaping public policy, and fostering inclusive environments. He currently serves on the AAPPD Executive Committee as Vice Chair for District Central.',
     focus: ['Governance', 'Community Relations', 'Policy & Advocacy'],
     initials: 'DW',
-    photo: null,
+    photo: '/images/darrell-wright.jpg',
   },
   {
     name: 'Lurissa Brown',
@@ -103,7 +103,7 @@ const leadership = [
     bio: 'Originally from Panama City, Panama and educated in the United States, Lurissa brings a global perspective, operational discipline, and deep expertise in talent development and workforce systems. With advanced degrees from Arizona State University and 15 years of experience spanning state government, legal operations, immigration compliance, and higher education leadership, she has built and led high-impact programs connecting talent, institutions, and employers. Currently serving as Associate Director of International Initiatives at ASU\'s W. P. Carey School of Business, she oversees career coaching teams and employer partnerships in finance, analytics, AI, and business innovation.',
     focus: ['Talent Development', 'Workforce Systems', 'Strategic Partnerships'],
     initials: 'LB',
-    photo: null,
+    photo: '/images/lurissa-brown.jpg',
   },
   {
     name: 'Chris Ellington',
@@ -111,7 +111,7 @@ const leadership = [
     bio: 'Chris brings to FulcrumPoint\'s Investment Committee a true owner-operator perspective grounded in real assets, execution speed, and capital discipline. As the founder and owner of multiple operating businesses—including a general contracting firm—Chris has spent years making investment decisions where timelines, budgets, labor, and risk converge in the real world. His ability to deliver complex projects in occupied, revenue-generating environments gives him uncommon insight into operational resilience, cost control, and return on invested capital. His deep background in real estate, development, brokerage, and foreclosure investing further sharpens go/no-go decisions across market cycles.',
     focus: ['Investment Oversight', 'Real Assets', 'Risk Management'],
     initials: 'CE',
-    photo: null,
+    photo: '/images/chris-ellington.jpg',
   },
   {
     name: 'Tony Jones',
@@ -119,7 +119,7 @@ const leadership = [
     bio: 'Tony adds strategic value to FulcrumPoint as a battle-tested operator of complex, capital-intensive programs where execution precision directly determines return outcomes. With more than two decades of global program management leadership at Intel and ZF Group, Tony has consistently delivered high-stakes initiatives across engineering, manufacturing, and supply chain environments—managing portfolios exceeding $250M in annual revenue and guiding multi-region teams through launch, scale, and risk inflection points. His deep expertise in quality management, APQP, PPAP, and launch readiness brings institutional discipline to FulcrumPoint\'s investment oversight.',
     focus: ['Program Management', 'Quality Systems', 'Operational Risk'],
     initials: 'TJ',
-    photo: null,
+    photo: '/images/tony-jones.jpg',
   },
 ];
 
