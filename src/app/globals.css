@@ -12,6 +12,8 @@
   --mid-gray: #E0E0DC;
   --font-display: 'Cormorant', Georgia, serif;
   --font-ui: 'Outfit', system-ui, sans-serif;
+  /* Navbar height — keep in sync with .nav-inner height at each breakpoint */
+  --nav-h: 96px;
 }
 
 * { box-sizing: border-box; padding: 0; margin: 0; }
@@ -392,7 +394,7 @@ body {
   background: var(--near-white);
   display: flex;
   overflow: hidden;
-  padding-top: 72px;
+  padding-top: var(--nav-h);
 }
 
 /* Full-bleed looping video background */
@@ -4225,6 +4227,7 @@ body {
 @media (max-width: 900px) {
 
   /* Navbar */
+  :root { --nav-h: 72px; }
   .nav-inner { height: 72px; padding: 0 20px; }
   .nav-logo-box { padding: 8px 12px; }
   .nav-logo-box img { height: 24px; }
@@ -4381,6 +4384,7 @@ body {
 @media (max-width: 600px) {
 
   /* Navbar */
+  :root { --nav-h: 64px; }
   .nav-inner { height: 64px; padding: 0 16px; }
   .nav-logo-box { padding: 6px 10px; }
   .nav-logo-box img { height: 20px; }
