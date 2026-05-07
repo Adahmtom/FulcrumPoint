@@ -102,9 +102,9 @@ export default function Navbar() {
 
             {/* ── Investment Focus — mega dropdown ── */}
             <li className="nav-item" onMouseLeave={() => setActiveSubGroup(null)}>
-              <button className="nav-link">
+              <Link href="/investment-focus" className="nav-link">
                 Investment Focus <span className="nav-arrow" />
-              </button>
+              </Link>
 
               <div className="nav-dropdown nav-dropdown--mega">
                 {/* Left column: nav groups */}
