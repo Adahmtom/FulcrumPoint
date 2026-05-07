@@ -215,7 +215,7 @@ export default async function InsightArticlePage({
             </div>
             <div className="article-sidebar-cta">
               <p>Interested in partnering with FulcrumPoint?</p>
-              <Link href="/submit" className="btn-primary">
+              <Link href="/contact" className="btn-primary">
                 Submit a Deal
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                   <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

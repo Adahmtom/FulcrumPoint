@@ -119,25 +119,26 @@ export function MissionSection() {
 
       <div className="mission-inner">
         <div className="mission-left">
-          <div className="eyebrow mission-eyebrow anim-up">Our Thesis</div>
+          <div className="eyebrow mission-eyebrow anim-up">A Message from our Founder</div>
           <h2 className="mission-headline anim-up delay-1">
-            Skilled trades are the<br />
-            backbone of America.<br />
-            <em>We build them to last.</em>
+            We invest in the people<br />
+            who build <em>legacies.</em>
           </h2>
           <p className="mission-body">
-            FulcrumPoint Holdings is an operator-led private equity firm focused exclusively on skilled
-            trade businesses across the Sun Belt and Southeast. We acquire profitable, owner-operated
-            companies and apply hands-on operational expertise to accelerate growth, build management
-            depth, and create exceptional exit outcomes.
+            Skilled trade businesses are not just companies — they are decades of craft, customer trust,
+            and quiet resilience. They are built by people who showed up every day, hired from their
+            communities, and kept the lights on for families through every economic cycle. These are
+            the businesses that hold America together.
           </p>
           <p className="mission-body" style={{ marginTop: '20px' }}>
-            We are not financial engineers. We are operators who have built and run companies in the
-            industries where we invest—bringing pattern recognition, industry relationships, and
-            execution capability that generalist firms cannot replicate.
+            FulcrumPoint was founded on a conviction that these businesses deserve more than financial
+            engineering. They deserve an ownership partner who understands what it took to build them —
+            one who brings real operating experience, genuine respect for the craft, and an unwavering
+            commitment to honoring the legacy while building something even stronger. That is the
+            standard we hold ourselves to every day.
           </p>
-          <Link href="/investment-focus" className="mission-link">
-            Our investment approach
+          <Link href="/team" className="mission-link">
+            Learn more about our Team
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
@@ -190,7 +191,7 @@ export function CriteriaSection() {
         </div>
 
         <div className="criteria-cta">
-          <Link href="/submit" className="btn-primary">
+          <Link href="/contact" className="btn-primary">
             Submit a Deal
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -254,7 +255,7 @@ export function SectorsSection() {
           <div className="eyebrow">Where We Invest</div>
           <h2 className="sectors-headline">Five sectors.<br />One operational playbook.</h2>
           <Link href="/investment-focus" className="sectors-all-link">
-            View all sectors
+            Our Investment Approach
             <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
               <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
@@ -265,10 +266,6 @@ export function SectorsSection() {
             <Link key={s.slug} href={`/investment-focus/${s.slug}`} className="sector-card" style={{ '--accent': s.color } as React.CSSProperties}>
               <div className="sector-card-top">
                 <span className="sector-num">0{i + 1}</span>
-                <span className="sector-stat">
-                  <span className="sector-stat-val">{s.stat}</span>
-                  <span className="sector-stat-lbl">{s.statLbl}</span>
-                </span>
               </div>
               <h3 className="sector-card-title">{s.label}</h3>
               <p className="sector-card-desc">{s.desc}</p>
@@ -455,13 +452,13 @@ export function CtaSection() {
             a potential seller, we&apos;d like to hear from you.
           </p>
           <div className="cta-actions">
-            <Link href="/submit" className="cta-btn-primary">
+            <Link href="/contact" className="cta-btn-primary">
               Submit a Deal
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <Link href="/contact" className="cta-btn-outline">Contact Us</Link>
+            <Link href="/contact" className="cta-btn-outline">Investor Inquiries</Link>
           </div>
         </div>
       </div>

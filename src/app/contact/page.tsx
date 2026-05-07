@@ -30,7 +30,7 @@ export default function ContactPage() {
                 className={`contact-tab ${activeTab === 'general' ? 'active' : ''}`}
                 onClick={() => setActiveTab('general')}
               >
-                General Inquiry
+                Investor Inquiry
               </button>
               <button
                 className={`contact-tab ${activeTab === 'deal' ? 'active' : ''}`}
@@ -82,7 +82,7 @@ export default function ContactPage() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Message *</label>
-                      <textarea className="form-input form-textarea" required placeholder="Tell us what's on your mind…" rows={5} />
+                      <textarea className="form-input form-textarea" required placeholder="Tell us what&apos;s on your mind…" rows={5} />
                     </div>
                   </>
                 )}
@@ -91,33 +91,73 @@ export default function ContactPage() {
                   <>
                     <div className="form-row">
                       <div className="form-group">
-                        <label className="form-label">Your Name *</label>
-                        <input className="form-input" type="text" required placeholder="Full name" />
+                        <label className="form-label">First Name *</label>
+                        <input className="form-input" type="text" required placeholder="First name" />
                       </div>
+                      <div className="form-group">
+                        <label className="form-label">Last Name *</label>
+                        <input className="form-input" type="text" required placeholder="Last name" />
+                      </div>
+                    </div>
+                    <div className="form-row">
                       <div className="form-group">
                         <label className="form-label">Email *</label>
                         <input className="form-input" type="email" required placeholder="you@company.com" />
                       </div>
+                      <div className="form-group">
+                        <label className="form-label">Phone</label>
+                        <input className="form-input" type="tel" placeholder="+1 (555) 000-0000" />
+                      </div>
                     </div>
                     <div className="form-group">
-                      <label className="form-label">Phone</label>
-                      <input className="form-input" type="tel" placeholder="+1 (555) 000-0000" />
+                      <label className="form-label">Your Role *</label>
+                      <select className="form-input form-select" required>
+                        <option value="">Select…</option>
+                        <option>Business Owner / Founder</option>
+                        <option>Business Broker / M&amp;A Advisor</option>
+                        <option>Attorney or Accountant</option>
+                        <option>Family Member</option>
+                        <option>Other</option>
+                      </select>
                     </div>
                     <div className="form-group">
                       <label className="form-label">Company / Business Name *</label>
                       <input className="form-input" type="text" required placeholder="Business name" />
                     </div>
-                    <div className="form-group">
-                      <label className="form-label">Trade Sector *</label>
-                      <select className="form-input form-select" required>
-                        <option value="">Select sector</option>
-                        <option>HVAC & Cooling Systems</option>
-                        <option>Electrical</option>
-                        <option>Plumbing</option>
-                        <option>Commercial Construction</option>
-                        <option>Industrial Trades</option>
-                        <option>Other Skilled Trade</option>
-                      </select>
+                    <div className="form-row">
+                      <div className="form-group">
+                        <label className="form-label">Trade Sector *</label>
+                        <select className="form-input form-select" required>
+                          <option value="">Select sector</option>
+                          <option>HVAC &amp; Cooling Systems</option>
+                          <option>Electrical</option>
+                          <option>Plumbing</option>
+                          <option>Commercial Construction</option>
+                          <option>Industrial Trades</option>
+                          <option>Other Skilled Trade</option>
+                        </select>
+                      </div>
+                      <div className="form-group">
+                        <label className="form-label">Years in Operation</label>
+                        <input className="form-input" type="number" min="1" placeholder="e.g., 12" />
+                      </div>
+                    </div>
+                    <div className="form-row">
+                      <div className="form-group">
+                        <label className="form-label">Number of Employees</label>
+                        <select className="form-input form-select">
+                          <option value="">Select…</option>
+                          <option>1–10</option>
+                          <option>11–25</option>
+                          <option>26–50</option>
+                          <option>51–100</option>
+                          <option>100+</option>
+                        </select>
+                      </div>
+                      <div className="form-group">
+                        <label className="form-label">Location (City, State) *</label>
+                        <input className="form-input" type="text" required placeholder="e.g., Phoenix, AZ" />
+                      </div>
                     </div>
                     <div className="form-row">
                       <div className="form-group">
@@ -146,12 +186,34 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="form-group">
-                      <label className="form-label">Location (City, State) *</label>
-                      <input className="form-input" type="text" required placeholder="e.g., Phoenix, AZ" />
+                      <label className="form-label">Transaction Type *</label>
+                      <select className="form-input form-select" required>
+                        <option value="">Select…</option>
+                        <option>Full Sale</option>
+                        <option>Majority Recapitalization</option>
+                        <option>Minority Investment</option>
+                        <option>Management Buyout</option>
+                        <option>Not sure yet</option>
+                      </select>
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">Timeline</label>
+                      <select className="form-input form-select">
+                        <option value="">Select…</option>
+                        <option>Actively in process</option>
+                        <option>3–6 months</option>
+                        <option>6–12 months</option>
+                        <option>1–2 years</option>
+                        <option>Just exploring</option>
+                      </select>
                     </div>
                     <div className="form-group">
                       <label className="form-label">Tell us about the business *</label>
-                      <textarea className="form-input form-textarea" required placeholder="Brief overview of the business, what you're looking for, and why you reached out to FulcrumPoint…" rows={5} />
+                      <textarea className="form-input form-textarea" required placeholder="Brief overview of services, customers, and geography…" rows={4} />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">Anything else we should know?</label>
+                      <textarea className="form-input form-textarea" placeholder="Additional context, confidentiality requirements, current advisors, etc." rows={3} />
                     </div>
                   </>
                 )}

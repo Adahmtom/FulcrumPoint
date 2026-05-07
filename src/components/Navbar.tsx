@@ -94,7 +94,7 @@ export default function Navbar() {
 
           {/* ── Logo in bordered box ─────────────────────────────── */}
           <Link href="/" className="nav-logo-box" onClick={() => setMobileOpen(false)}>
-            <Image src="/logo.svg" alt="FulcrumPoint Holdings" width={160} height={32} priority />
+            <Image src="/logo.svg" alt="FulcrumPoint Holdings" width={200} height={40} priority className="nav-logo-img" />
           </Link>
 
           {/* ── Desktop center links ─────────────────────────────── */}
@@ -186,8 +186,7 @@ export default function Navbar() {
           {/* ── Desktop right utilities ──────────────────────────── */}
           <div className="nav-utils">
             <Link href="/contact" className="nav-util">Contact</Link>
-            {/* TODO: replace href with Google Form URL when provided */}
-            <Link href="/submit" className="nav-util cta">Submit A Deal</Link>
+            <Link href="/contact" className="nav-util cta">Submit A Deal</Link>
           </div>
 
           {/* ── Hamburger ────────────────────────────────────────── */}
@@ -273,7 +272,7 @@ export default function Navbar() {
 
         <div style={{ marginTop:32, display:'flex', flexDirection:'column', gap:12 }}>
           <Link href="/contact" className="btn-outline" style={{ justifyContent:'center' }} onClick={() => setMobileOpen(false)}>Contact</Link>
-          <Link href="/submit"  className="btn-primary" style={{ justifyContent:'center', background:'var(--orange)' }} onClick={() => setMobileOpen(false)}>Submit A Deal</Link>
+          <Link href="/contact"  className="btn-primary" style={{ justifyContent:'center', background:'var(--orange)' }} onClick={() => setMobileOpen(false)}>Submit A Deal</Link>
         </div>
       </div>
     </>

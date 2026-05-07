@@ -273,7 +273,7 @@ export default async function InvestmentFocusDetailPage({
                     </div>
                   ))}
                 </div>
-                <Link href="/submit" className="btn-primary">
+                <Link href="/contact" className="btn-primary">
                   Submit a Business
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                     <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -344,7 +344,7 @@ export default async function InvestmentFocusDetailPage({
               : 'Reach out to speak with a member of the FulcrumPoint team.'}
           </p>
           <div className="approach-detail-cta-btns">
-            <Link href="/submit" className="btn-primary">
+            <Link href="/contact" className="btn-primary">
               Submit a Deal
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

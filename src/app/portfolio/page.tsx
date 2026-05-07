@@ -115,7 +115,7 @@ export default function PortfolioPage() {
         <div className="portfolio-cta-inner">
           <h2 className="portfolio-cta-headline">Own a skilled trade business?</h2>
           <p className="portfolio-cta-sub">We&apos;re actively looking for our next partnership. Tell us about your company.</p>
-          <Link href="/submit" className="btn-primary">
+          <Link href="/contact" className="btn-primary">
             Submit a Deal
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

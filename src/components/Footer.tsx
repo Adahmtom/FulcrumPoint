@@ -33,7 +33,7 @@ export default function Footer() {
             <Link href="/investment-focus/value-creation" className="f-link">Value Creation</Link>
             <Link href="/investment-focus/approach" className="f-link">Operational Approach</Link>
             <Link href="/investment-focus/criteria" className="f-link">Investment Criteria</Link>
-            <Link href="/submit" className="f-link">Deal Submission Portal</Link>
+            <Link href="/contact" className="f-link">Deal Submission Portal</Link>
           </div>
 
           <div>

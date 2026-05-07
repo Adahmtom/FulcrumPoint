@@ -99,14 +99,14 @@ export default function Hero() {
             building durable companies aligned for exceptional exit outcomes.
           </p>
           <div className="hero-actions anim-up delay-4">
-            <Link href="/investment-focus" className="btn-primary">
-              Our Approach
+            <Link href="/contact" className="btn-primary">
+              Submit a Deal
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5"
                   strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <Link href="/submit" className="btn-outline">Submit a Deal</Link>
+            <Link href="/contact" className="btn-outline">For Investors</Link>
           </div>
         </div>
       </div>

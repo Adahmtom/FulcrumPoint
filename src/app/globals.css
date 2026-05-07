@@ -4778,3 +4778,80 @@ body {
   .mission-geo { display: none; }
   .mission-section { min-height: unset; }
 }
+
+/* ── Navbar logo — desktop bigger, mobile smaller ────────────────────────── */
+.nav-logo-img { width: 200px; height: 40px; }
+
+@media (max-width: 900px) {
+  .nav-logo-img { width: 140px !important; height: auto !important; }
+}
+
+/* ── Investment Focus — sectors accordion ────────────────────────────────── */
+.if-sectors-accordion {
+  width: 100%;
+  border-top: 1px solid var(--mid-gray);
+}
+
+.if-sector-item {
+  border-bottom: 1px solid var(--mid-gray);
+}
+
+.if-sector-trigger {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 24px 0;
+  cursor: pointer;
+  text-align: left;
+  color: var(--foreground);
+  transition: color 0.2s;
+}
+
+.if-sector-trigger:hover { color: var(--orange); }
+
+.if-sector-item.open .if-sector-trigger { color: var(--orange); }
+
+.if-sector-num {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--orange);
+  flex-shrink: 0;
+  width: 28px;
+}
+
+.if-sector-trigger .if-sector-label {
+  flex: 1;
+  font-size: clamp(17px, 2vw, 22px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: inherit;
+}
+
+.if-sector-toggle-icon {
+  flex-shrink: 0;
+  color: var(--slate);
+  display: flex;
+  align-items: center;
+}
+
+.if-sector-item.open .if-sector-toggle-icon { color: var(--orange); }
+
+.if-sector-panel {
+  padding: 0 0 28px 48px;
+}
+
+.if-sector-panel-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 640px;
+}
+
+@media (max-width: 600px) {
+  .if-sector-trigger { gap: 14px; padding: 20px 0; }
+  .if-sector-panel { padding: 0 0 20px 42px; }
+}

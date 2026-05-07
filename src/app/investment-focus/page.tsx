@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { CtaSection } from '@/components/HomeSections';
@@ -27,6 +30,40 @@ const approach = [
     desc: 'The specific financial and operational characteristics we look for in acquisition targets.',
   },
 ];
+
+function SectorsAccordion() {
+  const [open, setOpen] = useState<string | null>(null);
+
+  return (
+    <div className="if-sectors-accordion">
+      {sectors.map((s, i) => (
+        <div key={s.slug} className={`if-sector-item${open === s.slug ? ' open' : ''}`}>
+          <button
+            className="if-sector-trigger"
+            onClick={() => setOpen(open === s.slug ? null : s.slug)}
+            aria-expanded={open === s.slug}
+          >
+            <span className="if-sector-num">0{i + 1}</span>
+            <span className="if-sector-label">{s.label}</span>
+            <span className="if-sector-toggle-icon" aria-hidden="true">
+              <svg
+                width="18" height="18" viewBox="0 0 18 18" fill="none"
+                style={{ transform: open === s.slug ? 'rotate(45deg)' : 'none', transition: 'transform 0.25s ease' }}
+              >
+                <path d="M9 3v12M3 9h12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              </svg>
+            </span>
+          </button>
+          {open === s.slug && (
+            <div className="if-sector-panel">
+              <p className="if-sector-panel-desc">{s.desc}</p>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export default function InvestmentFocusPage() {
   return (
@@ -58,7 +95,7 @@ export default function InvestmentFocusPage() {
             for operator-led capital.
           </p>
           <div className="if-hero-actions anim-up delay-3">
-            <Link href="/submit" className="btn-primary">Submit a Business
+            <Link href="/contact" className="btn-primary">Submit a Business
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -85,21 +122,7 @@ export default function InvestmentFocusPage() {
               We go deep rather than broad — investing only where our operating team has direct hands-on experience.
             </p>
           </div>
-          <div className="if-sectors-grid">
-            {sectors.map((s, i) => (
-              <Link key={s.slug} href={`/investment-focus/${s.slug}`} className="if-sector-card">
-                <div className="if-sector-num">0{i + 1}</div>
-                <div className="if-sector-content">
-                  <h3 className="if-sector-label">{s.label}</h3>
-                  <p className="if-sector-desc">{s.desc}</p>
-                  <span className="if-sector-stat">{s.stat} market</span>
-                </div>
-                <svg className="if-sector-arrow" width="16" height="16" viewBox="0 0 14 14" fill="none">
-                  <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </Link>
-            ))}
-          </div>
+          <SectorsAccordion />
         </div>
       </section>
 
