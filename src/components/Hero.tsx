@@ -71,16 +71,11 @@ export default function Hero() {
           </mask>
         </defs>
 
-        {/* ── Left staircase: dark navy — white text sits over this ── */}
+        {/* ── Full staircase: light — FP logo punched through via mask ── */}
         <path
-          d="M1079 720H0v-720h180v179l179-179v180h180v-180h181v180h180v180h179v360Z"
-          fill="#0d2756"
-          mask="url(#logo-cutout-mask)"
-        />
-        {/* ── Right corner: light, maintains staircase geometry ── */}
-        <path
-          d="M1440 720.001h-89l88-88v-272h-180v-180h-179v-180l360 360v360Z"
+          d="M1440 720.001h-89l88-88v-272h-180v-180h-179v-180l360 360v360ZM1079 720H0v-720h180v179l179-179v180h180v-180h181v180h180v180h179v360Z"
           fill="#eef0f3"
+          mask="url(#logo-cutout-mask)"
         />
 
         {/* ── Accent shapes from homepage-header-background-desktop.svg ── */}
@@ -94,8 +89,7 @@ export default function Hero() {
       {/* ── Layer 3: Hero text ──────────────────────────────────────── */}
       <div className="hero-content">
         <div className="hero-left">
-          <div className="eyebrow anim-up delay-1" style={{ color: 'rgba(255,255,255,0.55)' }}>
-            <span className="eyebrow-line" style={{ background: 'rgba(255,255,255,0.3)' }} />
+          <div className="eyebrow anim-up delay-1">
             Operator-Led Private Equity
           </div>
           <h1 className="hero-headline anim-up delay-2">
@@ -112,7 +106,7 @@ export default function Hero() {
                   strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <Link href="/contact" className="btn-outline" style={{ color: 'rgba(255,255,255,0.85)', borderColor: 'rgba(255,255,255,0.35)' }}>For Investors</Link>
+            <Link href="/contact" className="btn-outline">For Investors</Link>
           </div>
         </div>
       </div>

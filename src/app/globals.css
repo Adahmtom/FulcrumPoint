@@ -444,10 +444,10 @@ body {
 }
 .hero-headline {
   font-family: var(--font-display);
-  font-size: clamp(32px, 3.2vw, 52px);
+  font-size: clamp(44px, 4.35vw, 64px);
   font-weight: 300;
   line-height: 1.15;
-  color: var(--near-white);
+  color: var(--slate);
   letter-spacing: -0.02em;
   margin-bottom: 28px;
 }
@@ -459,8 +459,8 @@ body {
   font-size: 14.5px;
   font-weight: 300;
   line-height: 1.75;
-  color: rgba(255, 255, 255, 0.75);
-  max-width: 480px;
+  color: var(--slate-light);
+  max-width: 420px;
   margin-bottom: 44px;
 }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -1480,7 +1480,7 @@ body {
   .aw-story-img-wrap { min-height: 340px; }
   .aw-story-content { padding: 56px 40px; }
   /* Vision & Mission */
-  .vm-hero { height: 420px; }
+  .vm-hero { height: calc(420px + var(--nav-h)); }
   .vm-hero-text { left: 40px; bottom: 56px; }
   .vm-mission-inner { grid-template-columns: 1fr; gap: 32px; padding: 0 40px; }
   .vm-vision-inner { grid-template-columns: 1fr; }
@@ -2414,9 +2414,10 @@ body {
 /* ─── INVESTMENT STRATEGY PAGE (/about/strategy) ─── */
 .strat-hero {
   position: relative;
-  height: clamp(480px, 65vh, 720px);
+  height: calc(clamp(480px, 65vh, 720px) + var(--nav-h));
   display: flex;
   align-items: flex-end;
+  padding-top: var(--nav-h);
 }
 .strat-hero-img { z-index: 0; }
 .strat-hero-overlay {
@@ -2625,9 +2626,10 @@ body {
 /* Hero */
 .vm-hero {
   position: relative;
-  height: 520px;
+  height: calc(520px + var(--nav-h));
   display: flex;
   align-items: flex-end;
+  padding-top: var(--nav-h);
 }
 .vm-hero-inner {
   position: relative;
@@ -3241,9 +3243,10 @@ body {
 /* Hero */
 .if-hero {
   position: relative;
-  height: clamp(480px, 65vh, 720px);
+  height: calc(clamp(480px, 65vh, 720px) + var(--nav-h));
   display: flex;
   align-items: flex-end;
+  padding-top: var(--nav-h);
 }
 .if-hero-img { z-index: 0; }
 .if-hero-overlay {
@@ -4265,7 +4268,7 @@ body {
   .aw-meet-tri { display: none; }
 
   /* ── Investment Strategy ── */
-  .strat-hero { height: clamp(420px, 60vh, 600px); }
+  .strat-hero { height: calc(clamp(420px, 60vh, 600px) + var(--nav-h)); }
   .strat-hero-content { padding: 0 24px 56px; max-width: 100%; }
   .strat-hero-headline { font-size: clamp(34px, 6vw, 56px); }
   .strat-hero-sub { font-size: 14px; }
@@ -4289,7 +4292,7 @@ body {
   .strat-criteria-content { padding: 48px 24px; }
 
   /* ── Vision & Mission ── */
-  .vm-hero { height: 460px; }
+  .vm-hero { height: calc(460px + var(--nav-h)); }
   .vm-hero-text { left: 24px; bottom: 48px; max-width: 90%; }
   .vm-hero .page-geo-feature { display: none; }
   .vm-hero .page-geo-accent { bottom: -40px; right: 16px; width: 140px; }
@@ -4310,7 +4313,7 @@ body {
   .vm-cta-actions { flex-wrap: wrap; }
 
   /* ── Investment Focus ── */
-  .if-hero { height: clamp(480px, 65vh, 640px); }
+  .if-hero { height: calc(clamp(480px, 65vh, 640px) + var(--nav-h)); }
   .if-hero-content { padding: 0 24px 56px; max-width: 100%; }
   .if-hero-headline { font-size: clamp(34px, 6vw, 56px); }
   .if-hero-sub { font-size: 14px; }
@@ -4406,7 +4409,7 @@ body {
   .strat-sector-list { gap: 0; }
 
   /* Mission */
-  .vm-hero { height: 400px; }
+  .vm-hero { height: calc(400px + var(--nav-h)); }
   .vm-hero-text { left: 20px; bottom: 40px; }
   .vm-mission-inner { padding: 0 20px; }
   .vm-values-inner { padding: 48px 20px; }
@@ -4630,9 +4633,9 @@ body {
   z-index: 1;
   background: linear-gradient(
     160deg,
-    rgba(13, 39, 86, 0.88) 0%,
-    rgba(13, 39, 86, 0.75) 55%,
-    rgba(13, 39, 86, 0.50) 100%
+    rgba(255, 255, 255, 0.92) 0%,
+    rgba(255, 255, 255, 0.75) 55%,
+    rgba(255, 255, 255, 0.40) 100%
   );
 }
 .hero-mobile-geo {

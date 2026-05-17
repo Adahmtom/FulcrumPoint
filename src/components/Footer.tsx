@@ -55,8 +55,8 @@ export default function Footer() {
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <Link href="/investor-login" className="f-cta">
-              Investor Login
+            <Link href="/contact" className="f-cta">
+              Investment Inquiries
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                 <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
