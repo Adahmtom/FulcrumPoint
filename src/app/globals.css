@@ -52,7 +52,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: var(--slate);
+  background: var(--orange);
   color: white;
   font-family: var(--font-ui);
   font-size: 12.5px;
@@ -62,7 +62,7 @@ body {
   text-decoration: none;
   transition: background 0.25s, gap 0.25s;
 }
-.btn-primary:hover { background: var(--slate-dark); gap: 16px; }
+.btn-primary:hover { background: var(--orange-dark); gap: 16px; }
 
 .btn-outline {
   display: inline-flex;
@@ -107,14 +107,10 @@ body {
 .nav-logo-box {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
-  border: 1.5px solid var(--slate);
   flex-shrink: 0;
-  transition: border-color 0.2s;
   text-decoration: none;
+  padding: 0;
 }
-.nav-logo-box:hover { border-color: var(--orange); }
 .nav-logo-box img { height: auto; width: 220px; display: block; }
 
 /* center links */
@@ -448,17 +444,10 @@ body {
 }
 .hero-headline {
   font-family: var(--font-display);
-  /*
-    At 1440px viewport: 4.35vw = ~62.6px
-    Left-col text width: (720 - 80 - 44) = 596px
-    Cormorant at ~63px → "The right leverage" ≈ 555px (line 1)
-                       → "changes everything." ≈ 582px (line 2)
-    Both lines fill the column, zero forced breaks needed.
-  */
-  font-size: clamp(44px, 4.35vw, 64px);
+  font-size: clamp(32px, 3.2vw, 52px);
   font-weight: 300;
-  line-height: 1.1;
-  color: var(--slate);
+  line-height: 1.15;
+  color: var(--near-white);
   letter-spacing: -0.02em;
   margin-bottom: 28px;
 }
@@ -470,8 +459,8 @@ body {
   font-size: 14.5px;
   font-weight: 300;
   line-height: 1.75;
-  color: var(--slate-light);
-  max-width: 420px;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 480px;
   margin-bottom: 44px;
 }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -4641,9 +4630,9 @@ body {
   z-index: 1;
   background: linear-gradient(
     160deg,
-    rgba(255,255,255,0.92) 0%,
-    rgba(255,255,255,0.82) 50%,
-    rgba(255,255,255,0.55) 100%
+    rgba(13, 39, 86, 0.88) 0%,
+    rgba(13, 39, 86, 0.75) 55%,
+    rgba(13, 39, 86, 0.50) 100%
   );
 }
 .hero-mobile-geo {

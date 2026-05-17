@@ -71,11 +71,16 @@ export default function Hero() {
           </mask>
         </defs>
 
-        {/* ── Staircase with full FP logo punched out (video visible through entire mark) ── */}
+        {/* ── Left staircase: dark navy — white text sits over this ── */}
         <path
-          d="M1440 720.001h-89l88-88v-272h-180v-180h-179v-180l360 360v360Zm-361 0H0v-720h180v179l179-179v180h180v-180h181v180h180v180h179v360Z"
-          fill="#eef0f3"
+          d="M1079 720H0v-720h180v179l179-179v180h180v-180h181v180h180v180h179v360Z"
+          fill="#0d2756"
           mask="url(#logo-cutout-mask)"
+        />
+        {/* ── Right corner: light, maintains staircase geometry ── */}
+        <path
+          d="M1440 720.001h-89l88-88v-272h-180v-180h-179v-180l360 360v360Z"
+          fill="#eef0f3"
         />
 
         {/* ── Accent shapes from homepage-header-background-desktop.svg ── */}
@@ -89,14 +94,15 @@ export default function Hero() {
       {/* ── Layer 3: Hero text ──────────────────────────────────────── */}
       <div className="hero-content">
         <div className="hero-left">
-          <div className="eyebrow anim-up delay-1">Operator-Led Private Equity</div>
+          <div className="eyebrow anim-up delay-1" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            <span className="eyebrow-line" style={{ background: 'rgba(255,255,255,0.3)' }} />
+            Operator-Led Private Equity
+          </div>
           <h1 className="hero-headline anim-up delay-2">
-            The right <em>leverage</em> changes everything.
+            At FulcrumPoint, we believe skilled trade businesses carry the stories, sacrifices, and <em>legacies</em> of the people who built them.
           </h1>
           <p className="hero-sub anim-up delay-3">
-            FulcrumPoint Holdings partners with skilled trade businesses to unlock
-            untapped growth through disciplined, operator-led value creation—
-            building durable companies aligned for exceptional exit outcomes.
+            We understand what these businesses mean to the families behind them because we come from that world ourselves. That is why we approach every partnership with respect, care, and a long&#8209;term commitment to protecting what has been built while helping carry it forward for the next generation. Our connection to this industry is deeply personal — shaped by watching a father use his hands to build not only a career, but a life filled with purpose, stability, and opportunity for his family. At FulcrumPoint, we partner with skilled trade businesses not only to help them grow, but to honor the legacy behind them and ensure their impact endures for generations to come.
           </p>
           <div className="hero-actions anim-up delay-4">
             <Link href="/contact" className="btn-primary">
@@ -106,7 +112,7 @@ export default function Hero() {
                   strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <Link href="/contact" className="btn-outline">For Investors</Link>
+            <Link href="/contact" className="btn-outline" style={{ color: 'rgba(255,255,255,0.85)', borderColor: 'rgba(255,255,255,0.35)' }}>For Investors</Link>
           </div>
         </div>
       </div>
