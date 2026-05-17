@@ -94,7 +94,8 @@ export default function Navbar() {
 
           {/* ── Logo in bordered box ─────────────────────────────── */}
           <Link href="/" className="nav-logo-box" onClick={() => setMobileOpen(false)}>
-            <Image src="/logo.svg" alt="FulcrumPoint Holdings" width={200} height={40} priority className="nav-logo-img" />
+            {/* intrinsic 328×78 — matches cropped viewBox aspect ratio */}
+            <Image src="/logo.svg" alt="FulcrumPoint Holdings" width={328} height={78} priority className="nav-logo-img" />
           </Link>
 
           {/* ── Desktop center links ─────────────────────────────── */}
