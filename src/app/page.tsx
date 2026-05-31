@@ -1,12 +1,13 @@
 import Hero from "@/components/Hero";
-import { MissionSection, CriteriaSection, SectorsSection, CtaSection } from "@/components/HomeSections";
+import { MissionValuesSection, AboutUsSection, SectorsSection, CriteriaSection, CtaSection } from "@/components/HomeSections";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
+      <MissionValuesSection />
+      <AboutUsSection />
       <SectorsSection />
-      <MissionSection />
       <CriteriaSection />
       <CtaSection />
     </>

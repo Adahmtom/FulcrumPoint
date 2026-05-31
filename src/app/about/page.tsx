@@ -178,6 +178,39 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ─── OUR WHY ─── */}
+      <section className="our-why-section">
+        <div className="our-why-inner">
+          <div className="our-why-header">
+            <div className="eyebrow">Our Why</div>
+            <h2 className="our-why-headline">Why the skilled trades matter</h2>
+          </div>
+          <div className="our-why-body">
+            <p>
+              Skilled trades are more than jobs — they are legacies. For generations, these professions
+              have built livelihoods, supported families, and sustained communities. From electricians who
+              power cities to welders who form the backbone of our infrastructure, the skilled trades
+              represent a culture defined by resilience, craftsmanship, and service.
+            </p>
+            <p>
+              We believe this resilience is also what makes the skilled trades uniquely durable in an era
+              of rapid technological change. While much of the economy faces disruption from automation and
+              artificial intelligence, skilled trades remain essential, hands-on, and difficult to replace.
+              Rather than viewing AI as a threat, we see it as a powerful enabler — one that enhances
+              decision-making, improves productivity, modernizes operations, and unlocks new growth
+              opportunities without eroding the human expertise at the core of these businesses.
+            </p>
+            <p>
+              Our purpose is to honor the legacy of the skilled trades while equipping them for the future —
+              strengthening businesses through disciplined operations, modern systems, and responsible use of
+              technology. By combining human skill with intelligent tools, we help skilled trade companies
+              become more resilient, more profitable, and better positioned to create lasting value for the
+              next generation of owners, employees, and communities.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ─── MEET OUR TEAM ─── */}
       <section className="aw-meet-team">
         {/* geometric triangle — left accent */}

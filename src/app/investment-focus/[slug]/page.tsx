@@ -172,8 +172,8 @@ const approaches: Record<string, {
         body: 'We do not acquire businesses to immediately restructure management and impose a generic operating model. We partner with the existing leadership team — retaining founders where desired, supplementing management depth where needed, and building a shared roadmap for value creation. Our management equity programs ensure that key operators are meaningfully aligned with outcome.',
       },
       {
-        heading: '100-Day Integration Plan',
-        body: 'Every new portfolio company follows a structured 100-day integration plan developed collaboratively with management. The plan covers technology deployment, financial reporting infrastructure, sales and marketing, workforce development, and the first add-on acquisition pipeline. This structured approach accelerates value creation while minimizing disruption to core operations.',
+        heading: '100-Day Value Creation Plan (VCP)',
+        body: 'Every new portfolio company follows a structured 100-Day VCP developed collaboratively with management. The plan covers technology deployment, financial reporting infrastructure, sales and marketing, workforce development, and the first add-on acquisition pipeline. This structured approach accelerates value creation while minimizing disruption to core operations.',
       },
       {
         heading: 'Ongoing Board Engagement',

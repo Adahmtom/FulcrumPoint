@@ -93,10 +93,10 @@ export default function Hero() {
             Operator-Led Private Equity
           </div>
           <h1 className="hero-headline anim-up delay-2">
-            At FulcrumPoint, we believe skilled trade businesses carry the stories, sacrifices, and <em>legacies</em> of the people who built them.
+            At FulcrumPoint, we believe skilled trade businesses carry the <em>legacy</em> of the people who built them.
           </h1>
           <p className="hero-sub anim-up delay-3">
-            We understand what these businesses mean to the families behind them because we come from that world ourselves. That is why we approach every partnership with respect, care, and a long&#8209;term commitment to protecting what has been built while helping carry it forward for the next generation. Our connection to this industry is deeply personal — shaped by watching a father use his hands to build not only a career, but a life filled with purpose, stability, and opportunity for his family. At FulcrumPoint, we partner with skilled trade businesses not only to help them grow, but to honor the legacy behind them and ensure their impact endures for generations to come.
+            FulcrumPoint Holdings partners with skilled trade business owners who have built something worth preserving. Through disciplined acquisition, operational support, and a long&#8209;term growth mindset, we help strong local companies unlock their next stage of performance while protecting the legacy, people, and reputation behind them.
           </p>
           <div className="hero-actions anim-up delay-4">
             <Link href="/contact" className="btn-primary">

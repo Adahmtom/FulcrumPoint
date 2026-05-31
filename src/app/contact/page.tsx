@@ -19,6 +19,11 @@ export default function ContactPage() {
           <h1 className="contact-hero-headline anim-up delay-1">
             Let&apos;s start a<br /><em>conversation.</em>
           </h1>
+          <p className="contact-investor-punchline anim-up delay-2">
+            Institutional and accredited investors seeking access to the skilled trades sector
+            are welcome to connect with our investor relations team directly. We are selectively
+            building relationships with capital partners who share our long-term, operator-first vision.
+          </p>
         </div>
       </section>
 
