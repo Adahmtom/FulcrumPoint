@@ -178,22 +178,36 @@ export function AboutUsSection() {
               ultimately realized at exit.
             </p>
             <p className="comp-diff-body">
-              Unlike firms focused primarily on applying financial engineering, FulcrumPoint targets
-              skilled trade companies with strong fundamentals but untapped operational potential.
-              Our focus is not simply fueling growth but unlocking it — addressing execution gaps in
-              systems, leadership structure, financial discipline, and workforce scalability to
-              transform under-optimized businesses into resilient, high-performing platforms.
+              Unlike firms focused primarily on targeting businesses to apply their financial
+              engineering strategy, FulcrumPoint targets skilled trade companies with strong
+              fundamentals but untapped operational potential as its primary strategy. Our focus is not
+              simply fueling growth but unlocking it — by addressing execution gaps in systems,
+              leadership structure, financial discipline, and workforce scalability — allowing us to
+              transform under-optimized businesses into resilient, high-performing platforms capable
+              of sustaining EBITDA growth, free cash flow generation, and multiple expansion.
             </p>
             <p className="comp-diff-body">
-              While people-first cultures matter, FulcrumPoint connects every operational improvement
-              directly to financial outcomes. Our initiatives — from digital transformation and
-              data-driven decision systems to talent optimization, pricing discipline, and selective
-              M&amp;A — are designed with a clear line of sight to DPI, IRR, and long-term exit value.
+              While traditional private equity firms rely on standardized playbooks and external
+              executives, FulcrumPoint is operator-led and dedicated to elevating and refining those
+              strategies. Our value creation is driven by practitioners with real-world experience
+              running complex, execution-intensive organizations — resulting in faster diagnosis, more
+              practical solutions, and deeper alignment with founder-operators, particularly in
+              rollover equity partnerships where trust, credibility, and shared accountability are
+              essential.
             </p>
             <p className="comp-diff-body">
+              While people-first cultures and professional development are important, FulcrumPoint
+              differentiates itself by connecting operational improvements directly to financial
+              outcomes. Our initiatives — from digital transformation and data-driven decision systems
+              to talent optimization, pricing discipline, and selective M&amp;A — are designed with a
+              clear line of sight to cash-on-cash returns (DPI), Internal Rate of Return (IRR), and
+              long-term exit value. Growth is not pursued for its own sake, but as a means to build
+              durable, scalable businesses that command premium valuations.
+            </p>
+            <p className="comp-diff-body full-width">
               Ultimately, FulcrumPoint&apos;s advantage lies in its alignment of partnership, execution,
               and outcomes. We partner with founders who retain meaningful equity, apply operator-led
-              rigor to compound value over time, and pursue exits only when that value is
+              operational rigor to compound value over time, and pursue exits only when that value is
               demonstrable, defensible, and fully realized.
             </p>
           </div>
