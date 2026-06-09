@@ -464,7 +464,6 @@ body {
   font-weight: 300;
   line-height: 1.75;
   color: var(--slate-light);
-  max-width: 420px;
   margin-bottom: 44px;
 }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
