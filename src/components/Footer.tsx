@@ -20,29 +20,23 @@ export default function Footer() {
         {/* ── Center: sitemap columns ── */}
         <div className="footer-cols">
           <div>
-            <div className="footer-col-ttl">Where We Invest</div>
-            <Link href="/investment-focus/hvac" className="f-link">HVAC &amp; Cooling Systems</Link>
-            <Link href="/investment-focus/electrical" className="f-link">Electrical</Link>
-            <Link href="/investment-focus/plumbing" className="f-link">Plumbing</Link>
-            <Link href="/investment-focus/construction" className="f-link">Commercial Construction</Link>
-            <Link href="/investment-focus/industrial" className="f-link">Industrial Trades</Link>
-          </div>
-
-          <div>
-            <div className="footer-col-ttl">How We Invest</div>
-            <Link href="/investment-focus/value-creation" className="f-link">Value Creation</Link>
-            <Link href="/investment-focus/approach" className="f-link">Operational Approach</Link>
-            <Link href="/investment-focus/criteria" className="f-link">Investment Criteria</Link>
-            <Link href="/contact" className="f-link">Deal Submission Portal</Link>
-          </div>
-
-          <div>
-            <div className="footer-col-ttl">Who We Are</div>
-            <Link href="/portfolio" className="f-link">Portfolio</Link>
+            <div className="footer-col-ttl">Our Firm</div>
+            <Link href="/about" className="f-link">About Us</Link>
             <Link href="/team" className="f-link">Team</Link>
-            <Link href="/about" className="f-link">About</Link>
-            <Link href="/insights" className="f-link">News &amp; Insights</Link>
+            <Link href="/about/mission" className="f-link">Vision &amp; Mission</Link>
+          </div>
+
+          <div>
+            <div className="footer-col-ttl">Investing</div>
+            <Link href="/about/strategy" className="f-link">Our Investment Strategy</Link>
+            <Link href="/for-business-owners" className="f-link">For Business Owners</Link>
+          </div>
+
+          <div>
+            <div className="footer-col-ttl">Get In Touch</div>
             <Link href="/contact" className="f-link">Contact</Link>
+            <Link href="/contact" className="f-link">Submit A Deal</Link>
+            <Link href="/contact" className="f-link">Investment Inquiries</Link>
           </div>
         </div>
 
