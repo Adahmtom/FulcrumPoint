@@ -38,14 +38,6 @@ body {
   color: var(--orange);
   margin-bottom: 24px;
 }
-.eyebrow::before {
-  content: '';
-  display: block;
-  width: 40px;
-  height: 1px;
-  background: var(--orange);
-  flex-shrink: 0;
-}
 
 /* ─── Buttons ─── */
 .btn-primary {
@@ -4936,7 +4928,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 80px;
-  max-width: 660px;
+  max-width: 58%;
   position: relative;
   z-index: 1;
 }
@@ -4954,8 +4946,8 @@ body {
   font-weight: 300;
   line-height: 1.8;
   color: var(--slate-light);
-  max-width: 500px;
-  margin-bottom: 32px;
+  max-width: 640px;
+  margin-bottom: 24px;
 }
 .about-us-link {
   display: inline-flex;
@@ -4973,7 +4965,7 @@ body {
 
 @media (max-width: 1024px) {
   .about-us-geo { width: 36%; }
-  .about-us-inner { max-width: 580px; }
+  .about-us-inner { max-width: 62%; }
 }
 @media (max-width: 900px) {
   .about-us-geo { display: none; }
