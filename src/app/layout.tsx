@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "FulcrumPoint Holdings — Operator-Led Private Equity",
+  title: "FulcrumPoint Holdings — Operator-Led Holdings Company",
   description:
     "FulcrumPoint Holdings partners with skilled trade businesses in Phoenix, AZ to unlock growth through disciplined, operator-led value creation.",
 };

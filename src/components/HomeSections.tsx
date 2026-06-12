@@ -139,17 +139,18 @@ export function AboutUsSection() {
         </div>
 
         <div className="about-us-inner">
-          <div className="eyebrow anim-up">About Us</div>
+          <div className="eyebrow anim-up">What Inspires Us</div>
           <h2 className="about-us-headline anim-up delay-1">
-            We invest in the people<br />
-            who build <em>legacies.</em>
+            Building the future of skilled trades without losing what made them strong.
           </h2>
           <p className="about-us-body anim-up delay-2">
-            Skilled trades are more than jobs — they are legacies. For generations, these
-            professions have built livelihoods, supported families, and sustained
-            communities. From electricians who power cities to welders who form the
-            backbone of our infrastructure, the skilled trades represent a culture defined
-            by resilience, craftsmanship, and service.
+            Skilled trades are more than jobs—they are legacies. For generations, these professions have built livelihoods, supported families, and sustained communities. From electricians who power cities to welders who form the backbone of our infrastructure, the skilled trades represent a culture defined by resilience, craftsmanship, and service.
+          </p>
+          <p className="about-us-body anim-up delay-2">
+            We believe this resilience is also what makes the skilled trades uniquely durable in an era of rapid technological change. While much of the economy faces disruption from automation and artificial intelligence, skilled trades remain essential, hands-on, and difficult to replace. Rather than viewing AI as a threat, we see it as a powerful enabler—one that enhances decision-making, improves productivity, modernizes operations, and unlocks new growth opportunities without eroding the human expertise at the core of these businesses.
+          </p>
+          <p className="about-us-body anim-up delay-2">
+            Our purpose is to honor the legacy of the skilled trades while equipping them for the future—strengthening businesses through disciplined operations, modern systems, and responsible use of technology. By combining human skill with intelligent tools, we help skilled trade companies become more resilient, more profitable, and better positioned to create lasting value for the next generation of owners, employees, and communities.
           </p>
           <Link href="/team" className="about-us-link anim-up delay-3">
             Meet our Team
@@ -160,67 +161,6 @@ export function AboutUsSection() {
         </div>
       </section>
 
-      {/* ── Competitive Differentiation teaser ── */}
-      <section className="comp-diff-section">
-        <div className="comp-diff-inner">
-          <div className="comp-diff-header">
-            <div className="eyebrow">Our Differentiation</div>
-            <h2 className="comp-diff-headline">
-              Our Competitive Operational<br />Value Creation Differentiation
-            </h2>
-          </div>
-          <div className="comp-diff-body-grid">
-            <p className="comp-diff-body">
-              FulcrumPoint Holdings differentiates itself by operating at the intersection of hands-on
-              operator leadership, disciplined operational execution, and exit-oriented value creation.
-              While many firms emphasize scale, culture, or capital deployment, FulcrumPoint&apos;s
-              approach is defined by how value is built inside the business and how that value is
-              ultimately realized at exit.
-            </p>
-            <p className="comp-diff-body">
-              Unlike firms focused primarily on targeting businesses to apply their financial
-              engineering strategy, FulcrumPoint targets skilled trade companies with strong
-              fundamentals but untapped operational potential as its primary strategy. Our focus is not
-              simply fueling growth but unlocking it — by addressing execution gaps in systems,
-              leadership structure, financial discipline, and workforce scalability — allowing us to
-              transform under-optimized businesses into resilient, high-performing platforms capable
-              of sustaining EBITDA growth, free cash flow generation, and multiple expansion.
-            </p>
-            <p className="comp-diff-body">
-              While traditional private equity firms rely on standardized playbooks and external
-              executives, FulcrumPoint is operator-led and dedicated to elevating and refining those
-              strategies. Our value creation is driven by practitioners with real-world experience
-              running complex, execution-intensive organizations — resulting in faster diagnosis, more
-              practical solutions, and deeper alignment with founder-operators, particularly in
-              rollover equity partnerships where trust, credibility, and shared accountability are
-              essential.
-            </p>
-            <p className="comp-diff-body">
-              While people-first cultures and professional development are important, FulcrumPoint
-              differentiates itself by connecting operational improvements directly to financial
-              outcomes. Our initiatives — from digital transformation and data-driven decision systems
-              to talent optimization, pricing discipline, and selective M&amp;A — are designed with a
-              clear line of sight to cash-on-cash returns (DPI), Internal Rate of Return (IRR), and
-              long-term exit value. Growth is not pursued for its own sake, but as a means to build
-              durable, scalable businesses that command premium valuations.
-            </p>
-            <p className="comp-diff-body full-width">
-              Ultimately, FulcrumPoint&apos;s advantage lies in its alignment of partnership, execution,
-              and outcomes. We partner with founders who retain meaningful equity, apply operator-led
-              operational rigor to compound value over time, and pursue exits only when that value is
-              demonstrable, defensible, and fully realized.
-            </p>
-          </div>
-          <div className="comp-diff-cta">
-            <Link href="/about/strategy" className="btn-primary">
-              Our Investment Strategy
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
@@ -340,7 +280,7 @@ export function CriteriaSection() {
     { icon: '◆', title: 'Recurring Revenue', body: 'Service contracts, maintenance agreements, and repeat residential or commercial relationships.' },
     { icon: '◆', title: 'Operator-Owned', body: 'Founder or family-operated businesses with deep customer loyalty and untapped scalability.' },
     { icon: '◆', title: 'Essential Services', body: 'Non-discretionary trades that remain in demand regardless of economic cycles.' },
-    { icon: '◆', title: 'Geographic Density', body: 'Concentrated service territories in high-growth Sun Belt and Southeast markets.' },
+    { icon: '◆', title: 'Geographic Density', body: 'Currently operating in Arizona, with plans to expand into additional high-growth markets in the future.' },
   ];
   return (
     <section className="criteria-section">
@@ -367,12 +307,12 @@ export function CriteriaSection() {
           ))}
         </div>
         <div className="criteria-cta">
-          <Link href="/contact" className="btn-primary">
-            Submit a Deal
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Seller Intake Form
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-          </Link>
+          </a>
           <Link href="/about/strategy" className="btn-outline">View Full Criteria</Link>
         </div>
       </div>
@@ -471,17 +411,16 @@ export function CtaSection() {
             Get Started
           </div>
           <p className="cta-sub">
-            Whether you&apos;re a business owner considering your next chapter, or an advisor working with
-            a potential seller, we&apos;d like to hear from you.
+            Whether you&apos;re a business owner seeking a trusted steward for your company&apos;s legacy or an investor aligned with our long-term vision, we&apos;d welcome the opportunity to discuss how we can create lasting value together.
           </p>
           <div className="cta-actions">
-            <Link href="/contact" className="cta-btn-primary">
-              Submit a Deal
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="cta-btn-primary">
+              Seller Intake Form
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-            </Link>
-            <Link href="/contact" className="cta-btn-outline">Investor Inquiries</Link>
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="cta-btn-outline">Investor Contact Form</a>
           </div>
         </div>
       </div>

@@ -111,7 +111,7 @@ body {
   text-decoration: none;
   padding: 0;
 }
-.nav-logo-box img { height: auto; width: 220px; display: block; }
+.nav-logo-box img { height: auto; width: 280px; display: block; }
 
 /* center links */
 .nav-links {
@@ -1884,8 +1884,8 @@ body {
 .team-card:nth-child(2n) { border-right: none; }
 .team-card-avatar {
   flex-shrink: 0;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   background: var(--slate-dark);
   display: flex;
   align-items: center;
@@ -2013,9 +2013,16 @@ body {
   color: var(--slate-dark);
   margin-top: 16px;
 }
+.about-values-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--slate-light);
+  max-width: 680px;
+  margin-top: 16px;
+}
 .about-values-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 .about-value-item {
@@ -4225,7 +4232,7 @@ body {
   :root { --nav-h: 72px; }
   .nav-inner { height: 72px; padding: 0 20px; }
   .nav-logo-box { padding: 8px 12px; }
-  .nav-logo-box img { width: 160px; height: auto; }
+  .nav-logo-box img { width: 200px; height: auto; }
 
   /* Page hero (inner pages without photo) */
   .page-hero { padding: 80px 24px 52px; }
@@ -4779,14 +4786,14 @@ body {
 }
 
 /* ── Navbar logo — sized to match 328×78 viewBox aspect ratio ────────────── */
-/* Desktop: display at 220px wide → height auto ≈ 52px */
-.nav-logo-img { width: 220px; height: auto; display: block; }
+/* Desktop: display at 280px wide → height auto ≈ 66px */
+.nav-logo-img { width: 280px; height: auto; display: block; }
 
 @media (max-width: 900px) {
-  .nav-logo-img { width: 160px !important; height: auto !important; }
+  .nav-logo-img { width: 200px !important; height: auto !important; }
 }
 @media (max-width: 600px) {
-  .nav-logo-img { width: 130px !important; height: auto !important; }
+  .nav-logo-img { width: 160px !important; height: auto !important; }
 }
 
 /* ── Investment Focus — sectors accordion ────────────────────────────────── */
@@ -5113,6 +5120,28 @@ body {
 }
 .fn-body p em { font-style: italic; color: var(--slate); }
 .fn-body p:last-child { margin-bottom: 0; }
+.fn-photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 24px 0;
+}
+.fn-photo-wrap {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+  cursor: zoom-in;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  z-index: 1;
+}
+.fn-photo-wrap:hover {
+  transform: scale(1.6);
+  z-index: 10;
+}
+@media (max-width: 600px) {
+  .fn-photos { grid-template-columns: repeat(2, 1fr); }
+  .fn-photo-wrap { height: 120px; }
+}
 .fn-sig {
   margin-top: 36px;
   padding-top: 24px;

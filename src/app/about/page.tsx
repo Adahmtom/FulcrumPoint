@@ -11,31 +11,33 @@ const glance = [
   {
     num: '02',
     title: 'Aligned Incentives',
-    body: 'We structure every partnership so that seller proceeds, management equity, and FulcrumPoint returns rise together. There is no version of success where we win and you don\'t.',
+    body: 'We align ownership and incentives so that portfolio leaders, investors, and FulcrumPoint share in the value they create.',
     href: '/about/strategy',
   },
   {
     num: '03',
     title: 'Long-Term Value Creation',
-    body: 'We invest for durable, multi-year value — not quick flips. Our 5–7 year hold periods let us invest deeply in operational transformation and sustainable growth.',
+    body: 'We invest with a long-term perspective, giving businesses the time, resources, and support needed to strengthen operations, develop people, and create lasting value for all stakeholders.',
     href: '/about/strategy',
   },
 ];
 
 const values = [
-  { num: '01', title: 'Operators First', body: 'Every investment decision is informed by operating experience. We only invest in industries where members of our team have directly built and run businesses.' },
-  { num: '02', title: 'Aligned Incentives', body: 'We structure every partnership to align seller proceeds, management equity, and FulcrumPoint returns. We win together.' },
-  { num: '03', title: 'Long-Term Thinking', body: 'We build companies for durable, long-term value — not to flip them. Our 5–7 year hold periods allow us to invest deeply in operational transformation.' },
-  { num: '04', title: 'Owner-Operator Respect', body: 'We honor the legacy that founders have built. Our goal is always to accelerate what is already working, not to dismantle it.' },
-  { num: '05', title: 'Transparent Partnership', body: 'We communicate openly with sellers, management teams, and investors — even when the news is difficult. Trust is our most valuable asset.' },
-  { num: '06', title: 'Community Impact', body: 'Skilled trades are the backbone of local economies. We take seriously our responsibility to create good jobs and strengthen the communities where our companies operate.' },
+  { num: '01', title: 'Put Operators First', body: 'I act as if our portfolio leaders are in the room and make decisions that empower those closest to the work.' },
+  { num: '02', title: 'Operate from the Facts', body: 'I seek truth through data, discipline, and healthy debate, and act decisively on what the numbers and the field reveal.' },
+  { num: '03', title: 'Build as One Team', body: 'I collaborate across companies and functions, remove silos, and take shared ownership for outcomes.' },
+  { num: '04', title: 'Value Diverse Perspectives', body: 'I invite differing views, challenge assumptions, and strengthen decisions through constructive tension.' },
+  { num: '05', title: 'Learn Fast, Share Openly', body: 'I pursue continuous improvement, learn from wins and misses, and scale what works across the portfolio.' },
+  { num: '06', title: 'Simplify to Scale', body: 'I eliminate unnecessary complexity, standardize where it creates leverage, and focus effort where it compounds value.' },
+  { num: '07', title: 'Act with Ownership', body: 'I take accountability, move with urgency, and deliver results without waiting for perfect information.' },
+  { num: '08', title: 'Think Like a Long-Term Owner', body: 'I make decisions today that strengthen durability, alignment, and exit outcomes for tomorrow.' },
 ];
 
 const stats = [
   { value: '$250M+', label: 'Capital deployed' },
-  { value: '12+',    label: 'Portfolio companies' },
+  { value: '2+',     label: 'Portfolio companies' },
   { value: '5–7yr',  label: 'Avg. hold period' },
-  { value: '3',      label: 'Core trade verticals' },
+  { value: '3+',     label: 'Add-on Acquisitions' },
 ];
 
 export default function AboutPage() {
@@ -115,6 +117,9 @@ export default function AboutPage() {
       {/* ─── STATS BAND ─── */}
       <section className="aw-stats">
         <div className="aw-stats-inner">
+          <div className="aw-stats-header" style={{ gridColumn: '1 / -1', marginBottom: '32px' }}>
+            <div className="eyebrow">2026-2028 Goals</div>
+          </div>
           {stats.map((s) => (
             <div key={s.label} className="aw-stat">
               <div className="aw-stat-value">{s.value}</div>
@@ -124,19 +129,22 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ─── OUR PRINCIPLES ─── */}
+      {/* ─── OUR CULTURE & OPERATING PRINCIPLES ─── */}
       <section className="about-values">
         <div className="about-values-inner">
           <div className="about-values-header">
             <div className="eyebrow">How We Operate</div>
-            <h2 className="about-values-headline">Our principles</h2>
+            <h2 className="about-values-headline">Our Culture &amp; Operating Principles</h2>
+            <p className="about-values-desc">
+              At FulcrumPoint, culture is how value gets created. Our Operating Principles guide how we show up as owners and operators—aligning behavior, decision-making, and execution to deliver consistent performance and long-term value for our investors, portfolio partners, and the communities we serve.
+            </p>
           </div>
           <div className="about-values-grid">
             {values.map((v) => (
               <div key={v.num} className="about-value-item">
                 <div className="about-value-num">{v.num}</div>
                 <h3 className="about-value-title">{v.title}</h3>
-                <p className="about-value-body">{v.body}</p>
+                <p className="about-value-body" style={{ fontStyle: 'italic' }}>{v.body}</p>
               </div>
             ))}
           </div>
@@ -157,56 +165,25 @@ export default function AboutPage() {
           </div>
           <div className="aw-story-content">
             <div className="eyebrow">Our Story</div>
-            <h2 className="aw-story-headline">Why FulcrumPoint exists</h2>
+            <h2 className="aw-story-headline">Why Fulcrum<span style={{color:'var(--orange)'}}>Point</span> exists</h2>
             <p>
-              FulcrumPoint Holdings was founded in 2021 by Marcus Alvarez after spending 15 years
-              building and operating HVAC and mechanical service businesses across the Southwest.
-              Marcus witnessed firsthand how skilled trade owners were underserved by traditional
-              private equity firms that lacked operational context and industry relationships.
+              Every successful business reaches a point where what brought it this far is no longer enough to take it where it needs to go next. We call that moment the fulcrum point—the point where leadership, execution, and opportunity align to unlock transformational growth.
             </p>
             <p>
-              FulcrumPoint was built to bridge that gap — bringing institutional capital and
-              disciplined investment process to an industry that deserves better partners.
+              The name FulcrumPoint reflects a simple principle: with the right leverage, even the greatest challenges can be moved. In business, that leverage comes from disciplined operations, focused leadership, and strategic action that transform potential into performance.
+            </p>
+            <p>
+              FulcrumPoint Holdings was founded on the belief that many of America&apos;s best skilled trade businesses possess tremendous untapped potential. These businesses are the backbone of our communities, creating essential services, meaningful careers, and economic opportunity, yet often lack the systems and operational support needed to reach their next stage of growth.
+            </p>
+            <p>
+              Our mission is simple: help exceptionally skilled trade businesses reach their fulcrum point—where potential becomes performance, growth becomes sustainable, and strong companies become enduring legacies.
             </p>
             <Link href="/about/mission" className="aw-story-link">
-              Our vision &amp; mission
+              Our mission &amp; vision
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── OUR WHY ─── */}
-      <section className="our-why-section">
-        <div className="our-why-inner">
-          <div className="our-why-header">
-            <div className="eyebrow">Our Why</div>
-            <h2 className="our-why-headline">Why the skilled trades matter</h2>
-          </div>
-          <div className="our-why-body">
-            <p>
-              Skilled trades are more than jobs — they are legacies. For generations, these professions
-              have built livelihoods, supported families, and sustained communities. From electricians who
-              power cities to welders who form the backbone of our infrastructure, the skilled trades
-              represent a culture defined by resilience, craftsmanship, and service.
-            </p>
-            <p>
-              We believe this resilience is also what makes the skilled trades uniquely durable in an era
-              of rapid technological change. While much of the economy faces disruption from automation and
-              artificial intelligence, skilled trades remain essential, hands-on, and difficult to replace.
-              Rather than viewing AI as a threat, we see it as a powerful enabler — one that enhances
-              decision-making, improves productivity, modernizes operations, and unlocks new growth
-              opportunities without eroding the human expertise at the core of these businesses.
-            </p>
-            <p>
-              Our purpose is to honor the legacy of the skilled trades while equipping them for the future —
-              strengthening businesses through disciplined operations, modern systems, and responsible use of
-              technology. By combining human skill with intelligent tools, we help skilled trade companies
-              become more resilient, more profitable, and better positioned to create lasting value for the
-              next generation of owners, employees, and communities.
-            </p>
           </div>
         </div>
       </section>

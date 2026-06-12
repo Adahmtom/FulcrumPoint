@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+const INVESTOR_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header';
+const SELLER_FORM   = 'https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header';
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -23,7 +26,7 @@ export default function Footer() {
             <div className="footer-col-ttl">Our Firm</div>
             <Link href="/about" className="f-link">About Us</Link>
             <Link href="/team" className="f-link">Team</Link>
-            <Link href="/about/mission" className="f-link">Vision &amp; Mission</Link>
+            <Link href="/about/mission" className="f-link">Mission &amp; Vision</Link>
           </div>
 
           <div>
@@ -34,35 +37,13 @@ export default function Footer() {
 
           <div>
             <div className="footer-col-ttl">Get In Touch</div>
-            <Link href="/contact" className="f-link">Contact</Link>
-            <Link href="/contact" className="f-link">Submit A Deal</Link>
-            <Link href="/contact" className="f-link">Investment Inquiries</Link>
+            <a href={INVESTOR_FORM} target="_blank" rel="noopener noreferrer" className="f-link">Investor Contact Form</a>
+            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="f-link">Seller Intake Form</a>
           </div>
         </div>
 
-        {/* ── Right: CTA buttons + address + social ── */}
+        {/* ── Right: social links placeholder ── */}
         <div className="footer-right">
-          <div className="footer-ctas">
-            <Link href="/contact" className="f-cta orange">
-              Contact
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </Link>
-            <Link href="/contact" className="f-cta">
-              Investment Inquiries
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
-            </Link>
-          </div>
-
-          <address className="footer-addr" style={{ fontStyle: 'normal' }}>
-            Phoenix, Arizona<br />
-            United States<br />
-            <a href="tel:+16025550100">+1 (602) 555-0100</a>
-          </address>
-
           <div className="footer-socials">
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
               className="footer-social-btn" aria-label="LinkedIn">
@@ -79,7 +60,7 @@ export default function Footer() {
       {/* ── Bottom bar ── */}
       <div className="footer-bottom">
         <span className="footer-copy">
-          © {new Date().getFullYear()} FulcrumPoint Holdings, LLC. All rights reserved.
+          © {new Date().getFullYear()} FulcrumPoint Holdings, Inc. All rights reserved.
         </span>
         <div className="footer-legal">
           <Link href="/disclaimer">Disclaimer</Link>

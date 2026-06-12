@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+const INVESTOR_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header';
+const SELLER_FORM   = 'https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header';
+
 // ── About dropdown ────────────────────────────────────────────────────────────
 const aboutGroups = [
   {
@@ -11,7 +14,7 @@ const aboutGroups = [
     links: [
       { label: 'Who We Are',       href: '/about'         },
       { label: 'Team',             href: '/team'          },
-      { label: 'Vision & Mission', href: '/about/mission' },
+      { label: 'Mission & Vision', href: '/about/mission' },
     ],
   },
 ] as const;
@@ -79,8 +82,8 @@ export default function Navbar() {
 
           {/* ── Desktop right utilities ──────────────────────────── */}
           <div className="nav-utils">
-            <Link href="/contact" className="nav-util">Contact</Link>
-            <Link href="/contact" className="nav-util cta">Submit A Deal</Link>
+            <a href={INVESTOR_FORM} target="_blank" rel="noopener noreferrer" className="nav-util">Investor Contact Form</a>
+            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="nav-util cta">Seller Intake Form</a>
           </div>
 
           {/* ── Hamburger ────────────────────────────────────────── */}
@@ -122,8 +125,8 @@ export default function Navbar() {
         <Link href="/for-business-owners" className="mobile-link" onClick={() => setMobileOpen(false)}>For Business Owners</Link>
 
         <div style={{ marginTop: 32, display: 'flex', flexDirection: 'column', gap: 12 }}>
-          <Link href="/contact" className="btn-outline" style={{ justifyContent: 'center' }} onClick={() => setMobileOpen(false)}>Contact</Link>
-          <Link href="/contact" className="btn-primary" style={{ justifyContent: 'center', background: 'var(--orange)' }} onClick={() => setMobileOpen(false)}>Submit A Deal</Link>
+          <a href={INVESTOR_FORM} target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ justifyContent: 'center' }} onClick={() => setMobileOpen(false)}>Investor Contact Form</a>
+          <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ justifyContent: 'center', background: 'var(--orange)' }} onClick={() => setMobileOpen(false)}>Seller Intake Form</a>
         </div>
       </div>
     </>

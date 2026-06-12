@@ -46,7 +46,7 @@ export default function MissionPage() {
         <img src="/geo-accent.svg" className="page-geo-accent" alt="" aria-hidden="true" />
         <div className="vm-hero-inner">
           <div className="vm-hero-text">
-            <div className="eyebrow anim-up">Vision &amp; Mission</div>
+            <div className="eyebrow anim-up">Mission &amp; Vision</div>
             <h1 className="vm-hero-headline anim-up delay-1">
               A clearer purpose<br />for every partnership.
             </h1>
@@ -80,9 +80,7 @@ export default function MissionPage() {
               communities where our companies operate.
             </blockquote>
             <p className="vm-statement-sub">
-              We exist to be the partner that trade business owners wished they had always had:
-              someone who understands the work, respects the legacy, and has the capital and
-              expertise to accelerate what already works.
+              We exist to be the partner skilled trade business owners have always needed—one who understands the work, honors the legacy, and brings the capital and operational expertise to help strong businesses reach their full potential.
             </p>
           </div>
         </div>
@@ -107,17 +105,13 @@ export default function MissionPage() {
           <div className="vm-vision-content">
             <div className="eyebrow">Our Vision</div>
             <h2 className="vm-vision-headline">
-              The most trusted name in skilled trades private equity.
+              The most trusted partner for skilled trade business owners in transition.
             </h2>
             <p className="vm-vision-body">
-              We envision a future where every skilled trade business owner approaching a
-              transition has access to a partner who truly understands their industry — one
-              who combines the rigor of institutional capital with the intuition of an operator.
+              We envision a future where ownership transitions are handled with true understanding, combining operational expertise, disciplined capital, and deep respect for the businesses and people who built them.
             </p>
             <p className="vm-vision-body">
-              Our long-term vision is to build FulcrumPoint into the defining platform for
-              essential services businesses in the Sun Belt and beyond — a collection of
-              exceptional companies united by shared values, operating systems, and talent.
+              Our vision is to build Fulcrum<span style={{color:'var(--orange)'}}>Point</span> into a premier growth platform for skilled trade businesses across Arizona and beyond, aligned by values, systems, and a focus on long-term excellence.
             </p>
             <Link href="/about/strategy" className="vm-vision-link">
               Our investment strategy
@@ -136,7 +130,7 @@ export default function MissionPage() {
             <div className="eyebrow">What We Stand For</div>
             <h2 className="vm-values-headline">Core values</h2>
             <p className="vm-values-sub">
-              These aren't aspirational words on a wall. They are the operating principles
+              These aren&apos;t aspirational words on a wall. They are the values
               that guide every investment decision, every conversation with a seller, and every
               interaction with a management team.
             </p>

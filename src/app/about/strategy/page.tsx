@@ -23,8 +23,8 @@ const pillars = [
   },
   {
     num: '04',
-    title: 'Add-On M&A',
-    body: 'Bolt-on acquisitions at 3–5× EBITDA are immediately accretive at platform exit multiples. Standardized integration playbooks let our companies execute without disrupting core operations.',
+    title: 'Add-On Acquisition',
+    body: 'Strategic add-on acquisitions help our companies grow faster, expand capabilities, and increase long-term value. With a disciplined integration process, we ensure growth is achieved without disrupting core operations.',
   },
 ];
 
@@ -98,15 +98,12 @@ export default function StrategyPage() {
             Our Investment Strategy
           </div>
           <h1 className="strat-hero-headline anim-up delay-1">
-            Disciplined capital.<br />Operator instincts.
+            Disciplined Capital.<br />Operational Excellence.<br />Long-Term Value.
           </h1>
           <p className="strat-hero-sub anim-up delay-2">
-            FulcrumPoint invests exclusively in essential services businesses across skilled
-            trades — partnering with founders to unlock value through operational expertise,
-            structured capital, and a genuine long-term orientation.
+            Fulcrum<span style={{color:'var(--orange)'}}>Point</span> invests exclusively in skilled trade businesses, partnering with founders and management teams to unlock growth through operational expertise, disciplined capital allocation, and a long-term ownership mindset.
           </p>
         </div>
-        <div className="strat-hero-bar" />
       </section>
 
       {/* ─── INVESTMENT PHILOSOPHY ────────────────────────────────── */}
@@ -180,7 +177,7 @@ export default function StrategyPage() {
               <h3 className="hold-period-card-title">Disciplined Exit Timing</h3>
               <p className="hold-period-card-body">
                 Exits are pursued only when businesses are well-positioned for continued success
-                and long-term value is fully realized — targeting compelling IRR and TVPI that
+                and long-term value is fully realized — targeting compelling IRR and MOIC that
                 provide clear proof of our ability to generate outsized risk-adjusted returns.
               </p>
             </div>
@@ -315,14 +312,10 @@ export default function StrategyPage() {
           </div>
           <div className="strat-overview-right">
             <blockquote className="strat-statement">
-              We acquire, grow, and professionalize skilled trade businesses in the Sun Belt
-              and Southeast — deploying operator-led capital to create enduring value for
-              founders, employees, and investors.
+              We invest in skilled trade businesses with strong foundations and untapped potential, partnering with founders and management teams to build stronger companies and create lasting value for all stakeholders.
             </blockquote>
             <p className="strat-statement-sub">
-              Our edge is not financial engineering. It is direct operating experience in the
-              industries we invest in, combined with a disciplined, repeatable acquisition and
-              value creation process built specifically for essential services businesses.
+              What differentiates Fulcrum<span style={{color:'var(--orange)'}}>Point</span> is not financial engineering, but operational leadership. Drawing on decades of hands-on experience, we apply disciplined capital, proven operating principles, and a repeatable value creation framework tailored to the unique needs of skilled trade businesses.
             </p>
           </div>
         </div>
@@ -371,8 +364,7 @@ export default function StrategyPage() {
             <div className="eyebrow">How We Invest</div>
             <h2 className="strat-pillars-headline">Our operating playbook</h2>
             <p className="strat-pillars-sub">
-              A repeatable, four-pillar framework refined across every acquisition —
-              built for the realities of skilled trade businesses.
+              A repeatable, four-pillar framework refined across every acquisition.
             </p>
           </div>
           <div className="strat-pillars-grid">

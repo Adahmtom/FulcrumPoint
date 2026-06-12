@@ -115,7 +115,6 @@ export default function ForBusinessOwnersPage() {
             </Link>
           </div>
         </div>
-        <div className="fbo-hero-bar" />
       </section>
 
       {/* ─── INTRO STATEMENT ──────────────────────────────────────── */}
@@ -128,11 +127,11 @@ export default function ForBusinessOwnersPage() {
           <div className="fbo-intro-right">
             <p className="fbo-intro-statement">
               Most private equity firms approach skilled trade businesses as financial assets
-              to be optimized and sold. We approach them as legacies to be honored and grown.
+              to be optimized and sold as quickly as possible. As a holding company, we approach them as legacies to be honored and grown.
             </p>
             <p className="fbo-intro-sub">
               The difference shows in how we structure deals, how we treat your people, and how
-              we show up after the ink is dry. We are operators who became investors — and that
+              we show up after the ink is dry. We are operators who became investors and that
               distinction matters at every stage of the partnership.
             </p>
           </div>

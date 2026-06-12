@@ -16,47 +16,45 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
           </svg>
         </button>
         <div className="fn-eyebrow">A Note From Our Founder</div>
-        <h2 className="fn-headline">Why I Built FulcrumPoint</h2>
+        <h2 className="fn-headline">What Inspired Me to Build FulcrumPoint</h2>
         <div className="fn-body">
           <p>
-            I grew up watching my father build a life with his hands. Not metaphorically — literally.
-            He was a tradesman. He worked long hours, managed a crew, and came home carrying the weight
-            of a business on his back. What he built wasn&apos;t just a company. It was identity, purpose,
-            and the foundation of everything our family had.
+            At FulcrumPoint, we know that skilled trades are more than just jobs—they are the foundation of our collective legacy and the heartbeat of our nation&apos;s progress. For generations, these professions have not only built livelihoods but have powered dreams, uplifted families, and forged the very communities we call home. From electricians who illuminate our cities to welders whose hands shape the future, the skilled trades embody a spirit of resilience, pride, and unwavering dedication. They are the unsung heroes who transform vision into reality, reminding us that greatness is built, not given.
           </p>
           <p>
-            When the time came for him to consider his next chapter, I watched what happened to owners
-            like him when they entered conversations with buyers. Too often, they were treated as
-            targets — their businesses reduced to spreadsheets, their legacies treated as liabilities
-            to be restructured away. The people who had given everything to build something real were
-            handed a term sheet and shown the door.
+            My own story is a testament to how the skilled trades shape not just careers, but destinies. My father, Colin Brown, started out as a forklift driver at the Goodyear Tire and Rubber Plant in Topeka, Kansas. Driven by a vision for a brighter future and a better life for his family, he broke barriers in 1976 by becoming the first African-American to enter the Kansas Carpenters&apos; Apprenticeship Program, earning his certification in 1979. His journey took our family to Sacramento, where he spent nearly three decades as a proud Journeyman Carpenter at California State University. Through his example, my father taught us that true success is measured not only by what you achieve, but also by the integrity of your work and the hands-on pride you pass down to the next generation. The hours my brother and I spent in the garage with him, learning carpentry, restoring classic cars, and sharing stories, were more than lessons in skill. They were lessons in perseverance, character, and the joy of building something lasting.
+          </p>
+
+          {/* ── 4 photos side-by-side ── */}
+          <div className="fn-photos">
+            {[
+              '/images/Photo_2025-11-29_091114.jpg',
+              '/images/Photo_2025-11-29_091245.jpg',
+              '/images/Photo_2025-11-29_091609.jpg',
+              '/images/IMG_4929.JPG',
+            ].map((src) => (
+              <div key={src} className="fn-photo-wrap">
+                <Image
+                  src={src}
+                  alt="Founder photo"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  sizes="(max-width: 768px) 45vw, 180px"
+                />
+              </div>
+            ))}
+          </div>
+
+          <p>
+            Though I did not follow my father&apos;s path into carpentry, I had a knack for fixing just about anything and settled on computer electronics. After high school, I moved to Phoenix, AZ to attend High Tech Institute, a vocational school, earning my Associate&apos;s in Computer Electronics and stepping into a career that allowed me to provide for my family and live out my own American dream. The skilled trades gave me more than a livelihood; they gave me purpose and pride, and a sense of responsibility to pay it forward. At FulcrumPoint, we aspire to build a self-sustaining ecosystem that will shape the skilled trades for generations to come, rooted in the values of putting people first and championing regenerative, future-focused initiatives. Our vision is bold: to centralize education, expand apprenticeship pathways, and harness immersive technologies through a unified training academy to ignite potential and create a vibrant, diverse pipeline of talent ready to lead tomorrow.
           </p>
           <p>
-            That experience never left me. Years later, after building my own career across
-            institutional organizations — learning how capital markets, operational systems, and
-            investment discipline actually work — I came back to that question: <em>what would it
-            look like to do this right?</em>
-          </p>
-          <p>
-            FulcrumPoint is my answer. We exist to be the partner I wish existed for my father — one
-            that brings institutional resources and disciplined execution without losing sight of
-            what these businesses actually represent. The people behind them. The communities they
-            serve. The legacy they carry.
-          </p>
-          <p>
-            Our edge isn&apos;t financial engineering. It&apos;s operator credibility, genuine respect for the
-            craft, and an unwavering commitment to building something that lasts. We partner with
-            skilled trade owners not to extract value from what they&apos;ve built — but to protect it,
-            grow it, and carry it forward for the next generation.
-          </p>
-          <p>
-            That&apos;s the only version of this work I believe in. And it&apos;s the standard FulcrumPoint
-            will hold itself to every day.
+            FulcrumPoint, as part of its Creating Shared Value (CSR) sustainability strategy, is committed to broadening access and opening doors for all, recruiting from underrepresented communities, championing second-chance hiring, and rebuilding pathways from high schools and technical institutions. By doing so, alongside the growing coalition working to address the skilled trades labor workforce shortage, we will reposition the skilled trades as a first-choice, high-value career—a path of dignity, promise, and possibility. Every person deserves the chance to discover their potential, to be empowered with skills that can change lives, and to choose a future that leads to the American dream. Together, let&apos;s build that future—one skill, one opportunity, one legacy at a time.
           </p>
         </div>
         <div className="fn-sig">
           <div className="fn-sig-name">Sedar Brown</div>
-          <div className="fn-sig-title">Founder &amp; CEO — FulcrumPoint Holdings</div>
+          <div className="fn-sig-title">Founder &amp; CEO — FulcrumPoint Holdings, Inc.</div>
         </div>
       </div>
     </div>
@@ -160,8 +158,8 @@ export default function TeamPage() {
 
       <PageHero
         eyebrow="Our Team"
-        headline="Operators first.<br />Investors second."
-        sub="FulcrumPoint is built by people who have run the businesses we invest in. Every member of our team brings direct operating experience across skilled trades, finance, and institutional capital."
+        headline="Transformational Leaders.<br />Operational Builders."
+        sub="FulcrumPoint was founded by leaders who understand that sustainable value is created through people, process, and execution. Drawing on decades of experience leading complex organizations and growing businesses, we help companies navigate inflection points, unlock potential, and achieve lasting success."
       />
 
       <section className="team-section">
@@ -197,20 +195,6 @@ export default function TeamPage() {
         </div>
       </section>
 
-      <section className="team-join">
-        <div className="team-join-inner">
-          <div>
-            <h2 className="team-join-headline">Work with us</h2>
-            <p className="team-join-sub">We&apos;re always interested in connecting with talented operators and finance professionals who share our passion for the skilled trades.</p>
-          </div>
-          <Link href="/contact" className="btn-primary">
-            Get in Touch
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </Link>
-        </div>
-      </section>
     </>
   );
 }
