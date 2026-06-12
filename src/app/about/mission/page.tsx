@@ -71,7 +71,6 @@ export default function MissionPage() {
         <div className="vm-mission-inner">
           <div className="vm-mission-left">
             <div className="eyebrow">Our Mission</div>
-            <div className="vm-rule" />
           </div>
           <div className="vm-mission-right">
             <blockquote className="vm-statement">

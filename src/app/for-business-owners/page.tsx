@@ -122,7 +122,6 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-intro-inner">
           <div className="fbo-intro-left">
             <div className="eyebrow">Why FulcrumPoint</div>
-            <div className="vm-rule" />
           </div>
           <div className="fbo-intro-right">
             <p className="fbo-intro-statement">

@@ -111,7 +111,6 @@ export default function StrategyPage() {
         <div className="invest-philosophy-inner">
           <div className="invest-philosophy-label">
             <div className="eyebrow">Investment Philosophy</div>
-            <div className="vm-rule" />
           </div>
           <div className="invest-philosophy-content">
             <blockquote className="invest-philosophy-quote">
@@ -308,7 +307,6 @@ export default function StrategyPage() {
         <div className="strat-overview-inner">
           <div className="strat-overview-left">
             <div className="eyebrow">Our Strategy</div>
-            <div className="vm-rule" />
           </div>
           <div className="strat-overview-right">
             <blockquote className="strat-statement">
