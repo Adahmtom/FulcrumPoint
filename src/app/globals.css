@@ -5116,18 +5116,22 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin: 24px 0;
+  overflow: visible;
 }
 .fn-photo-wrap {
   position: relative;
   height: 160px;
   overflow: hidden;
   cursor: zoom-in;
-  transition: transform 0.3s ease, z-index 0.3s ease;
+  border-radius: 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   z-index: 1;
 }
 .fn-photo-wrap:hover {
-  transform: scale(1.6);
+  transform: scale(1.7);
   z-index: 10;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+  overflow: visible;
 }
 @media (max-width: 600px) {
   .fn-photos { grid-template-columns: repeat(2, 1fr); }

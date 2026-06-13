@@ -28,17 +28,17 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
           {/* ── 4 photos side-by-side ── */}
           <div className="fn-photos">
             {[
-              '/images/Photo_2025-11-29_091114.jpg',
-              '/images/Photo_2025-11-29_091245.jpg',
-              '/images/Photo_2025-11-29_091609.jpg',
-              '/images/IMG_4929.JPG',
-            ].map((src) => (
+              { src: '/images/Photo_2025-11-29_091114.jpg', pos: 'right center', alt: 'Sedar and his father with their classic car restoration project' },
+              { src: '/images/Photo_2025-11-29_091245.jpg', pos: 'center top',   alt: 'Colin Brown proudly displaying his carpentry work' },
+              { src: '/images/Photo_2025-11-29_091609.jpg', pos: 'center top',   alt: 'Father and son working together on a carpentry project' },
+              { src: '/images/IMG_4929.JPG',                pos: 'center top',   alt: 'Colin Brown at work in his carpentry shop' },
+            ].map(({ src, pos, alt }) => (
               <div key={src} className="fn-photo-wrap">
                 <Image
                   src={src}
-                  alt="Founder photo"
+                  alt={alt}
                   fill
-                  style={{ objectFit: 'cover' }}
+                  style={{ objectFit: 'cover', objectPosition: pos }}
                   sizes="(max-width: 768px) 45vw, 180px"
                 />
               </div>
