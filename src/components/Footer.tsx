@@ -14,8 +14,8 @@ export default function Footer() {
           <Image
             src="/footer-mark.svg"
             alt="FulcrumPoint Holdings"
-            width={220}
-            height={234}
+            width={300}
+            height={319}
             priority
           />
         </div>

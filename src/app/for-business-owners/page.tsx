@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { CtaSection } from '@/components/HomeSections';
 
+const SELLER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header';
+
 const pillars = [
   {
     num: '01',
@@ -101,12 +103,12 @@ export default function ForBusinessOwnersPage() {
             care of, and their company positioned to thrive for the next generation.
           </p>
           <div className="fbo-hero-actions anim-up delay-3">
-            <Link href="/contact" className="btn-primary">
+            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary">
               Start a Conversation
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </Link>
+            </a>
             <Link href="#our-difference" className="fbo-hero-scroll">
               See how we&apos;re different
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

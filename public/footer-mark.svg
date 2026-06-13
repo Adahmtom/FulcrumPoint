@@ -8,7 +8,7 @@
     Centered: translate(15, 8)
     White fills (#FDFDFD) are letter counters — transparent against near-white bg
   -->
-  <g transform="translate(15,8) scale(0.16602)">
+  <g transform="translate(-56,5) scale(0.241)">
     <!-- P body — orange -->
     <path transform="translate(340,314)"
       d="m0 0h66l16 3 15 6 14 8 10 8 10 10 10 15 6 13 5 19 1 7v16l-2 14-5 15-7 14-8 11-10 11-15 11-17 8-19 5-14 1h-94l-10 1-1 68h-58l-1-1-1-28v-101l166-1 10-2 12-6 7-8 4-9 1-4v-13l-3-9-6-9-8-7-7-3-16-2h-106l-3-2 30-30 7-8z"
