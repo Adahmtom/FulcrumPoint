@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "FulcrumPoint Holdings — Operator-Led Holdings Company",
   description:
     "FulcrumPoint Holdings partners with skilled trade businesses in Phoenix, AZ to unlock growth through disciplined, operator-led value creation.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
