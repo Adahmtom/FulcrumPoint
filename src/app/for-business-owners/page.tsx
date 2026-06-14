@@ -209,12 +209,12 @@ export default function ForBusinessOwnersPage() {
               <li>5+ years of operating history</li>
               <li>Owner considering transition, exit, or growth partnership</li>
             </ul>
-            <Link href="/contact" className="btn-primary" style={{ marginTop: '32px', display: 'inline-flex' }}>
+            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: '32px', display: 'inline-flex' }}>
               Submit Your Business
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </Link>
+            </a>
           </div>
           <div className="fbo-criteria-geo" aria-hidden="true">
             {/* eslint-disable-next-line @next/next/no-img-element */}
