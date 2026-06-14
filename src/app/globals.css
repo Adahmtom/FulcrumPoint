@@ -2260,7 +2260,7 @@ body {
 /* Stats band */
 .aw-stats {
   background: var(--orange);
-  padding: 32px 0 60px;
+  padding: 15px 0 60px;
 }
 .aw-stats-inner {
   max-width: 1440px;
