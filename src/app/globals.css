@@ -2260,10 +2260,12 @@ body {
 /* Stats band */
 .aw-stats {
   background: var(--orange);
-  padding: 5px 0 60px;
+  padding: 48px 0 60px;
 }
 .aw-stats-header .eyebrow {
   color: rgba(255,255,255,0.7);
+  font-size: 13px;
+  font-weight: 600;
   margin-bottom: 0;
 }
 .aw-stats-inner {
