@@ -1139,7 +1139,7 @@ body {
 }
 /* Right column: eyebrow + body + CTAs */
 .cta-body-wrapper {
-  flex: 0 0 380px;
+  flex: 0 0 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
