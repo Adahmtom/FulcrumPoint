@@ -2304,8 +2304,6 @@ body {
   overflow: hidden;
 }
 .aw-story-inner {
-  max-width: 1440px;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 560px;
@@ -2326,6 +2324,7 @@ body {
   line-height: 1.75;
   color: var(--body-gray);
   margin-bottom: 16px;
+  max-width: 600px;
 }
 .aw-story-headline {
   font-family: var(--font-display);
