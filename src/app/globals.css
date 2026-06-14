@@ -2391,7 +2391,7 @@ body {
   font-family: var(--font-display);
   font-size: clamp(48px, 5.5vw, 88px);
   font-weight: 300;
-  color: rgba(255,255,255,0.18);
+  color: #ffffff;
   line-height: 1.05;
   margin: 0 0 36px;
   letter-spacing: -0.01em;
@@ -4271,7 +4271,7 @@ body {
   .aw-meet-team { padding: 72px 0; }
   .aw-meet-inner { grid-template-columns: 1fr; padding: 0 24px; gap: 0; }
   .aw-meet-inner > div:first-child { display: none; }
-  .aw-meet-headline { font-size: clamp(36px, 8vw, 64px); color: rgba(255,255,255,0.22); }
+  .aw-meet-headline { font-size: clamp(36px, 8vw, 64px); color: #ffffff; }
   .aw-meet-body { max-width: 100%; }
   .aw-meet-tri { display: none; }
 
