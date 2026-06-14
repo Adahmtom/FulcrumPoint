@@ -2593,6 +2593,8 @@ body {
   background: var(--near-white);
 }
 .strat-criteria-inner {
+  max-width: 1440px;
+  margin: 0 auto;
   display: grid; grid-template-columns: 1fr 1fr;
   min-height: 540px;
 }
@@ -3520,9 +3522,9 @@ body {
   padding: 80px 0;
 }
 .sector-detail-inner {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 80px;
 }
 .sector-detail-stat-band {
   display: flex;
@@ -4933,7 +4935,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 80px;
-  max-width: 58%;
+  max-width: 840px;
   position: relative;
   z-index: 1;
 }
