@@ -111,6 +111,7 @@ export default function StrategyPage() {
         <div className="invest-philosophy-inner">
           <div className="invest-philosophy-label">
             <div className="eyebrow">Investment Philosophy</div>
+            <div className="vm-rule" />
           </div>
           <div className="invest-philosophy-content">
             <blockquote className="invest-philosophy-quote">
@@ -136,6 +137,7 @@ export default function StrategyPage() {
         <div className="hold-period-inner">
           <div className="hold-period-header">
             <div className="eyebrow">Hold Period &amp; Exit Philosophy</div>
+            <div className="vm-rule" />
             <h2 className="hold-period-headline">Long-term partnership.<br />Exit when value is realized.</h2>
           </div>
           <div className="hold-period-grid">
@@ -189,6 +191,7 @@ export default function StrategyPage() {
         <div className="market-data-inner">
           <div className="market-data-header">
             <div className="eyebrow">Market Context</div>
+            <div className="vm-rule" />
             <h2 className="market-data-headline">Why skilled trades. Why now.</h2>
           </div>
 
@@ -307,6 +310,7 @@ export default function StrategyPage() {
         <div className="strat-overview-inner">
           <div className="strat-overview-left">
             <div className="eyebrow">Our Strategy</div>
+            <div className="vm-rule" />
           </div>
           <div className="strat-overview-right">
             <blockquote className="strat-statement">
@@ -333,6 +337,7 @@ export default function StrategyPage() {
         </div>
         <div className="strat-split-content">
           <div className="eyebrow">Where We Invest</div>
+          <div className="vm-rule" />
           <h2 className="strat-split-headline">Five sectors. Deep expertise.</h2>
           <p className="strat-split-body">
             We concentrate exclusively on five skilled trade verticals where our operating
@@ -360,6 +365,7 @@ export default function StrategyPage() {
         <div className="strat-pillars-inner">
           <div className="strat-pillars-header">
             <div className="eyebrow">How We Invest</div>
+            <div className="vm-rule" />
             <h2 className="strat-pillars-headline">Our operating playbook</h2>
             <p className="strat-pillars-sub">
               A repeatable, four-pillar framework refined across every acquisition.
@@ -391,6 +397,7 @@ export default function StrategyPage() {
           </div>
           <div className="strat-criteria-content">
             <div className="eyebrow">Target Profile</div>
+            <div className="vm-rule" />
             <h2 className="strat-criteria-headline">Investment criteria</h2>
             <p className="strat-criteria-sub">
               We are disciplined but flexible. The parameters below represent our primary

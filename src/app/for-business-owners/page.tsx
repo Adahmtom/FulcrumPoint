@@ -124,6 +124,7 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-intro-inner">
           <div className="fbo-intro-left">
             <div className="eyebrow">Why FulcrumPoint</div>
+            <div className="vm-rule" />
           </div>
           <div className="fbo-intro-right">
             <p className="fbo-intro-statement">
@@ -144,6 +145,7 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-pillars-inner">
           <div className="fbo-pillars-header">
             <div className="eyebrow">Our Difference</div>
+            <div className="vm-rule" />
             <h2 className="fbo-pillars-headline">
               For HVAC, Electrical, Plumbing &amp; Construction Owners —<br />
               a FulcrumPoint Partnership is Different
@@ -171,6 +173,7 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-process-inner">
           <div className="fbo-process-header">
             <div className="eyebrow" style={{ color: 'rgba(255,255,255,0.5)' }}>What to Expect</div>
+            <div className="vm-rule" />
             <h2 className="fbo-process-headline">Our partnership process</h2>
           </div>
           <div className="fbo-process-steps">
@@ -195,6 +198,7 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-criteria-inner">
           <div className="fbo-criteria-content">
             <div className="eyebrow">What We Look For</div>
+            <div className="vm-rule" />
             <h2 className="fbo-criteria-headline">Is your business a fit?</h2>
             <p className="fbo-criteria-sub">
               We invest in skilled trade businesses with strong fundamentals and untapped

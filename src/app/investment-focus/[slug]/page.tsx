@@ -250,6 +250,7 @@ export default async function InvestmentFocusDetailPage({
             <div className="sector-detail-body">
               <div className="sector-detail-left">
                 <div className="eyebrow">Why We Invest Here</div>
+                <div className="vm-rule" />
                 <h2 className="sector-detail-heading">The opportunity</h2>
                 {sector.body.map((para, i) => (
                   <p key={i} className="sector-detail-para">{para}</p>

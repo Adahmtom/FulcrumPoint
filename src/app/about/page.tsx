@@ -134,6 +134,7 @@ export default function AboutPage() {
         <div className="about-values-inner">
           <div className="about-values-header">
             <div className="eyebrow">How We Operate</div>
+            <div className="vm-rule" />
             <h2 className="about-values-headline">Our Culture &amp; Operating Principles</h2>
             <p className="about-values-desc">
               At FulcrumPoint, culture is how value gets created. Our Operating Principles guide how we show up as owners and operators—aligning behavior, decision-making, and execution to deliver consistent performance and long-term value for our investors, portfolio partners, and the communities we serve.
@@ -165,6 +166,7 @@ export default function AboutPage() {
           </div>
           <div className="aw-story-content">
             <div className="eyebrow">Our Story</div>
+            <div className="vm-rule" />
             <h2 className="aw-story-headline">Why Fulcrum<span style={{color:'var(--orange)'}}>Point</span> exists</h2>
             <p>
               Every successful business reaches a point where what brought it this far is no longer enough to take it where it needs to go next. We call that moment the fulcrum point—the point where leadership, execution, and opportunity align to unlock transformational growth.

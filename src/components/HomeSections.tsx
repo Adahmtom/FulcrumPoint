@@ -287,6 +287,7 @@ export function CriteriaSection() {
       <div className="criteria-inner">
         <div className="criteria-header">
           <div className="eyebrow">Investment Criteria</div>
+          <div className="vm-rule" />
           <h2 className="criteria-headline">What we look for</h2>
         </div>
         <div className="criteria-stats-row">
@@ -334,6 +335,7 @@ export function SectorsSection() {
       <div className="sectors-inner">
         <div className="sectors-header">
           <div className="eyebrow">Where We Invest</div>
+          <div className="vm-rule" />
           <h2 className="sectors-headline">Five sectors.<br />One operational playbook.</h2>
           <Link href="/about/strategy" className="sectors-all-link">
             Our Investment Approach
