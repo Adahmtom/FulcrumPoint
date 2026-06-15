@@ -209,12 +209,12 @@ export default function ForBusinessOwnersPage() {
               <li>$5M – $75M in annual revenue</li>
               <li>$1M – $10M in EBITDA</li>
               <li>HVAC, electrical, plumbing, commercial construction, or industrial trades</li>
-              <li>Located in the Sun Belt or Southeast United States</li>
+              <li>Located in Arizona</li>
               <li>5+ years of operating history</li>
               <li>Owner considering transition, exit, or growth partnership</li>
             </ul>
             <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: '32px', display: 'inline-flex' }}>
-              Submit Your Business
+              Start a Conversation
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>

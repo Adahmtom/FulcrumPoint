@@ -2262,11 +2262,17 @@ body {
   background: var(--orange);
   padding: 48px 0 60px;
 }
+.aw-stats-header {
+  display: flex;
+  justify-content: center;
+}
 .aw-stats-header .eyebrow {
-  color: rgba(255,255,255,0.7);
-  font-size: 13px;
+  color: rgba(255,255,255,0.85);
+  font-size: 22px;
   font-weight: 600;
+  letter-spacing: 0.04em;
   margin-bottom: 0;
+  justify-content: center;
 }
 .aw-stats-inner {
   max-width: 1440px;
@@ -2279,6 +2285,7 @@ body {
 .aw-stat {
   padding: 0 40px;
   border-right: 1px solid rgba(255,255,255,0.25);
+  text-align: center;
 }
 .aw-stat:first-child { padding-left: 0; }
 .aw-stat:last-child { border-right: none; }

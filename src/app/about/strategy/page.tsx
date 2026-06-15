@@ -33,7 +33,7 @@ const criteria = [
   { label: 'EBITDA',          value: '$1M – $10M' },
   { label: 'EBITDA Margin',   value: '10%+ preferred' },
   { label: 'Hold Period',     value: '5 – 7 years' },
-  { label: 'Geography',       value: 'Sun Belt / Southeast' },
+  { label: 'Geography',       value: 'Arizona' },
   { label: 'Business Age',    value: '5+ years operating history' },
 ];
 
@@ -101,7 +101,7 @@ export default function StrategyPage() {
             Disciplined Capital.<br />Operational Excellence.<br />Long-Term Value.
           </h1>
           <p className="strat-hero-sub anim-up delay-2">
-            Fulcrum<span style={{color:'var(--orange)'}}>Point</span> invests exclusively in skilled trade businesses, partnering with founders and management teams to unlock growth through operational expertise, disciplined capital allocation, and a long-term ownership mindset.
+            FulcrumPoint invests exclusively in skilled trade businesses, partnering with founders and management teams to unlock growth through operational expertise, disciplined capital allocation, and a long-term ownership mindset.
           </p>
         </div>
       </section>
@@ -317,7 +317,7 @@ export default function StrategyPage() {
               We invest in skilled trade businesses with strong foundations and untapped potential, partnering with founders and management teams to build stronger companies and create lasting value for all stakeholders.
             </blockquote>
             <p className="strat-statement-sub">
-              What differentiates Fulcrum<span style={{color:'var(--orange)'}}>Point</span> is not financial engineering, but operational leadership. Drawing on decades of hands-on experience, we apply disciplined capital, proven operating principles, and a repeatable value creation framework tailored to the unique needs of skilled trade businesses.
+              What differentiates FulcrumPoint is not financial engineering, but operational leadership. Drawing on decades of hands-on experience, we apply disciplined capital, proven operating principles, and a repeatable value creation framework tailored to the unique needs of skilled trade businesses.
             </p>
           </div>
         </div>
@@ -411,12 +411,6 @@ export default function StrategyPage() {
                 </div>
               ))}
             </div>
-            <Link href="/contact" className="strat-criteria-link">
-              Submit a Business
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </Link>
           </div>
         </div>
       </section>

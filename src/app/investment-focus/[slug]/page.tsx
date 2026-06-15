@@ -14,11 +14,11 @@ const sectors: Record<string, {
   hvac: {
     label: 'HVAC & Cooling Systems',
     stat: '$22B+',
-    tagline: 'Mission-critical comfort infrastructure for the growing Sun Belt.',
+    tagline: 'Mission-critical comfort infrastructure for the growing Arizona market.',
     body: [
-      'HVAC service and installation is a non-discretionary expenditure for homeowners and commercial tenants alike. In the Sun Belt, where summer temperatures regularly exceed 110°F, functional cooling is not a luxury — it is a life-safety issue. This creates a demand floor that persists through economic cycles.',
+      'HVAC service and installation is a non-discretionary expenditure for homeowners and commercial tenants alike. In Arizona, where summer temperatures regularly exceed 110°F, functional cooling is not a luxury — it is a life-safety issue. This creates a demand floor that persists through economic cycles.',
       'The market is highly fragmented, with tens of thousands of owner-operated HVAC companies serving local geographies. Most have strong customer relationships, recurring maintenance contract revenue, and consistent margins — yet remain subscale relative to the capital investment required to modernize operations, hire talent, and pursue adjacent acquisitions.',
-      'FulcrumPoint targets HVAC businesses with $1M–$10M EBITDA, primarily in the Phoenix, Las Vegas, Dallas, and Florida corridors where population and commercial construction growth is most pronounced.',
+      'FulcrumPoint targets HVAC businesses with $1M–$10M EBITDA, primarily in the Phoenix, Tucson, Flagstaff, and Yuma areas where population and commercial construction growth is most pronounced.',
     ],
     why: [
       'Non-discretionary demand driven by climate',
@@ -30,8 +30,8 @@ const sectors: Record<string, {
     criteria: [
       { label: 'Revenue', value: '$5M – $50M' },
       { label: 'EBITDA', value: '$1M – $10M' },
-      { label: 'Geography', value: 'Sun Belt / Southeast' },
-      { label: 'Business Type', value: 'Residential & Commercial Service' },
+      { label: 'Geography', value: 'Arizona' },
+      { label: 'Business Type', value: 'Commercial & Residential' },
     ],
   },
   electrical: {
@@ -53,8 +53,8 @@ const sectors: Record<string, {
     criteria: [
       { label: 'Revenue', value: '$5M – $75M' },
       { label: 'EBITDA', value: '$1M – $10M' },
-      { label: 'Geography', value: 'Sun Belt / Southeast' },
-      { label: 'Business Type', value: 'Commercial & Industrial' },
+      { label: 'Geography', value: 'Arizona' },
+      { label: 'Business Type', value: 'Commercial & Residential' },
     ],
   },
   plumbing: {
@@ -63,12 +63,12 @@ const sectors: Record<string, {
     tagline: 'Essential infrastructure in every structure, with durable recurring demand.',
     body: [
       'Plumbing services represent one of the most resilient categories in the skilled trades universe. Unlike renovation or discretionary remodeling, plumbing repairs, drain services, and emergency calls are driven by necessity — no homeowner or building owner delays a pipe burst or sewage backup.',
-      'The Sun Belt growth story is particularly powerful in plumbing: new residential construction, commercial development, and aging municipal water infrastructure all drive sustained demand for experienced plumbing contractors. Arizona, Texas, Florida, and Georgia — FulcrumPoint\'s core geographies — have seen outsized population and construction growth over the past decade.',
+      'The Arizona growth story is particularly powerful in plumbing: new residential construction, commercial development, and aging municipal water infrastructure all drive sustained demand for experienced plumbing contractors. FulcrumPoint\'s core geography has seen outsized population and construction growth over the past decade.',
       'We look for plumbing businesses with strong service-call volumes, commercial maintenance contracts, and leadership depth capable of supporting expansion. Many of our best targets have developed proprietary customer relationship management processes that create durable recurring revenue streams.',
     ],
     why: [
       'Non-discretionary: emergency calls create guaranteed demand floor',
-      'New construction tailwind in core Sun Belt markets',
+      'New construction tailwind in core Arizona markets',
       'High repeat-call rate creates natural retention economics',
       'Commercial maintenance contracts provide recurring revenue',
       'Municipal infrastructure aging accelerates replacement demand',
@@ -76,8 +76,8 @@ const sectors: Record<string, {
     criteria: [
       { label: 'Revenue', value: '$3M – $40M' },
       { label: 'EBITDA', value: '$750K – $8M' },
-      { label: 'Geography', value: 'Sun Belt / Southeast' },
-      { label: 'Business Type', value: 'Residential, Commercial & Service' },
+      { label: 'Geography', value: 'Arizona' },
+      { label: 'Business Type', value: 'Commercial & Residential' },
     ],
   },
   construction: {
@@ -242,7 +242,7 @@ export default async function InvestmentFocusDetailPage({
                 <span className="sector-detail-stat-label">Minimum EBITDA Target</span>
               </div>
               <div className="sector-detail-stat-item">
-                <span className="sector-detail-stat-num">Sun Belt</span>
+                <span className="sector-detail-stat-num">Arizona</span>
                 <span className="sector-detail-stat-label">Primary Geography</span>
               </div>
             </div>
@@ -274,12 +274,12 @@ export default async function InvestmentFocusDetailPage({
                     </div>
                   ))}
                 </div>
-                <Link href="/contact" className="btn-primary">
-                  Submit a Business
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                  Seller Intake Form
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                     <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

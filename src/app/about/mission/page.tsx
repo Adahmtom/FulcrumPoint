@@ -112,7 +112,7 @@ export default function MissionPage() {
               We envision a future where ownership transitions are handled with true understanding, combining operational expertise, disciplined capital, and deep respect for the businesses and people who built them.
             </p>
             <p className="vm-vision-body">
-              Our vision is to build Fulcrum<span style={{color:'var(--orange)'}}>Point</span> into a premier growth platform for skilled trade businesses across Arizona and beyond, aligned by values, systems, and a focus on long-term excellence.
+              Our vision is to build FulcrumPoint into a premier growth platform for skilled trade businesses across Arizona and beyond, aligned by values, systems, and a focus on long-term excellence.
             </p>
             <Link href="/about/strategy" className="vm-vision-link">
               Our investment strategy

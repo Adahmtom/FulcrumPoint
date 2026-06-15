@@ -34,7 +34,7 @@ const values = [
 ];
 
 const stats = [
-  { value: '$250M+', label: 'Capital deployed' },
+  { value: '$5M+',   label: 'Capital deployed' },
   { value: '2+',     label: 'Portfolio companies' },
   { value: '5–7yr',  label: 'Avg. hold period' },
   { value: '3+',     label: 'Add-on Acquisitions' },
@@ -56,7 +56,7 @@ export default function AboutPage() {
               Partners in<br />growth.
             </h1>
             <p className="aw-hero-body anim-up delay-2">
-              FulcrumPoint Holdings is a Phoenix-based private equity firm focused exclusively on
+              FulcrumPoint Holdings is a Phoenix-based operator-led holdings company focused exclusively on
               acquiring and building essential services businesses in skilled trades — HVAC, electrical,
               plumbing, commercial construction, and industrial services.
             </p>
