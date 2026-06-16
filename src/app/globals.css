@@ -5735,7 +5735,7 @@ body {
   content: '◆'; position: absolute; left: 0;
   font-size: 7px; color: var(--orange); top: 15px;
 }
-.fbo-criteria-geo { opacity: 0.45; }
+.fbo-criteria-geo { opacity: 0.45; width: 100%; height: 320px; }
 
 /* ── FBO Responsive ─────────────────────────────────── */
 @media (max-width: 1024px) {

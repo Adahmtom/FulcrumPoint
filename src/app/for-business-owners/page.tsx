@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { CtaSection } from '@/components/HomeSections';
+import AnimatedGeoBlock from '@/components/AnimatedGeoBlock';
 
 const SELLER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header';
 const START_CONVERSATION_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header';
@@ -221,10 +222,7 @@ export default function ForBusinessOwnersPage() {
               </svg>
             </a>
           </div>
-          <div className="fbo-criteria-geo" aria-hidden="true">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/geo-feature.svg" alt="" style={{ width: '100%', height: 'auto', opacity: 0.6 }} />
-          </div>
+          <AnimatedGeoBlock className="fbo-criteria-geo" />
         </div>
       </section>
 
