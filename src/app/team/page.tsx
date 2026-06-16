@@ -41,6 +41,10 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
                   style={{ objectFit: 'cover', objectPosition: pos }}
                   sizes="(max-width: 768px) 45vw, 180px"
                 />
+                <div className="fn-photo-popup">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={src} alt={alt} className="fn-photo-full" />
+                </div>
               </div>
             ))}
           </div>
@@ -145,6 +149,15 @@ const leadership = [
     focus: ['Program Management', 'Quality Systems', 'Operational Risk'],
     initials: 'TJ',
     photo: '/images/tony-jones.jpg',
+    isFounder: false,
+  },
+  {
+    name: 'Andre Gulmesoff',
+    title: 'Acquisition Valuation Advisor',
+    bio: 'Andre is a trusted valuation, transaction strategy, and deal execution advisor to FulcrumPoint\'s Investment Committee and Deal Team. As a licensed business broker (License #01774609) and owner of a successful advisory firm (bizbyandre.com), he supports the full investment lifecycle from initial assessment through closing and exit. Andre provides disciplined, market-aligned valuations and financial insights that guide pricing, structuring, and timing decisions — ensuring every opportunity is thoroughly vetted before closing.',
+    focus: ['Business Valuation', 'Transaction Strategy', 'Deal Execution'],
+    initials: 'AG',
+    photo: null,
     isFounder: false,
   },
 ];
