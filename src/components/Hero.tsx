@@ -96,7 +96,7 @@ export default function Hero() {
             At Fulcrum<span style={{color:'var(--orange)'}}>Point</span>, we believe skilled trade businesses carry the <em>legacy</em> of the people who built them.
           </h1>
           <p className="hero-sub anim-up delay-3">
-            FulcrumPoint Holdings partners with skilled trade business owners who have built something worth preserving. Through disciplined acquisition, operational support, and a long&#8209;term growth mindset, we help strong local companies unlock their next stage of performance while protecting the legacy, people, and reputation behind them.
+            FulcrumPoint Holdings partners with skilled trade business owners who have built something worth preserving. Through disciplined add-on acquisition, operational support, and a long&#8209;term growth mindset, we help strong local companies unlock their next stage of performance while protecting the legacy, people, and reputation behind them.
           </p>
           <div className="hero-actions anim-up delay-4">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
