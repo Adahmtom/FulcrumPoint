@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { CtaSection } from '@/components/HomeSections';
 import AnimatedGeoBlock from '@/components/AnimatedGeoBlock';
 
-const SELLER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header';
+const SELLER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header';
 
 const pillars = [
   {

@@ -307,7 +307,7 @@ export function CriteriaSection() {
           ))}
         </div>
         <div className="criteria-cta">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
             Seller Intake Form
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -413,13 +413,13 @@ export function CtaSection() {
             Whether you&apos;re a business owner seeking a trusted steward for your company&apos;s legacy or an investor aligned with our long-term vision, we&apos;d welcome the opportunity to discuss how we can create lasting value together.
           </p>
           <div className="cta-actions">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="cta-btn-primary">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="cta-btn-primary">
               Seller Intake Form
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="cta-btn-outline">Investor Contact Form</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="cta-btn-outline">Investor Contact Form</a>
           </div>
         </div>
       </div>
