@@ -4,7 +4,6 @@ import { CtaSection } from '@/components/HomeSections';
 import AnimatedGeoBlock from '@/components/AnimatedGeoBlock';
 
 const SELLER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header';
-const START_CONVERSATION_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header';
 
 const pillars = [
   {
@@ -105,7 +104,7 @@ export default function ForBusinessOwnersPage() {
             care of, and their company positioned to thrive for the next generation.
           </p>
           <div className="fbo-hero-actions anim-up delay-3">
-            <a href={START_CONVERSATION_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary">
               Start a Conversation
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -205,7 +204,7 @@ export default function ForBusinessOwnersPage() {
               <li>5+ years of operating history</li>
               <li>Owner considering transition, exit, or growth partnership</li>
             </ul>
-            <a href={START_CONVERSATION_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: '32px', display: 'inline-flex' }}>
+            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: '32px', display: 'inline-flex' }}>
               Start a Conversation
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
