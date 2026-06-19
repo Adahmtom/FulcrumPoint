@@ -99,7 +99,7 @@ const sectors: Record<string, {
     criteria: [
       { label: 'Revenue', value: '$10M – $100M' },
       { label: 'EBITDA', value: '$1.5M – $12M' },
-      { label: 'Geography', value: 'Sun Belt / Southeast' },
+      { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Specialty & General Contracting' },
     ],
   },
@@ -122,7 +122,7 @@ const sectors: Record<string, {
     criteria: [
       { label: 'Revenue', value: '$5M – $60M' },
       { label: 'EBITDA', value: '$1M – $10M' },
-      { label: 'Geography', value: 'Sun Belt / Southeast / Gulf Coast' },
+      { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Specialty Industrial Services' },
     ],
   },
@@ -250,7 +250,6 @@ export default async function InvestmentFocusDetailPage({
             <div className="sector-detail-body">
               <div className="sector-detail-left">
                 <div className="eyebrow">Why We Invest Here</div>
-                <div className="vm-rule" />
                 <h2 className="sector-detail-heading">The opportunity</h2>
                 {sector.body.map((para, i) => (
                   <p key={i} className="sector-detail-para">{para}</p>

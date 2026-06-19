@@ -229,7 +229,6 @@ export default async function InsightArticlePage({
       <section className="article-more-section">
         <div className="article-more-inner">
           <div className="eyebrow">More Insights</div>
-          <div className="vm-rule" />
           <div className="article-more-grid">
             {otherArticles.map(([s, a]) => (
               <Link key={s} href={`/insights/${s}`} className="article-more-card">

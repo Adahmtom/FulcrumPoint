@@ -111,12 +111,6 @@ export default function ForBusinessOwnersPage() {
                 <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </a>
-            <Link href="#our-difference" className="fbo-hero-scroll">
-              See how we&apos;re different
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M7 2v10M2 7l5 5 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </Link>
           </div>
         </div>
       </section>
@@ -126,7 +120,6 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-intro-inner">
           <div className="fbo-intro-left">
             <div className="eyebrow">Why FulcrumPoint</div>
-            <div className="vm-rule" />
           </div>
           <div className="fbo-intro-right">
             <p className="fbo-intro-statement">
@@ -147,7 +140,6 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-pillars-inner">
           <div className="fbo-pillars-header">
             <div className="eyebrow">Our Difference</div>
-            <div className="vm-rule" />
             <h2 className="fbo-pillars-headline">
               For HVAC, Electrical, Plumbing &amp; Construction Owners —<br />
               a FulcrumPoint Partnership is Different
@@ -175,7 +167,6 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-process-inner">
           <div className="fbo-process-header">
             <div className="eyebrow" style={{ color: 'rgba(255,255,255,0.5)' }}>What to Expect</div>
-            <div className="vm-rule" />
             <h2 className="fbo-process-headline">Our partnership process</h2>
           </div>
           <div className="fbo-process-steps">
@@ -200,7 +191,6 @@ export default function ForBusinessOwnersPage() {
         <div className="fbo-criteria-inner">
           <div className="fbo-criteria-content">
             <div className="eyebrow">What We Look For</div>
-            <div className="vm-rule" />
             <h2 className="fbo-criteria-headline">Is your business a fit?</h2>
             <p className="fbo-criteria-sub">
               We invest in skilled trade businesses with strong fundamentals and untapped

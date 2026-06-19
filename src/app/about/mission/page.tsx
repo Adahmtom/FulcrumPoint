@@ -71,7 +71,6 @@ export default function MissionPage() {
         <div className="vm-mission-inner">
           <div className="vm-mission-left">
             <div className="eyebrow">Our Mission</div>
-            <div className="vm-rule" />
           </div>
           <div className="vm-mission-right">
             <blockquote className="vm-statement">
@@ -104,7 +103,6 @@ export default function MissionPage() {
           </div>
           <div className="vm-vision-content">
             <div className="eyebrow">Our Vision</div>
-            <div className="vm-rule" />
             <h2 className="vm-vision-headline">
               The most trusted partner for skilled trade business owners in transition.
             </h2>
@@ -129,7 +127,6 @@ export default function MissionPage() {
         <div className="vm-values-inner">
           <div className="vm-values-header">
             <div className="eyebrow">What We Stand For</div>
-            <div className="vm-rule" />
             <h2 className="vm-values-headline">Core values</h2>
             <p className="vm-values-sub">
               These aren&apos;t aspirational words on a wall. They are the values

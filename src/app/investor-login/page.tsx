@@ -10,7 +10,6 @@ export default function InvestorLoginPage() {
           <div className="login-card">
             <div className="login-logo-mark">FP</div>
             <div className="eyebrow">Investor Portal</div>
-            <div className="vm-rule" />
             <h1 className="login-headline">LP Access</h1>
             <p className="login-sub">
               The FulcrumPoint investor portal provides limited partners with access to

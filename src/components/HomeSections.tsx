@@ -287,7 +287,6 @@ export function CriteriaSection() {
       <div className="criteria-inner">
         <div className="criteria-header">
           <div className="eyebrow">Investment Criteria</div>
-          <div className="vm-rule" />
           <h2 className="criteria-headline">What we look for</h2>
         </div>
         <div className="criteria-stats-row">
@@ -335,7 +334,6 @@ export function SectorsSection() {
       <div className="sectors-inner">
         <div className="sectors-header">
           <div className="eyebrow">Where We Invest</div>
-          <div className="vm-rule" />
           <h2 className="sectors-headline">Five sectors.<br />One operational playbook.</h2>
           <Link href="/about/strategy" className="sectors-all-link">
             Our Investment Approach
@@ -409,7 +407,6 @@ export function CtaSection() {
         </div>
         <div className="cta-body-wrapper">
           <div className="eyebrow" style={{ color: 'rgba(255,255,255,0.45)' }}>
-            <span className="eyebrow-line" style={{ background: 'rgba(255,255,255,0.3)' }} />
             Get Started
           </div>
           <p className="cta-sub">

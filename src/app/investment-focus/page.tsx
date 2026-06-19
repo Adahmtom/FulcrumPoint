@@ -118,7 +118,6 @@ export default function InvestmentFocusPage() {
         <div className="if-inner">
           <div className="if-section-header">
             <div className="eyebrow">Where We Invest</div>
-            <div className="vm-rule" />
             <h2 className="if-headline">Five sectors. One focus.</h2>
             <p className="if-section-sub">
               We go deep rather than broad — investing only where our operating team has direct hands-on experience.
@@ -143,7 +142,6 @@ export default function InvestmentFocusPage() {
         </div>
         <div className="if-split-content">
           <div className="eyebrow">How We Work</div>
-          <div className="vm-rule" />
           <h2 className="if-split-headline">
             Operator-first diligence — every time.
           </h2>
@@ -171,7 +169,6 @@ export default function InvestmentFocusPage() {
         <div className="if-inner">
           <div className="if-section-header">
             <div className="eyebrow">How We Invest</div>
-            <div className="vm-rule" />
             <h2 className="if-headline">Our approach</h2>
           </div>
           <div className="if-approach-grid">
