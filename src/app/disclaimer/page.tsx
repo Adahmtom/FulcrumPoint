@@ -31,7 +31,7 @@ export default function DisclaimerPage() {
             <p>Nothing on this website is intended to be, and should not be construed as, investment, tax, legal, or financial advice. Prospective investors should consult with their own advisors before making any investment decisions.</p>
 
             <h2>Contact</h2>
-            <p>For questions regarding this disclaimer, please contact us at <a href="mailto:info@fulcrumpointholdings.com">info@fulcrumpointholdings.com</a>.</p>
+            <p>For questions regarding this disclaimer, please contact us at <a href="mailto:fulcrumpointholdings@gmail.com">fulcrumpointholdings@gmail.com</a>.</p>
           </div>
         </div>
       </section>

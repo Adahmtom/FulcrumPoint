@@ -37,7 +37,7 @@ export default function TermsPage() {
             <p>We reserve the right to modify these Terms of Use at any time. Your continued use of the Site after any changes constitutes your acceptance of the modified terms.</p>
 
             <h2>Contact</h2>
-            <p>For questions regarding these Terms of Use, please contact us at <a href="mailto:info@fulcrumpointholdings.com">info@fulcrumpointholdings.com</a>.</p>
+            <p>For questions regarding these Terms of Use, please contact us at <a href="mailto:fulcrumpointholdings@gmail.com">fulcrumpointholdings@gmail.com</a>.</p>
           </div>
         </div>
       </section>

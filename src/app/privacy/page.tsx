@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             <p>You may request access to, correction of, or deletion of your personal information by contacting us. We will respond to such requests within a reasonable time.</p>
 
             <h2>Contact</h2>
-            <p>For privacy-related inquiries, please contact us at <a href="mailto:info@fulcrumpointholdings.com">info@fulcrumpointholdings.com</a>.</p>
+            <p>For privacy-related inquiries, please contact us at <a href="mailto:fulcrumpointholdings@gmail.com">fulcrumpointholdings@gmail.com</a>.</p>
           </div>
         </div>
       </section>
