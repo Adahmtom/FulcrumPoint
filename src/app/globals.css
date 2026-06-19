@@ -38,6 +38,14 @@ body {
   color: var(--orange);
   margin-bottom: 24px;
 }
+.eyebrow::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 1px;
+  background: currentColor;
+  flex-shrink: 0;
+}
 
 /* ─── Buttons ─── */
 .btn-primary {
