@@ -16,7 +16,7 @@ export default function PrivacyPage() {
             <p>FulcrumPoint Holdings, LLC ("FulcrumPoint," "we," "our," or "us") is committed to protecting your privacy. This Privacy Policy describes how we collect, use, and share information about you when you visit our website or contact us.</p>
 
             <h2>Information We Collect</h2>
-            <p>We may collect information you provide directly to us, including your name, email address, phone number, company name, and any other information you submit through our contact forms or deal submission portal. We also automatically collect certain technical information when you visit our website, including IP address, browser type, pages viewed, and referring URLs.</p>
+            <p>We may collect information you provide directly to us, including your name, email address, phone number, company name, and any other information you submit through our contact forms or deal submission portal.</p>
 
             <h2>How We Use Your Information</h2>
             <p>We use the information we collect to respond to your inquiries, evaluate deal submissions, communicate with you about potential investment partnerships, improve our website, and comply with legal obligations. We do not sell your personal information to third parties.</p>
