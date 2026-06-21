@@ -41,10 +41,6 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
                   style={{ objectFit: 'cover', objectPosition: pos }}
                   sizes="(max-width: 768px) 45vw, 180px"
                 />
-                <div className="fn-photo-popup">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={src} alt={alt} className="fn-photo-full" />
-                </div>
               </div>
             ))}
           </div>

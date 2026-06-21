@@ -5137,35 +5137,13 @@ body {
   overflow: hidden;
   cursor: zoom-in;
   border-radius: 4px;
-  transition: box-shadow 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   z-index: 1;
 }
 .fn-photo-wrap:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-}
-.fn-photo-popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-  background: white;
-  border-radius: 8px;
-  padding: 6px;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
-  pointer-events: none;
-}
-.fn-photo-wrap:hover .fn-photo-popup {
-  display: block;
-}
-.fn-photo-full {
-  display: block;
-  width: 280px;
-  height: auto;
-  max-height: 320px;
-  object-fit: contain;
-  border-radius: 5px;
+  transform: scale(1.55);
+  z-index: 10;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.4);
 }
 @media (max-width: 600px) {
   .fn-photos { grid-template-columns: repeat(2, 1fr); }
