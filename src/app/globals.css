@@ -5129,7 +5129,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin: 24px 0;
-  overflow: hidden;
+  overflow: visible;
 }
 .fn-photo-wrap {
   position: relative;
@@ -5137,14 +5137,14 @@ body {
   overflow: hidden;
   cursor: zoom-in;
   border-radius: 4px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
   z-index: 1;
 }
 /* Edge photos scale inward so hover stays within the grid */
-.fn-photo-wrap:nth-child(1):hover { transform: scale(5); transform-origin: left center;   z-index: 10; box-shadow: 0 8px 24px rgba(0,0,0,0.35); }
-.fn-photo-wrap:nth-child(2):hover { transform: scale(5); transform-origin: center center; z-index: 10; box-shadow: 0 8px 24px rgba(0,0,0,0.35); }
-.fn-photo-wrap:nth-child(3):hover { transform: scale(5); transform-origin: center center; z-index: 10; box-shadow: 0 8px 24px rgba(0,0,0,0.35); }
-.fn-photo-wrap:nth-child(4):hover { transform: scale(5); transform-origin: right center;  z-index: 10; box-shadow: 0 8px 24px rgba(0,0,0,0.35); }
+.fn-photo-wrap:nth-child(1):hover { transform: scale(5); transform-origin: left center;   z-index: 10; }
+.fn-photo-wrap:nth-child(2):hover { transform: scale(5); transform-origin: center center; z-index: 10; }
+.fn-photo-wrap:nth-child(3):hover { transform: scale(5); transform-origin: center center; z-index: 10; }
+.fn-photo-wrap:nth-child(4):hover { transform: scale(5); transform-origin: right center;  z-index: 10; }
 .fn-photo-wrap:hover img {
   object-fit: contain !important;
   object-position: center center !important;
