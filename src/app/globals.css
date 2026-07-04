@@ -5158,8 +5158,10 @@ body {
   z-index: 10;
 }
 .fn-photos .fn-photo-wrap:hover img {
-  transform: scale(1.06) !important;
+  transform: none !important;
   filter: brightness(0.82) saturate(1.05) !important;
+  object-fit: contain !important;
+  object-position: center center !important;
 }
 /* Gradient overlay */
 .fn-photo-overlay {
