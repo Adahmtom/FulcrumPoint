@@ -5124,34 +5124,147 @@ body {
 }
 .fn-body p em { font-style: italic; color: var(--slate); }
 .fn-body p:last-child { margin-bottom: 0; }
+/* ── Photo accordion showcase ── */
 .fn-photos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 8px;
-  margin: 24px 0;
+  margin: 28px 0 10px;
+  height: 210px;
   overflow: visible;
 }
 .fn-photo-wrap {
   position: relative;
-  height: 160px;
+  flex: 1;
+  border-radius: 10px;
   overflow: hidden;
-  cursor: zoom-in;
-  border-radius: 4px;
-  transition: transform 0.3s ease;
+  cursor: pointer;
+  transition: flex 0.65s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 1;
 }
-/* Edge photos scale inward so hover stays within the grid */
-.fn-photo-wrap:nth-child(1):hover { transform: scale(5); transform-origin: center center; z-index: 10; }
-.fn-photo-wrap:nth-child(2):hover { transform: scale(5); transform-origin: center center; z-index: 10; }
-.fn-photo-wrap:nth-child(3):hover { transform: scale(5); transform-origin: center center; z-index: 10; }
-.fn-photo-wrap:nth-child(4):hover { transform: scale(5); transform-origin: center center; z-index: 10; }
-.fn-photo-wrap:hover img {
-  object-fit: contain !important;
-  object-position: center center !important;
+.fn-photo-wrap img {
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease !important;
+  filter: brightness(0.72) saturate(0.85);
+}
+/* Siblings dim when any item is hovered */
+.fn-photos:hover .fn-photo-wrap {
+  flex: 0.45;
+}
+.fn-photos:hover .fn-photo-wrap img {
+  filter: brightness(0.4) saturate(0.55) !important;
+}
+/* Active item expands */
+.fn-photos .fn-photo-wrap:hover {
+  flex: 4;
+  z-index: 10;
+}
+.fn-photos .fn-photo-wrap:hover img {
+  transform: scale(1.06) !important;
+  filter: brightness(0.82) saturate(1.05) !important;
+}
+/* Gradient overlay */
+.fn-photo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 35%, rgba(0,0,0,0.72) 100%);
+  pointer-events: none;
+}
+/* Index badge */
+.fn-photo-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-ui);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.65);
+  transition: background 0.4s ease, border-color 0.4s ease, color 0.4s ease;
+}
+.fn-photo-wrap:hover .fn-photo-badge {
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.32);
+  color: #fff;
+}
+/* Slide-up label */
+.fn-photo-label {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.1s,
+              transform 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.1s;
+}
+.fn-photo-wrap:hover .fn-photo-label {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fn-photo-label-title {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 3px;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fn-photo-label-sub {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  white-space: nowrap;
+}
+/* Explore hint */
+.fn-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: var(--font-ui);
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(78,84,107,0.35);
+}
+.fn-hint-line {
+  width: 28px;
+  height: 1px;
+  background: rgba(78,84,107,0.18);
+  flex-shrink: 0;
+}
+.fn-hint svg { animation: fn-sway 2s ease-in-out infinite; }
+@keyframes fn-sway {
+  0%, 100% { transform: translateX(0); }
+  50%       { transform: translateX(3px); }
 }
 @media (max-width: 600px) {
-  .fn-photos { grid-template-columns: repeat(2, 1fr); }
-  .fn-photo-wrap { height: 120px; }
+  .fn-photos {
+    flex-direction: column;
+    height: auto;
+  }
+  .fn-photo-wrap {
+    height: 120px;
+    border-radius: 8px;
+  }
+  .fn-photos:hover .fn-photo-wrap { flex: 1; }
+  .fn-photos .fn-photo-wrap:hover { flex: 1; height: 240px; }
 }
 .fn-sig {
   margin-top: 36px;
