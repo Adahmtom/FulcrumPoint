@@ -28,11 +28,11 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
           {/* ── 4 photos — accordion expand on hover ── */}
           <div className="fn-photos">
             {[
-              { src: '/images/Photo_2025-11-29_091114.jpg', pos: 'right center', alt: 'Sedar and his father with their classic car restoration project', num: '01', title: 'The Restoration', sub: 'Father & Son'         },
-              { src: '/images/Photo_2025-11-29_091245.jpg', pos: 'center top',   alt: 'Colin Brown proudly displaying his carpentry work',              num: '02', title: 'Journeyman',      sub: 'Colin Brown'          },
-              { src: '/images/Photo_2025-11-29_091609.jpg', pos: 'center top',   alt: 'Father and son working together on a carpentry project',         num: '03', title: 'Craftsmanship',   sub: 'Learning Together'    },
-              { src: '/images/IMG_4929.JPG',                pos: 'center top',   alt: 'Colin Brown at work in his carpentry shop',                     num: '04', title: 'The Workshop',    sub: 'Journeyman Carpenter' },
-            ].map(({ src, pos, alt, num, title, sub }) => (
+              { src: '/images/Photo_2025-11-29_091114.jpg', pos: 'right center', alt: 'Sedar and his father with their classic car restoration project', num: '01' },
+              { src: '/images/Photo_2025-11-29_091245.jpg', pos: 'center top',   alt: 'Colin Brown proudly displaying his carpentry work',              num: '02' },
+              { src: '/images/Photo_2025-11-29_091609.jpg', pos: 'center top',   alt: 'Father and son working together on a carpentry project',         num: '03' },
+              { src: '/images/IMG_4929.JPG',                pos: 'center top',   alt: 'Colin Brown at work in his carpentry shop',                     num: '04' },
+            ].map(({ src, pos, alt, num }) => (
               <div key={src} className="fn-photo-wrap">
                 <Image
                   src={src}
@@ -43,10 +43,6 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
                 />
                 <div className="fn-photo-overlay" aria-hidden="true" />
                 <div className="fn-photo-badge" aria-hidden="true">{num}</div>
-                <div className="fn-photo-label">
-                  <div className="fn-photo-label-title">{title}</div>
-                  <div className="fn-photo-label-sub">{sub}</div>
-                </div>
               </div>
             ))}
           </div>
