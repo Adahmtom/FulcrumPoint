@@ -33,7 +33,11 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
               { src: '/images/Photo_2025-11-29_091609.jpg', pos: 'center top',   alt: 'Father and son working together on a carpentry project',         num: '03' },
               { src: '/images/IMG_4929.JPG',                pos: 'center top',   alt: 'Colin Brown at work in his carpentry shop',                     num: '04' },
             ].map(({ src, pos, alt, num }) => (
-              <div key={src} className="fn-photo-wrap">
+              <div
+                key={src}
+                className="fn-photo-wrap"
+                style={{ '--photo-src': `url(${src})` } as React.CSSProperties}
+              >
                 <Image
                   src={src}
                   alt={alt}
