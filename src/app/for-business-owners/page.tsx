@@ -20,7 +20,7 @@ const pillars = [
   {
     num: '02',
     title: 'Operator-Led from Day One',
-    color: 'var(--slate)',
+    color: 'var(--orange)',
     body: 'We are not financial buyers who learn your business from a spreadsheet. Our team has direct experience running skilled trade organizations — from the field to the financials. We speak your language and earn credibility through competence.',
     bullets: [
       'Leadership team with hands-on trade and operations experience',
@@ -42,7 +42,7 @@ const pillars = [
   {
     num: '04',
     title: 'A 100-Day Value Creation Plan',
-    color: 'var(--slate)',
+    color: 'var(--orange)',
     body: 'Every partnership starts with a structured VCP — a 100-day roadmap developed with you and your management team. It covers technology deployment, reporting infrastructure, sales systems, and workforce development. Structured, but never rigid.',
     bullets: [
       'Co-developed with you — not imposed on you',
@@ -64,7 +64,7 @@ const pillars = [
   {
     num: '06',
     title: 'A Partner Who Gets It',
-    color: 'var(--slate)',
+    color: 'var(--orange)',
     body: 'Private equity has a reputation — and not always a good one. We are building something different. Our model is grounded in respect for what you built, shared accountability for what comes next, and a commitment to showing up the way you deserve.',
     bullets: [
       'Transparent communication at every stage',
@@ -94,7 +94,7 @@ export default function ForBusinessOwnersPage() {
         />
         <div className="fbo-hero-overlay" />
         <div className="fbo-hero-content">
-          <div className="eyebrow anim-up" style={{ color: 'rgba(255,255,255,0.5)' }}>For Business Owners</div>
+          <div className="eyebrow anim-up">For Business Owners</div>
           <h1 className="fbo-hero-headline anim-up delay-1">
             You built something<br />worth protecting.
           </h1>
@@ -103,14 +103,6 @@ export default function ForBusinessOwnersPage() {
             more than a check — owners who want their legacy honored, their people taken
             care of, and their company positioned to thrive for the next generation.
           </p>
-          <div className="fbo-hero-actions anim-up delay-3">
-            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Start a Conversation
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
-          </div>
         </div>
       </section>
 
@@ -197,19 +189,13 @@ export default function ForBusinessOwnersPage() {
               to hear from you.
             </p>
             <ul className="fbo-criteria-list">
-              <li>$5M – $75M in annual revenue</li>
-              <li>$1M – $10M in EBITDA</li>
+              <li>$2M – $15M in annual revenue</li>
+              <li>$500K – $3M in EBITDA</li>
               <li>HVAC, electrical, plumbing, commercial construction, or industrial trades</li>
               <li>Located in Arizona</li>
               <li>5+ years of operating history</li>
               <li>Owner considering transition, exit, or growth partnership</li>
             </ul>
-            <a href={SELLER_FORM} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: '32px', display: 'inline-flex' }}>
-              Start a Conversation
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
           </div>
           <AnimatedGeoBlock className="fbo-criteria-geo" />
         </div>

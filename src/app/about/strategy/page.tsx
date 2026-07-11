@@ -29,8 +29,8 @@ const pillars = [
 ];
 
 const criteria = [
-  { label: 'Revenue',         value: '$5M – $75M' },
-  { label: 'EBITDA',          value: '$1M – $10M' },
+  { label: 'Revenue',         value: '$2M – $15M' },
+  { label: 'EBITDA',          value: '$500K – $3M' },
   { label: 'EBITDA Margin',   value: '10%+ preferred' },
   { label: 'Hold Period',     value: '5 – 7 years' },
   { label: 'Geography',       value: 'Arizona' },
@@ -94,7 +94,7 @@ export default function StrategyPage() {
         />
         <div className="strat-hero-overlay" />
         <div className="strat-hero-content">
-          <div className="eyebrow anim-up" style={{ color: 'rgba(255,255,255,0.5)' }}>
+          <div className="eyebrow anim-up">
             Our Investment Strategy
           </div>
           <h1 className="strat-hero-headline anim-up delay-1">
@@ -309,7 +309,7 @@ export default function StrategyPage() {
             <div className="eyebrow">Our Strategy</div>
           </div>
           <div className="strat-overview-right">
-            <blockquote className="strat-statement">
+            <blockquote className="strat-statement" style={{ color: '#3a3f25' }}>
               We invest in skilled trade businesses with strong foundations and untapped potential, partnering with founders and management teams to build stronger companies and create lasting value for all stakeholders.
             </blockquote>
             <p className="strat-statement-sub">
@@ -358,9 +358,9 @@ export default function StrategyPage() {
       {/* ─── HOW WE INVEST — 4 pillars ───────────────────────────── */}
       <section className="strat-pillars">
         <div className="strat-pillars-inner">
-          <div className="strat-pillars-header">
+          <div className="strat-pillars-header strat-pillars-header--left">
             <div className="eyebrow">How We Invest</div>
-            <h2 className="strat-pillars-headline">Our operating playbook</h2>
+            <h2 className="strat-pillars-headline" style={{ color: '#3a3f25' }}>Our operating playbook</h2>
             <p className="strat-pillars-sub">
               A repeatable, four-pillar framework refined across every acquisition.
             </p>
@@ -391,7 +391,7 @@ export default function StrategyPage() {
           </div>
           <div className="strat-criteria-content">
             <div className="eyebrow">Target Profile</div>
-            <h2 className="strat-criteria-headline">Investment criteria</h2>
+            <h2 className="strat-criteria-headline" style={{ color: '#3a3f25' }}>Investment criteria</h2>
             <p className="strat-criteria-sub">
               We are disciplined but flexible. The parameters below represent our primary
               focus — we will consider outliers where the qualitative factors are compelling.

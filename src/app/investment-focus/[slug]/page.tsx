@@ -13,7 +13,7 @@ const sectors: Record<string, {
 }> = {
   hvac: {
     label: 'HVAC & Cooling Systems',
-    stat: '$22B+',
+    stat: '$4.3B+',
     tagline: 'Mission-critical comfort infrastructure for the growing Arizona market.',
     body: [
       'HVAC service and installation is a non-discretionary expenditure for homeowners and commercial tenants alike. In Arizona, where summer temperatures regularly exceed 110°F, functional cooling is not a luxury — it is a life-safety issue. This creates a demand floor that persists through economic cycles.',
@@ -36,7 +36,7 @@ const sectors: Record<string, {
   },
   electrical: {
     label: 'Electrical',
-    stat: '$220B+',
+    stat: '$8.9B+',
     tagline: 'The backbone of every building, every data center, every EV corridor.',
     body: [
       'Electrical contracting is the largest and most structurally complex of the skilled trades sectors FulcrumPoint targets. The scope of work ranges from residential panel upgrades to commercial tenant improvements to industrial power distribution — all of which are experiencing simultaneous tailwinds from electrification, data center construction, and EV infrastructure buildout.',
@@ -59,7 +59,7 @@ const sectors: Record<string, {
   },
   plumbing: {
     label: 'Plumbing',
-    stat: '$130B+',
+    stat: '$4.6B+',
     tagline: 'Essential infrastructure in every structure, with durable recurring demand.',
     body: [
       'Plumbing services represent one of the most resilient categories in the skilled trades universe. Unlike renovation or discretionary remodeling, plumbing repairs, drain services, and emergency calls are driven by necessity — no homeowner or building owner delays a pipe burst or sewage backup.',
@@ -82,10 +82,10 @@ const sectors: Record<string, {
   },
   construction: {
     label: 'Commercial Construction',
-    stat: '$1.8T+',
+    stat: '$8.4B+',
     tagline: 'The build-out of America\'s fastest-growing commercial markets.',
     body: [
-      'Commercial construction in the Sun Belt and Southeast is experiencing a generational expansion. Data centers, logistics warehouses, medical facilities, light industrial, and mixed-use developments are all being built at a pace that outstrips the capacity of legacy regional contractors. The contractors positioned to capture this growth are those with strong subcontractor networks, experienced project management teams, and the financial stability to bond large projects.',
+      'Commercial construction in Arizona is experiencing a generational expansion. Data centers, logistics warehouses, medical facilities, light industrial, and mixed-use developments are all being built at a pace that outstrips the capacity of legacy regional contractors. The contractors positioned to capture this growth are those with strong subcontractor networks, experienced project management teams, and the financial stability to bond large projects.',
       'FulcrumPoint focuses on specialty commercial subcontractors and general contractors in the $10M–$100M revenue range — businesses too large for small-business lenders but too specialized for generalist PE firms to understand. These companies typically have deep customer relationships with national developers and REITs, repeat business relationships, and strong backlogs.',
       'Our operating team brings direct construction management experience, which allows us to evaluate project risk, assess management depth, and identify operational improvements that drive margin expansion without compromising project quality.',
     ],
@@ -105,7 +105,7 @@ const sectors: Record<string, {
   },
   industrial: {
     label: 'Industrial Trades',
-    stat: '$480B+',
+    stat: '$7B+',
     tagline: 'Specialized maintenance and services for the industrial infrastructure economy.',
     body: [
       'Industrial trades encompass a broad spectrum of specialized services: mechanical insulation, industrial piping, process equipment maintenance, millwright services, and specialty welding and fabrication. These businesses serve refineries, chemical plants, food processing facilities, water treatment infrastructure, and manufacturing operations — customers with non-discretionary maintenance spend driven by regulatory compliance, safety requirements, and operational uptime.',
@@ -273,12 +273,6 @@ export default async function InvestmentFocusDetailPage({
                     </div>
                   ))}
                 </div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                  Seller Intake Form
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -286,12 +280,6 @@ export default async function InvestmentFocusDetailPage({
 
         <section className="sector-detail-back">
           <div className="sector-detail-back-inner">
-            <Link href="/investment-focus" className="sector-detail-back-link">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M12 7H2M7 2L2 7l5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-              All Sectors
-            </Link>
             <div className="sector-detail-nav-sectors">
               {Object.entries(sectors)
                 .filter(([s]) => s !== slug)

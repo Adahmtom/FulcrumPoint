@@ -85,7 +85,7 @@ export default function InvestmentFocusPage() {
         />
         <div className="if-hero-overlay" />
         <div className="if-hero-content">
-          <div className="eyebrow anim-up" style={{ color: 'rgba(255,255,255,0.5)' }}>Investment Focus</div>
+          <div className="eyebrow anim-up">Investment Focus</div>
           <h1 className="if-hero-headline anim-up delay-1">
             Where we invest.<br />How we create value.
           </h1>
@@ -95,12 +95,6 @@ export default function InvestmentFocusPage() {
             for operator-led capital.
           </p>
           <div className="if-hero-actions anim-up delay-3">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Seller Intake Form
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
             <Link href="#sectors" className="if-hero-scroll">
               Explore sectors
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

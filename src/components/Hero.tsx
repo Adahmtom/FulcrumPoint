@@ -98,16 +98,6 @@ export default function Hero() {
           <p className="hero-sub anim-up delay-3">
             FulcrumPoint Holdings partners with skilled trade business owners who have built something worth preserving. Through disciplined add-on acquisitions, operational support, and a long&#8209;term growth mindset, we help strong local companies unlock their next stage of performance while protecting the legacy, people, and reputation behind them.
           </p>
-          <div className="hero-actions anim-up delay-4">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Seller Intake Form
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5"
-                  strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Xtk8oq0N4Q0u4ZCpROnY3tIGiuhZV_t9pi87fbpJmP2_3Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-outline">Investor Contact Form</a>
-          </div>
         </div>
       </div>
 

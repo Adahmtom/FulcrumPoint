@@ -271,9 +271,9 @@ export function MissionSection() {
 /* ─── Criteria / Stats section ─── */
 export function CriteriaSection() {
   const stats = [
-    { val: '$1M–$10M', label: 'EBITDA Target Range' },
-    { val: '$5M–$50M', label: 'Revenue Sweet Spot' },
-    { val: '2–5×', label: 'Target MOIC' },
+    { val: '$2M–$15M', label: 'EBITDA Target Range' },
+    { val: '$500K–$3M', label: 'Revenue Sweet Spot' },
+    { val: '4×–5×', label: 'Target MOIC' },
     { val: '5–7 yr', label: 'Hold Period' },
   ];
   const criteria = [
@@ -307,13 +307,12 @@ export function CriteriaSection() {
           ))}
         </div>
         <div className="criteria-cta">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZMfgkjkbdoN6393uE_28EP_i-w_lPgRpLfLhYYwt80PkKXA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Seller Intake Form
+          <Link href="/about/strategy" className="btn-primary">
+            View Full Criteria
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-          </a>
-          <Link href="/about/strategy" className="btn-outline">View Full Criteria</Link>
+          </Link>
         </div>
       </div>
     </section>
@@ -323,11 +322,11 @@ export function CriteriaSection() {
 /* ─── Sector cards ─── */
 export function SectorsSection() {
   const sectors = [
-    { slug: 'hvac',         label: 'HVAC & Cooling',          desc: 'Residential and commercial HVAC installation, service, and replacement with strong recurring maintenance revenue.',                                           stat: '$22B+',  statLbl: 'Market size',    color: '#EC8647' },
-    { slug: 'electrical',   label: 'Electrical',               desc: 'Licensed electrical contractors serving residential, commercial, and industrial customers across growing metros.',                                            stat: '$220B+', statLbl: 'Market size',    color: '#4E546B' },
-    { slug: 'plumbing',     label: 'Plumbing',                 desc: 'Plumbing service, repair, and installation businesses with high repeat-customer rates and essential service positioning.',                                    stat: '$130B+', statLbl: 'Market size',    color: '#b8bdd0' },
-    { slug: 'construction', label: 'Commercial Construction',  desc: 'Specialty subcontractors and general contractors focused on light commercial and industrial build-out.',                                                      stat: '$1.8T+', statLbl: 'Industry output', color: '#EC8647' },
-    { slug: 'industrial',   label: 'Industrial Trades',        desc: 'Industrial maintenance, repair, and operations (MRO) service providers supporting manufacturing and logistics facilities.',                                   stat: '$480B+', statLbl: 'MRO market',     color: '#4E546B' },
+    { slug: 'hvac',         label: 'HVAC & Cooling',          desc: 'Residential and commercial HVAC installation, service, and replacement with strong recurring maintenance revenue.',                                           stat: '$4.3B+', statLbl: 'Market size',    color: '#EC8647' },
+    { slug: 'electrical',   label: 'Electrical',               desc: 'Licensed electrical contractors serving residential, commercial, and industrial customers across growing metros.',                                            stat: '$8.9B+', statLbl: 'Market size',    color: '#4E546B' },
+    { slug: 'plumbing',     label: 'Plumbing',                 desc: 'Plumbing service, repair, and installation businesses with high repeat-customer rates and essential service positioning.',                                    stat: '$4.6B+', statLbl: 'Market size',    color: '#b8bdd0' },
+    { slug: 'construction', label: 'Commercial Construction',  desc: 'Specialty subcontractors and general contractors focused on light commercial and industrial build-out.',                                                      stat: '$8.4B+', statLbl: 'Industry output', color: '#EC8647' },
+    { slug: 'industrial',   label: 'Industrial Trades',        desc: 'Industrial maintenance, repair, and operations (MRO) service providers supporting manufacturing and logistics facilities.',                                   stat: '$7B+',   statLbl: 'MRO market',     color: '#4E546B' },
   ];
   return (
     <section className="sectors-section">
@@ -377,6 +376,10 @@ export function CtaSection() {
     const onScroll = () => {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
+        if (window.innerWidth <= 900) {
+          headline.style.transform = '';
+          return;
+        }
         const rect = section.getBoundingClientRect();
         const vh = window.innerHeight;
         const progress = Math.max(0, Math.min(1, (vh - rect.top) / (rect.height + vh)));
@@ -406,7 +409,7 @@ export function CtaSection() {
           </h2>
         </div>
         <div className="cta-body-wrapper">
-          <div className="eyebrow" style={{ color: 'rgba(255,255,255,0.45)' }}>
+          <div className="eyebrow">
             Get Started
           </div>
           <p className="cta-sub">
