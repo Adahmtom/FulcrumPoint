@@ -7,6 +7,12 @@ import Link from 'next/link';
 
 /* ─── Founder's Note Modal ───────────────────────────────────────────────── */
 function FoundersNoteModal({ onClose }: { onClose: () => void }) {
+  const [activePhotoIdx, setActivePhotoIdx] = useState<number | null>(null);
+
+  function handlePhotoClick(idx: number) {
+    setActivePhotoIdx(activePhotoIdx === idx ? null : idx);
+  }
+
   return (
     <div className="fn-overlay" onClick={onClose} role="dialog" aria-modal="true" aria-label="Founder's Note">
       <div className="fn-modal" onClick={(e) => e.stopPropagation()}>
@@ -25,25 +31,26 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
             My own story is a testament to how the skilled trades shape not just careers, but destinies. My father, Colin Brown, started out as a forklift driver at the Goodyear Tire and Rubber Plant in Topeka, Kansas. Driven by a vision for a brighter future and a better life for his family, he broke barriers in 1976 by becoming the first African-American to enter the Kansas Carpenters&apos; Apprenticeship Program, earning his certification in 1979. His journey took our family to Sacramento, where he spent nearly three decades as a proud Journeyman Carpenter at California State University. Through his example, my father taught us that true success is measured not only by what you achieve, but also by the integrity of your work and the hands-on pride you pass down to the next generation. The hours my brother and I spent in the garage with him, learning carpentry, restoring classic cars, and sharing stories, were more than lessons in skill. They were lessons in perseverance, character, and the joy of building something lasting.
           </p>
 
-          {/* ── 4 photos — accordion expand on hover ── */}
+          {/* ── 4 photos — accordion expand on hover (desktop) or tap (mobile) ── */}
           <div className="fn-photos">
             {[
               { src: '/images/Photo_2025-11-29_091114.jpg', pos: 'right center', alt: 'Sedar and his father with their classic car restoration project', num: '01' },
               { src: '/images/Photo_2025-11-29_091245.jpg', pos: 'center top',   alt: 'Colin Brown proudly displaying his carpentry work',              num: '02' },
               { src: '/images/Photo_2025-11-29_091609.jpg', pos: 'center top',   alt: 'Father and son working together on a carpentry project',         num: '03' },
               { src: '/images/IMG_4929.JPG',                pos: 'center top',   alt: 'Colin Brown at work in his carpentry shop',                     num: '04' },
-            ].map(({ src, pos, alt, num }) => (
+            ].map(({ src, pos, alt, num }, idx) => (
               <div
                 key={src}
-                className="fn-photo-wrap"
+                className={`fn-photo-wrap${activePhotoIdx === idx ? ' fn-photo-wrap--active' : ''}`}
                 style={{ '--photo-src': `url(${src})` } as React.CSSProperties}
+                onClick={() => handlePhotoClick(idx)}
               >
                 <Image
                   src={src}
                   alt={alt}
                   fill
                   style={{ objectFit: 'cover', objectPosition: pos }}
-                  sizes="(max-width: 600px) 80vw, 240px"
+                  sizes="(max-width: 600px) calc(100vw - 40px), 350px"
                 />
                 <div className="fn-photo-overlay" aria-hidden="true" />
                 <div className="fn-photo-badge" aria-hidden="true">{num}</div>
@@ -52,7 +59,8 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
           </div>
           <div className="fn-hint" aria-hidden="true">
             <span className="fn-hint-line" />
-            <span>Hover to explore</span>
+            <span className="fn-hint-hover">Hover to explore</span>
+            <span className="fn-hint-tap">Tap to explore</span>
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>

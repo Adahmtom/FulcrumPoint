@@ -5164,7 +5164,9 @@ body {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
-.fn-photos .fn-photo-wrap:hover::before {
+/* Blurred bg on hover or tap */
+.fn-photos .fn-photo-wrap:hover::before,
+.fn-photos .fn-photo-wrap--active::before {
   opacity: 1;
 }
 .fn-photo-wrap img {
@@ -5173,19 +5175,23 @@ body {
   z-index: 1;
   position: relative;
 }
-/* Siblings dim when any item is hovered */
-.fn-photos:hover .fn-photo-wrap {
+/* Non-active siblings dim on hover / tap — excludes the active/hovered item to avoid specificity conflicts */
+.fn-photos:hover .fn-photo-wrap:not(:hover),
+.fn-photos:has(.fn-photo-wrap--active) .fn-photo-wrap:not(.fn-photo-wrap--active) {
   flex: 0.45;
 }
-.fn-photos:hover .fn-photo-wrap img {
+.fn-photos:hover .fn-photo-wrap:not(:hover) img,
+.fn-photos:has(.fn-photo-wrap--active) .fn-photo-wrap:not(.fn-photo-wrap--active) img {
   filter: brightness(0.4) saturate(0.55) !important;
 }
-/* Active item expands */
-.fn-photos .fn-photo-wrap:hover {
+/* Active item expands (hover or tap) */
+.fn-photos .fn-photo-wrap:hover,
+.fn-photos .fn-photo-wrap--active {
   flex: 4;
   z-index: 10;
 }
-.fn-photos .fn-photo-wrap:hover img {
+.fn-photos .fn-photo-wrap:hover img,
+.fn-photos .fn-photo-wrap--active img {
   filter: brightness(0.9) saturate(1.05) !important;
   object-fit: contain !important;
   object-position: center center !important;
@@ -5218,7 +5224,8 @@ body {
   color: rgba(255,255,255,0.65);
   transition: background 0.4s ease, border-color 0.4s ease, color 0.4s ease;
 }
-.fn-photo-wrap:hover .fn-photo-badge {
+.fn-photo-wrap:hover .fn-photo-badge,
+.fn-photo-wrap--active .fn-photo-badge {
   background: rgba(255,255,255,0.2);
   border-color: rgba(255,255,255,0.32);
   color: #fff;
@@ -5248,17 +5255,41 @@ body {
   0%, 100% { transform: translateX(0); }
   50%       { transform: translateX(3px); }
 }
+/* "Tap" hint hidden on desktop, shown on mobile */
+.fn-hint-tap { display: none; }
+/* Tablet: taller photos, reduced modal padding */
+@media (max-width: 900px) {
+  .fn-modal { padding: 48px 36px 40px; }
+  .fn-photos { height: 185px; }
+}
+/* Mobile: vertical stack with height-based expand */
 @media (max-width: 600px) {
+  .fn-modal { padding: 40px 20px 32px; max-height: 95vh; }
+  .fn-headline { font-size: clamp(22px, 7vw, 32px); }
+  .fn-body p { font-size: 14px; }
   .fn-photos {
     flex-direction: column;
     height: auto;
+    gap: 6px;
   }
   .fn-photo-wrap {
-    height: 120px;
+    height: 130px;
     border-radius: 8px;
+    flex: none;
+    transition: height 0.55s cubic-bezier(0.22, 1, 0.36, 1);
   }
-  .fn-photos:hover .fn-photo-wrap { flex: 1; }
-  .fn-photos .fn-photo-wrap:hover { flex: 1; height: 240px; }
+  /* Reset flex-based shrink — column mode drives size via height only */
+  .fn-photos:hover .fn-photo-wrap:not(:hover),
+  .fn-photos:has(.fn-photo-wrap--active) .fn-photo-wrap:not(.fn-photo-wrap--active) {
+    flex: none;
+  }
+  .fn-photos .fn-photo-wrap:hover,
+  .fn-photos .fn-photo-wrap--active {
+    flex: none;
+    height: 260px;
+  }
+  .fn-hint-hover { display: none; }
+  .fn-hint-tap { display: inline; }
 }
 .fn-sig {
   margin-top: 36px;
