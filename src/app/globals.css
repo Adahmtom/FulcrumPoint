@@ -771,6 +771,7 @@ body {
   color: var(--slate-dark);
   line-height: 1;
   margin-bottom: 8px;
+  white-space: nowrap;
 }
 .criteria-stat-lbl {
   font-size: 11px;
@@ -2562,7 +2563,10 @@ body {
 }
 .strat-pillars-header--left {
   grid-template-columns: 1fr;
+  gap: 12px;
 }
+.strat-pillars-header--left .eyebrow { margin-bottom: 0; }
+.strat-pillars-header--left .strat-pillars-headline { margin-top: 0; }
 .strat-pillars-headline {
   font-family: var(--font-display);
   font-size: clamp(32px, 3.5vw, 52px);
