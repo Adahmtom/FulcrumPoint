@@ -5152,18 +5152,6 @@ body {
   z-index: 1;
   background: #e8e1d4;
 }
-/* Blurred image background fills letterbox areas — always present, covered by cover-image at rest */
-.fn-photo-wrap::before {
-  content: '';
-  position: absolute;
-  inset: -30px;
-  background-image: var(--photo-src);
-  background-size: cover;
-  background-position: center;
-  filter: blur(20px) brightness(0.85) saturate(0.75);
-  z-index: 0;
-  opacity: 1;
-}
 .fn-photo-wrap img {
   transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease !important;
   filter: brightness(0.72) saturate(0.85);
