@@ -5252,7 +5252,10 @@ body {
 /* Tablet: taller photos, reduced modal padding */
 @media (max-width: 900px) {
   .fn-modal { padding: 48px 36px 40px; }
-  .fn-photos { height: 185px; }
+  /* Height lives on each wrap (not the container) so aspect-ratio can grow freely */
+  .fn-photo-wrap { height: 185px; }
+  .fn-photos .fn-photo-wrap:hover,
+  .fn-photos .fn-photo-wrap--active { min-height: 185px; }
 }
 /* Mobile: vertical stack with height-based expand */
 @media (max-width: 600px) {
@@ -5263,6 +5266,7 @@ body {
     flex-direction: column;
     height: auto;
     gap: 6px;
+    align-items: stretch; /* reset desktop flex-end — photos fill full width in column mode */
   }
   .fn-photo-wrap {
     height: 130px;
@@ -5279,6 +5283,8 @@ body {
   .fn-photos .fn-photo-wrap--active {
     flex: none;
     height: 260px;
+    aspect-ratio: auto;  /* reset desktop aspect-ratio — mobile expands by height only */
+    min-height: auto;    /* reset desktop min-height */
   }
   .fn-hint-hover { display: none; }
   .fn-hint-tap { display: inline; }
