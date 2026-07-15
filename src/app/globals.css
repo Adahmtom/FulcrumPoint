@@ -5139,16 +5139,17 @@ body {
   display: flex;
   gap: 8px;
   margin: 28px 0 10px;
-  height: 210px;
   overflow: visible;
+  align-items: flex-end;
 }
 .fn-photo-wrap {
   position: relative;
   flex: 1;
+  height: 210px;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  transition: flex 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: flex 0.65s cubic-bezier(0.22, 1, 0.36, 1), height 0.65s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 1;
   background: #e8e1d4;
 }
@@ -5167,16 +5168,19 @@ body {
 .fn-photos:has(.fn-photo-wrap--active) .fn-photo-wrap:not(.fn-photo-wrap--active) img {
   filter: brightness(0.4) saturate(0.55) !important;
 }
-/* Active item expands (hover or tap) */
+/* Active item expands to exact image proportions (4000×2828) */
 .fn-photos .fn-photo-wrap:hover,
 .fn-photos .fn-photo-wrap--active {
   flex: 4;
   z-index: 10;
+  height: auto;
+  min-height: 210px;
+  aspect-ratio: 4000 / 2828;
 }
 .fn-photos .fn-photo-wrap:hover img,
 .fn-photos .fn-photo-wrap--active img {
   filter: brightness(0.9) saturate(1.05) !important;
-  object-fit: contain !important;
+  object-fit: cover !important;
   object-position: center center !important;
 }
 /* Gradient overlay */
