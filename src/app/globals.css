@@ -5150,8 +5150,9 @@ body {
   cursor: pointer;
   transition: flex 0.65s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 1;
+  background: #e8e1d4;
 }
-/* Blurred image background fills letterbox areas on hover */
+/* Blurred image background fills letterbox areas — always present, covered by cover-image at rest */
 .fn-photo-wrap::before {
   content: '';
   position: absolute;
@@ -5159,14 +5160,8 @@ body {
   background-image: var(--photo-src);
   background-size: cover;
   background-position: center;
-  filter: blur(24px) brightness(0.45) saturate(0.6);
+  filter: blur(20px) brightness(0.85) saturate(0.75);
   z-index: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-/* Blurred bg on hover or tap */
-.fn-photos .fn-photo-wrap:hover::before,
-.fn-photos .fn-photo-wrap--active::before {
   opacity: 1;
 }
 .fn-photo-wrap img {
@@ -5202,6 +5197,11 @@ body {
   inset: 0;
   background: linear-gradient(180deg, transparent 35%, rgba(0,0,0,0.72) 100%);
   pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+.fn-photos .fn-photo-wrap:hover .fn-photo-overlay,
+.fn-photos .fn-photo-wrap--active .fn-photo-overlay {
+  opacity: 0;
 }
 /* Index badge */
 .fn-photo-badge {
