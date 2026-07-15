@@ -34,21 +34,22 @@ function FoundersNoteModal({ onClose }: { onClose: () => void }) {
           {/* ── 4 photos — accordion expand on hover (desktop) or tap (mobile) ── */}
           <div className="fn-photos">
             {[
-              { src: '/images/Photo_2025-11-29_091114.jpg', pos: 'right center', alt: 'Sedar and his father with their classic car restoration project', num: '01' },
-              { src: '/images/Photo_2025-11-29_091245.jpg', pos: 'center top',   alt: 'Colin Brown proudly displaying his carpentry work',              num: '02' },
-              { src: '/images/Photo_2025-11-29_091609.jpg', pos: 'center top',   alt: 'Father and son working together on a carpentry project',         num: '03' },
-              { src: '/images/IMG_4929.JPG',                pos: 'center top',   alt: 'Colin Brown at work in his carpentry shop',                     num: '04' },
+              { src: '/images/fn-photo-1.png', pos: 'right center', alt: 'Sedar and his father with their classic car restoration project', num: '01' },
+              { src: '/images/fn-photo-2.png', pos: 'center top',   alt: 'Colin Brown proudly displaying his carpentry work',              num: '02' },
+              { src: '/images/fn-photo-3.png', pos: 'center top',   alt: 'Father and son working together on a carpentry project',         num: '03' },
+              { src: '/images/fn-photo-4.png', pos: 'center top',   alt: 'Colin Brown at work in his carpentry shop',                     num: '04' },
             ].map(({ src, pos, alt, num }, idx) => (
               <div
                 key={src}
                 className={`fn-photo-wrap${activePhotoIdx === idx ? ' fn-photo-wrap--active' : ''}`}
                 style={{ '--photo-src': `url(${src})` } as React.CSSProperties}
-                onClick={() => handlePhotoClick(idx)}
+                onPointerUp={(e) => { if (e.pointerType === 'touch') handlePhotoClick(idx); }}
               >
                 <Image
                   src={src}
                   alt={alt}
                   fill
+                  loading="eager"
                   style={{ objectFit: 'cover', objectPosition: pos }}
                   sizes="(max-width: 600px) calc(100vw - 40px), 350px"
                 />
