@@ -18,7 +18,7 @@ const pillars = [
   },
   {
     num: '03',
-    title: '100-Day Value Creation Plan (VCP)',
+    title: '100-Day Value Creation Plan (VCP)',
     body: 'Our VCP playbook fast-tracks value across four critical fronts: working capital preservation, predictable service revenue, digitized field operations, and strategic talent recruiting.',
   },
   {
