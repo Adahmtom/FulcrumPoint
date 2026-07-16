@@ -6,7 +6,7 @@ const coreValues = [
   {
     icon: '◈',
     title: 'Integrity above all',
-    body: 'We do what we say and say what we do. Every founder, management team, and investor can rely on our word.',
+    body: 'We align our actions with our words. Every founder, management team, and investor can rely on what we say, because they can see it in what we do.',
   },
   {
     icon: '◈',

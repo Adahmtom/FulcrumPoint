@@ -283,7 +283,6 @@ export default async function InvestmentFocusDetailPage({
             <div className="sector-detail-nav-sectors">
               {Object.entries(sectors)
                 .filter(([s]) => s !== slug)
-                .slice(0, 3)
                 .map(([s, data]) => (
                   <Link key={s} href={`/investment-focus/${s}`} className="sector-detail-nav-pill">
                     {data.label}

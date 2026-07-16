@@ -6,11 +6,11 @@ import Link from 'next/link';
 import { CtaSection } from '@/components/HomeSections';
 
 const sectors = [
-  { slug: 'hvac',         label: 'HVAC & Cooling Systems',  stat: '$22B+',   desc: 'Non-discretionary demand driven by Sun Belt climate — the strongest demand floor in skilled trades.' },
-  { slug: 'electrical',   label: 'Electrical',               stat: '$220B+',  desc: 'Electrification, EV corridors, and data-center buildout are driving a once-in-a-generation investment cycle.' },
-  { slug: 'plumbing',     label: 'Plumbing',                 stat: '$130B+',  desc: 'Essential infrastructure with recurring service-call economics and a new-construction tailwind in core markets.' },
-  { slug: 'construction', label: 'Commercial Construction',  stat: '$1.8T+',  desc: 'Data centers, logistics, and mixed-use development are outpacing legacy contractor capacity across the Sun Belt.' },
-  { slug: 'industrial',   label: 'Industrial Trades',        stat: '$480B+',  desc: 'Regulatory compliance and manufacturing reshoring create durable, non-discretionary maintenance spend.' },
+  { slug: 'hvac',         label: 'HVAC & Cooling Systems',  stat: '$4.3B+',  desc: 'Non-discretionary demand driven by Arizona climate — the strongest demand floor in skilled trades.' },
+  { slug: 'electrical',   label: 'Electrical',               stat: '$8.9B+',  desc: 'Electrification, EV corridors, and data-center buildout are driving a once-in-a-generation investment cycle.' },
+  { slug: 'plumbing',     label: 'Plumbing',                 stat: '$4.6B+',  desc: 'Essential infrastructure with recurring service-call economics and a new-construction tailwind in core markets.' },
+  { slug: 'construction', label: 'Commercial Construction',  stat: '$8.4B+',  desc: 'Data centers, logistics, and mixed-use development are outpacing legacy contractor capacity in Arizona.' },
+  { slug: 'industrial',   label: 'Industrial Trades',        stat: '$7B+',    desc: 'Regulatory compliance and manufacturing reshoring create durable, non-discretionary maintenance spend.' },
 ];
 
 const approach = [

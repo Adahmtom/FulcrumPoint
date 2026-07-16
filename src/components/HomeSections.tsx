@@ -279,7 +279,7 @@ export function CriteriaSection() {
   const criteria = [
     { icon: '◆', title: 'Recurring Revenue', body: 'Service contracts, maintenance agreements, and repeat residential or commercial relationships.' },
     { icon: '◆', title: 'Operator-Owned', body: 'Founder or family-operated businesses with deep customer loyalty and untapped scalability.' },
-    { icon: '◆', title: 'Essential Services', body: 'Non-discretionary trades that remain in demand regardless of economic cycles.' },
+    { icon: '◆', title: 'Essential Services', body: 'Non-discretionary skilled trade businesses that remain in demand regardless of economic cycles.' },
     { icon: '◆', title: 'Geographic Density', body: 'Currently operating in Arizona, with plans to expand into additional high-growth markets in the future.' },
   ];
   return (
@@ -325,7 +325,7 @@ export function SectorsSection() {
     { slug: 'hvac',         label: 'HVAC & Cooling',          desc: 'Residential and commercial HVAC installation, service, and replacement with strong recurring maintenance revenue.',                                           stat: '$4.3B+', statLbl: 'Market size',    color: '#EC8647' },
     { slug: 'electrical',   label: 'Electrical',               desc: 'Licensed electrical contractors serving residential, commercial, and industrial customers across growing metros.',                                            stat: '$8.9B+', statLbl: 'Market size',    color: '#4E546B' },
     { slug: 'plumbing',     label: 'Plumbing',                 desc: 'Plumbing service, repair, and installation businesses with high repeat-customer rates and essential service positioning.',                                    stat: '$4.6B+', statLbl: 'Market size',    color: '#b8bdd0' },
-    { slug: 'construction', label: 'Commercial Construction',  desc: 'Specialty subcontractors and general contractors focused on light commercial and industrial build-out.',                                                      stat: '$8.4B+', statLbl: 'Industry output', color: '#EC8647' },
+    { slug: 'construction', label: 'Commercial Construction',  desc: 'Specialty subcontractors and general contractors focused on light commercial and industrial builds.',                                                      stat: '$8.4B+', statLbl: 'Industry output', color: '#EC8647' },
     { slug: 'industrial',   label: 'Industrial Trades',        desc: 'Industrial maintenance, repair, and operations (MRO) service providers supporting manufacturing and logistics facilities.',                                   stat: '$7B+',   statLbl: 'MRO market',     color: '#4E546B' },
   ];
   return (

@@ -14,12 +14,12 @@ const pillars = [
   {
     num: '02',
     title: 'Partnership Over Control',
-    body: 'We partner with existing leadership teams, retaining founders where desired and building a shared roadmap. Our management equity programs ensure key operators are meaningfully aligned with outcome.',
+    body: 'We partner with existing leadership teams, retaining founders where desired and building a shared roadmap. Our management equity programs ensure key operators are meaningfully aligned with outcomes.',
   },
   {
     num: '03',
     title: '100-Day Value Creation Plan (VCP)',
-    body: 'Every new portfolio company follows a structured 100-Day VCP covering technology, reporting, sales, and the first add-on pipeline — accelerating value creation while minimizing disruption.',
+    body: 'Our VCP playbook fast-tracks value across four critical fronts: working capital preservation, predictable service revenue, digitized field operations, and strategic talent recruiting.',
   },
   {
     num: '04',
@@ -119,8 +119,8 @@ export default function StrategyPage() {
             </blockquote>
             <p className="invest-philosophy-body">
               We partner with business owners seeking both liquidity today and meaningful
-              participation in future growth. By acquiring a majority stake while allowing
-              founders to retain a minority equity position, we provide the resources and
+              participation in future growth. By acquiring a majority stake while founders
+              retain a minority equity position, we provide the resources and
               strategic operator-led support needed to scale the business and unlock its next
               phase of value. This approach enables owners to realize partial liquidity, remain
               actively engaged in driving performance, and ultimately capture greater value

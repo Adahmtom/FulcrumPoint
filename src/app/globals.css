@@ -818,7 +818,7 @@ body {
 /* ─── SECTORS SECTION ─── */
 .sectors-section {
   background: var(--near-white);
-  padding: 64px 0;
+  padding: 48px 0;
   border-top: 1px solid var(--mid-gray);
 }
 .sectors-inner {
@@ -1998,7 +1998,7 @@ body {
 .about-story-link:hover { color: var(--orange); border-color: var(--orange); }
 .about-values {
   background: var(--light-gray);
-  padding: 64px 0 96px;
+  padding: 40px 0 96px;
   border-bottom: 1px solid var(--mid-gray);
 }
 .about-values-inner {
@@ -2809,7 +2809,7 @@ body {
 /* Core values grid */
 .vm-values {
   background: var(--light-gray);
-  padding: 64px 0 96px;
+  padding: 40px 0 96px;
 }
 .vm-values-inner {
   max-width: 1440px;
@@ -5854,7 +5854,7 @@ body {
   content: '◆'; position: absolute; left: 0;
   font-size: 7px; color: var(--orange); top: 15px;
 }
-.fbo-criteria-geo { opacity: 0.65; width: 100%; height: 420px; }
+.fbo-criteria-geo { opacity: 0.65; width: 100%; height: 560px; }
 
 /* ── FBO Responsive ─────────────────────────────────── */
 @media (max-width: 1024px) {
