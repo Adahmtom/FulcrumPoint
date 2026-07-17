@@ -4329,6 +4329,7 @@ body {
   .vm-vision-img-wrap { order: 1; min-height: 280px; position: relative; }
   .vm-vision-content { order: 2; padding: 48px 24px; }
 
+  .vm-values { padding: 24px 0; }
   .vm-values-inner { padding: 56px 24px; }
   .vm-values-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
 
