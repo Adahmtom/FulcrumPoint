@@ -1448,6 +1448,7 @@ body {
   .team-section { padding: 56px 24px 80px; }
   .team-inner { padding: 0 24px; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .team-card-avatar { width: 170px; height: 200px; margin-right: 24px; }
   .team-join { padding: 48px 24px; }
   .team-join-inner { flex-direction: column; align-items: flex-start; gap: 24px; }
 
@@ -1603,7 +1604,8 @@ body {
   .team-section { padding: 48px 20px 64px; }
   .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
-  .team-card { border-right: none; padding: 28px 20px; gap: 20px; }
+  .team-card { border-right: none; padding: 28px 20px; }
+  .team-card-avatar { float: none; width: 100%; height: 280px; margin-right: 0; margin-bottom: 24px; }
   .team-join { padding: 40px 20px; }
 
   /* About */
@@ -1876,21 +1878,20 @@ body {
   border: 1px solid var(--mid-gray);
 }
 .team-card {
-  display: flex;
-  gap: 28px;
+  display: block;
+  overflow: auto;
   padding: 40px 36px;
   border-right: 1px solid var(--mid-gray);
   border-bottom: 1px solid var(--mid-gray);
 }
 .team-card:nth-child(2n) { border-right: none; }
 .team-card-avatar {
-  flex-shrink: 0;
-  width: 120px;
-  height: 120px;
+  float: left;
+  width: 210px;
+  height: 250px;
+  margin-right: 32px;
+  margin-bottom: 12px;
   background: var(--slate-dark);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
 }
 .team-card-name {
@@ -4504,6 +4505,7 @@ body {
   .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
   .team-card { border-right: none; }
+  .team-card-avatar { height: 240px; }
 
   /* Geo: hide on smallest screens */
   .page-geo-accent { display: none; }
