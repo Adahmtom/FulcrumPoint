@@ -215,11 +215,11 @@ export default function TeamPage() {
                       </svg>
                     </button>
                   )}
-                  <div className="team-card-focus">
-                    {member.focus.map((f) => (
-                      <span key={f} className="team-focus-tag">{f}</span>
-                    ))}
-                  </div>
+                </div>
+                <div className="team-card-focus">
+                  {member.focus.map((f) => (
+                    <span key={f} className="team-focus-tag">{f}</span>
+                  ))}
                 </div>
               </div>
             ))}
