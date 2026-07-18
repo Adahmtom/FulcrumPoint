@@ -89,7 +89,7 @@ function MemberAvatar({ initials, photo, name }: { initials: string; photo: stri
   if (photo) {
     return (
       <div className="team-card-avatar">
-        <Image src={photo} alt={name} width={80} height={80} style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
+        <Image src={photo} alt={name} width={80} height={80} style={{ objectFit: 'cover', objectPosition: 'center top', width: '100%', height: '100%' }} />
       </div>
     );
   }
