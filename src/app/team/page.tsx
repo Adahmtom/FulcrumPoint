@@ -110,7 +110,7 @@ const leadership = [
   {
     name: 'Sedar Brown',
     title: 'Founder & CEO — Chairman of the Board',
-    bio: 'Sedar sets the vision for FulcrumPoint and inspires its execution with clarity, credibility, and conviction. With nearly three decades of leadership in highly regulated medical device and semiconductor environments, he has built a career aligning people, processes, and priorities around a clear long-term direction. Leveraging advanced degrees from ASU\'s W. P. Carey School of Business and executive private equity training at Columbia Business School, he translates market insight and investment thesis into an actionable portfolio vision.',
+    bio: 'Sedar provides the strategic vision, disciplined leadership, and long-term direction guiding FulcrumPoint\'s growth. With nearly three decades of leadership experience in the medical diagnostics and semiconductor industries, he has built a career leading complex cross-functional initiatives that strengthened organizational performance, advanced operational excellence, and delivered measurable business results. Prior to founding FulcrumPoint, Sedar was selected for Roche Diagnostics\' prestigious Enterprise Leadership Development Program, where he helped execute enterprise-wide strategic initiatives at one of the world\'s leading healthcare companies. He holds both a Bachelor\'s in Business concentrated in Global Leadership and an MBA from Arizona State University\'s W. P. Carey School of Business and has completed executive education in Private Equity through Columbia Business School Executive Education, bringing together operational leadership, strategic management, and investment discipline.',
     focus: ['Vision & Strategy', 'Portfolio Direction', 'Operator Leadership'],
     initials: 'SB',
     photo: '/images/sedar-brown.jpg',
@@ -119,7 +119,7 @@ const leadership = [
   {
     name: 'Dylan Traver',
     title: 'Co-Founder & COO — Vice Chairman of the Board',
-    bio: 'Dylan brings the rare combination of hands-on operational mastery and cross-sector perspective that makes him an exceptional COO. With nearly two decades of building construction experience spanning commercial and residential projects, he has repeatedly proven his ability to scale complexity into disciplined execution—managing multi-million-dollar developments and high-value residential transformations with equal precision.',
+    bio: 'Dylan brings nearly two decades of operational leadership in the construction industry. As the founder and owner-operator of a successful general contracting company, he has built a reputation for delivering complex commercial and residential projects through disciplined execution, operational excellence, and trusted industry relationships. His hands-on experience managing cost control, project execution, quality, and subcontractor performance provides the practical expertise needed to scale and optimize operating businesses. He holds a bachelor\'s degree in Business with a minor in Construction Technology from Ohio State University. His ability to translate strategy into operational performance and build high-performing organizations strengthens post-acquisition strategic value creation plans, helping portfolio companies achieve sustainable growth, operational efficiency, and long-term profitability.',
     focus: ['Operations', 'Construction', 'Value Creation'],
     initials: 'DT',
     photo: '/images/dylan-traver.jpg',
@@ -137,7 +137,7 @@ const leadership = [
   {
     name: 'Darrell Wright',
     title: 'Board Member — Treasurer & Investment Committee Member',
-    bio: 'With over 25 years of dedicated service in Arizona, Darrell has established a distinguished career advocating for underserved populations and driving legislative and policy reform. As an accomplished Executive Director, he has effectively collaborated with local and state governments, like organizations, and community stakeholders to develop and implement programs that enhance quality of life.',
+    bio: 'Darrell brings more than 25 years of executive leadership experience overseeing complex organizations, strategic planning, and financial stewardship. Throughout his career, he has partnered with government agencies, community organizations, and executive leadership to develop sustainable initiatives while maintaining disciplined financial oversight and organizational accountability. His experience includes managing budgets exceeding $200 million, leading annual budget development and forecasting, and supporting strategic decision-making through financial analysis and modeling. His expertise in fiscal governance, financial planning, and organizational oversight provides FulcrumPoint with valuable insight, helping ensure disciplined capital management, financial transparency, and long-term organizational sustainability.',
     focus: ['Governance', 'Community Relations', 'Policy & Advocacy'],
     initials: 'DW',
     photo: '/images/darrell-wright.jpg',
@@ -146,7 +146,7 @@ const leadership = [
   {
     name: 'Lurissa Brown',
     title: 'Board Member — Secretary',
-    bio: 'Originally from Panama City, Panama and educated in the United States, Lurissa brings a global perspective, operational discipline, and deep expertise in talent development and workforce systems. With advanced degrees from Arizona State University and 15 years of experience spanning state government, legal operations, immigration compliance, and higher education leadership.',
+    bio: 'Lurissa brings more than 25 years of experience developing talent pipelines and aligning human capital with strategic organizational objectives. Her career spans higher education, state government, legal operations, and immigration compliance, where she has worked closely with executive leadership on initiatives requiring sound judgment, regulatory awareness, stakeholder collaboration, and disciplined organizational practices that foster effective governance. As Associate Director on the Career Management Team at Arizona State University\'s W. P. Carey School of Business, she partners with university leaders and industry partners to strengthen workforce readiness.',
     focus: ['Talent Development', 'Workforce Systems', 'Strategic Partnerships'],
     initials: 'LB',
     photo: '/images/lurissa-brown.jpg',
@@ -155,7 +155,7 @@ const leadership = [
   {
     name: 'Chris Ellington',
     title: 'Investment Committee Chairperson',
-    bio: 'Chris brings to FulcrumPoint\'s Investment Committee a true owner-operator perspective grounded in real assets, execution speed, and capital discipline. As the founder and owner of multiple operating businesses—including a general contracting firm—Chris has spent years making investment decisions where timelines, budgets, labor, and risk converge in the real world.',
+    bio: 'Chris brings an owner-operator perspective to FulcrumPoint\'s Investment Committee, with extensive experience building, acquiring, and operating businesses across construction, real estate, and development. As the founder of multiple companies, including a general contracting firm, he has spent years making investment decisions where capital allocation, operational execution, and risk management directly impact business performance. His experience evaluating, negotiating, and managing assets across changing market conditions provides a practical lens for assessing investment opportunities beyond financial models alone.',
     focus: ['Investment Oversight', 'Real Assets', 'Risk Management'],
     initials: 'CE',
     photo: '/images/chris-ellington.jpg',
@@ -164,7 +164,7 @@ const leadership = [
   {
     name: 'Tony Jones',
     title: 'Project Management Advisor',
-    bio: 'Tony adds strategic value to FulcrumPoint as a battle-tested operator of complex, capital-intensive programs where execution precision directly determines return outcomes. With more than two decades of global program management leadership at Intel and ZF Group, Tony has consistently delivered high-stakes initiatives across engineering, manufacturing, and supply chain environments.',
+    bio: 'Tony adds strategic value to FulcrumPoint as a battle-tested operator of complex, capital-intensive programs where execution precision directly determines return outcomes. With more than two decades of global program management leadership in the Semiconductor and Automotive industries, Tony has consistently delivered high-stakes initiatives across engineering, manufacturing, and supply chain environments.',
     focus: ['Program Management', 'Quality Systems', 'Operational Risk'],
     initials: 'TJ',
     photo: '/images/tony-jones.jpg',

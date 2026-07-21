@@ -63,7 +63,7 @@ export default function AboutPage() {
             <p className="aw-hero-body anim-up delay-2">
               In an industry built on relationships, we are proud to be a trusted, hands-on partner
               to great companies. We join the team in the trenches to help drive innovation and growth,
-              bringing institutional capital to an industry that has long deserved better partners.
+              bringing disciplined capital to an industry that has long deserved better partners.
             </p>
             <Link href="/team" className="aw-hero-link anim-up delay-3">
               Meet the team

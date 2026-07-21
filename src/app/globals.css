@@ -1475,7 +1475,7 @@ body {
   .strat-criteria-inner { grid-template-columns: 1fr; }
   .strat-criteria-img { height: 360px; }
   .strat-criteria-content { padding: 56px 40px; }
-  .aw-hero-left { padding: 72px 40px; }
+  .aw-hero-left { padding: 100px 40px 72px; }
   .aw-hero-right { height: 420px; position: relative; }
   .aw-glance-inner { padding: 0 40px; }
   .aw-glance-grid { grid-template-columns: 1fr; gap: 0; }
@@ -1618,7 +1618,7 @@ body {
   /* About — Who We Are */
   .aw-meet-inner { padding: 0 24px; grid-template-columns: 1fr; }
   .aw-meet-headline { font-size: clamp(36px, 10vw, 54px); }
-  .aw-hero-left { padding: 56px 24px; }
+  .aw-hero-left { padding: 80px 24px; }
   /* Investment Strategy */
   .strat-hero-content { padding: 0 24px 48px; }
   .strat-overview-inner { padding: 0 24px; }
@@ -1934,6 +1934,7 @@ body {
   padding-top: 20px;
   margin-top: 4px;
   border-top: 1px solid var(--mid-gray);
+  justify-content: center;
 }
 .team-focus-tag {
   font-size: 10px;
@@ -2140,17 +2141,15 @@ body {
   position: relative;
 }
 .aw-hero-inner {
-  max-width: 1440px;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1.1fr;
   min-height: 680px;
 }
 .aw-hero-left {
-  padding: 48px 80px 96px 80px;
+  padding: 120px 64px 96px 80px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .aw-hero-headline {
   font-family: var(--font-display);
@@ -4268,7 +4267,7 @@ body {
 
   /* ── About — Who We Are ── */
   .aw-hero-inner { grid-template-columns: 1fr; min-height: unset; }
-  .aw-hero-left { padding: 80px 24px 48px; }
+  .aw-hero-left { padding: 100px 24px 48px; }
   .aw-hero-left .eyebrow { margin-bottom: 8px; }
   .aw-hero-headline { margin-top: 8px; }
   .aw-hero-right { height: 380px; position: relative; min-height: unset; }
@@ -4427,7 +4426,7 @@ body {
   .page-hero-headline { font-size: clamp(28px, 8vw, 44px); }
 
   /* About */
-  .aw-hero-left { padding: 72px 20px 40px; }
+  .aw-hero-left { padding: 88px 20px 40px; }
   .aw-hero-right { height: 300px; }
   .aw-glance-inner { padding: 0 20px; }
   .aw-glance-card { padding: 28px 20px; }
