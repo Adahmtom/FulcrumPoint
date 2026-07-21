@@ -1448,8 +1448,7 @@ body {
   .team-section { padding: 56px 24px 80px; }
   .team-inner { padding: 0 24px; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
-  .team-card { grid-template-columns: 170px 1fr; }
-  .team-card-avatar { width: 170px; height: 200px; }
+  .team-card-avatar { width: 140px; height: 168px; margin-right: 24px; }
   .team-join { padding: 48px 24px; }
   .team-join-inner { flex-direction: column; align-items: flex-start; gap: 24px; }
 
@@ -1605,10 +1604,8 @@ body {
   .team-section { padding: 48px 20px 64px; }
   .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
-  .team-card { border-right: none; padding: 28px 20px; grid-template-columns: 1fr; grid-template-rows: auto auto auto; }
-  .team-card-avatar { width: 100%; height: 280px; }
-  .team-card-body { grid-column: 1; grid-row: 2; padding-left: 0; padding-top: 20px; }
-  .team-card-focus { grid-column: 1; grid-row: 3; }
+  .team-card { border-right: none; padding: 28px 20px; }
+  .team-card-avatar { float: none; width: 100%; height: 220px; margin-right: 0; margin-bottom: 20px; }
   .team-join { padding: 40px 20px; }
 
   /* About */
@@ -1881,27 +1878,24 @@ body {
   border: 1px solid var(--mid-gray);
 }
 .team-card {
-  display: grid;
-  grid-template-columns: 210px 1fr;
-  grid-template-rows: 1fr auto;
-  align-items: start;
+  display: block;
+  overflow: hidden; /* clearfix for float */
   padding: 40px 36px;
   border-right: 1px solid var(--mid-gray);
   border-bottom: 1px solid var(--mid-gray);
 }
 .team-card:nth-child(2n) { border-right: none; }
 .team-card-avatar {
-  grid-column: 1;
-  grid-row: 1;
-  width: 210px;
-  height: 250px;
+  float: left;
+  width: 160px;
+  height: 190px;
   background: var(--slate-dark);
   overflow: hidden;
+  margin-right: 28px;
+  margin-bottom: 12px;
 }
 .team-card-body {
-  grid-column: 2;
-  grid-row: 1;
-  padding-left: 32px;
+  /* flows naturally around the float */
 }
 .team-card-name {
   font-family: var(--font-display);
@@ -1926,8 +1920,7 @@ body {
   margin-bottom: 16px;
 }
 .team-card-focus {
-  grid-column: 1 / -1;
-  grid-row: 2;
+  clear: both;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
