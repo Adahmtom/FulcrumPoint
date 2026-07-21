@@ -4511,7 +4511,7 @@ body {
   .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
   .team-card { border-right: none; }
-  .team-card-avatar { height: 240px; }
+  .team-card-avatar { float: none; width: 100%; height: 240px; margin-right: 0; margin-bottom: 20px; }
   .team-card-focus { border-top: none; padding-top: 12px; }
 
   /* Geo: hide on smallest screens */
