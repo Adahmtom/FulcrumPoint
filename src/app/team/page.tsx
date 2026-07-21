@@ -176,7 +176,7 @@ const leadership = [
     bio: 'Andre is a trusted valuation, transaction strategy, and deal execution advisor to FulcrumPoint\'s Investment Committee and Deal Team. As a licensed business broker (License #01774609) and owner of a successful advisory firm (bizbyandre.com), he supports the full investment lifecycle from initial assessment through closing and exit. Andre provides disciplined, market-aligned valuations and financial insights that guide pricing, structuring, and timing decisions — ensuring every opportunity is thoroughly vetted before closing.',
     focus: ['Business Valuation', 'Transaction Strategy', 'Deal Execution'],
     initials: 'AG',
-    photo: '/images/andre-gulmesoff.png',
+    photo: '/images/Andre Gulmesoff.jpg',
     isFounder: false,
   },
 ];
