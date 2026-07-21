@@ -189,8 +189,8 @@ export default function ForBusinessOwnersPage() {
               to hear from you.
             </p>
             <ul className="fbo-criteria-list">
-              <li>$2M – $15M in annual revenue</li>
-              <li>$500K – $3M in EBITDA</li>
+              <li>&gt;$1.5M in annual revenue</li>
+              <li>&gt;$750K in EBITDA</li>
               <li>HVAC, electrical, plumbing, commercial construction, or industrial trades</li>
               <li>Located in Arizona</li>
               <li>5+ years of operating history</li>
