@@ -10,6 +10,7 @@ const sectors: Record<string, {
   body: string[];
   why: string[];
   criteria: { label: string; value: string }[];
+  minEbitda: string;
 }> = {
   hvac: {
     label: 'HVAC & Cooling Systems',
@@ -33,6 +34,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Commercial & Residential' },
     ],
+    minEbitda: '>$1M',
   },
   electrical: {
     label: 'Electrical',
@@ -56,6 +58,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Commercial & Residential' },
     ],
+    minEbitda: '>$1M',
   },
   plumbing: {
     label: 'Plumbing',
@@ -79,6 +82,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Commercial & Residential' },
     ],
+    minEbitda: '>$750K',
   },
   construction: {
     label: 'Commercial Construction',
@@ -102,6 +106,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Specialty & General Contracting' },
     ],
+    minEbitda: '>$1.5M',
   },
   industrial: {
     label: 'Industrial Trades',
@@ -125,6 +130,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Specialty Industrial Services' },
     ],
+    minEbitda: '>$1M',
   },
 };
 
@@ -238,7 +244,7 @@ export default async function InvestmentFocusDetailPage({
                 <span className="sector-detail-stat-label">Total Addressable Market</span>
               </div>
               <div className="sector-detail-stat-item">
-                <span className="sector-detail-stat-num">${'>'}1M</span>
+                <span className="sector-detail-stat-num">{sector.minEbitda}</span>
                 <span className="sector-detail-stat-label">Minimum EBITDA Target</span>
               </div>
               <div className="sector-detail-stat-item">
