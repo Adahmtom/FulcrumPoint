@@ -1605,7 +1605,7 @@ body {
   .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
   .team-card { border-right: none; padding: 28px 20px; }
-  .team-card-avatar { float: none; width: 100%; height: 220px; margin-right: 0; margin-bottom: 20px; }
+  .team-card-avatar { float: left; width: 130px; height: 155px; margin-right: 20px; margin-bottom: 8px; }
   .team-join { padding: 40px 20px; }
 
   /* About */
@@ -4511,7 +4511,7 @@ body {
   .team-inner { padding: 0 20px; }
   .team-grid { grid-template-columns: 1fr; }
   .team-card { border-right: none; }
-  .team-card-avatar { float: none; width: 100%; height: 240px; margin-right: 0; margin-bottom: 20px; }
+  .team-card-avatar { float: left; width: 130px; height: 155px; margin-right: 20px; margin-bottom: 8px; }
   .team-card-focus { border-top: none; padding-top: 12px; }
 
   /* Geo: hide on smallest screens */
@@ -5502,6 +5502,7 @@ body {
 @media (max-width: 600px) {
   .hold-period-section { padding: 52px 0; }
   .hold-period-inner { padding: 0 20px; }
+  .hold-period-card { padding: 32px 20px; }
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
