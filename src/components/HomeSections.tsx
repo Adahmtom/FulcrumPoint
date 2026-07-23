@@ -271,8 +271,8 @@ export function MissionSection() {
 /* ─── Criteria / Stats section ─── */
 export function CriteriaSection() {
   const stats = [
-    { val: '>$1.5M', label: 'EBITDA Target Range' },
-    { val: '>$750K', label: 'Revenue Sweet Spot' },
+    { val: '$5M – $25M', label: 'Revenue Target Range' },
+    { val: '$500K – $3M', label: 'EBITDA Target Range' },
     { val: '4×–5×', label: 'Target MOIC' },
     { val: '5–7 yr', label: 'Hold Period' },
   ];

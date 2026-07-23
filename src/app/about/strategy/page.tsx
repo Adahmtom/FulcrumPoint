@@ -29,8 +29,8 @@ const pillars = [
 ];
 
 const criteria = [
-  { label: 'Revenue',         value: '>$1.5M' },
-  { label: 'EBITDA',          value: '>$750K' },
+  { label: 'Revenue',         value: '$2M – $15M' },
+  { label: 'EBITDA',          value: '$500K – $3M' },
   { label: 'EBITDA Margin',   value: '10%+ preferred' },
   { label: 'Hold Period',     value: '5 – 7 years' },
   { label: 'Geography',       value: 'Arizona' },
