@@ -5905,7 +5905,7 @@ body {
   .fbo-process { padding: 52px 0; }
   .fbo-process-inner { padding: 0 20px; }
   .fbo-process-steps { grid-template-columns: 1fr; }
-  .fbo-step { padding: 28px 0; border-top: none; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .fbo-step { padding: 28px 20px; border-top: none; border-bottom: 1px solid rgba(255,255,255,0.08); }
   .fbo-step:last-child { border-bottom: none; }
   .fbo-criteria { padding: 52px 0; }
   .fbo-criteria-inner { padding: 0 20px; }

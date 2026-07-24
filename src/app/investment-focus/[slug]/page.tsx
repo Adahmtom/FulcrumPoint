@@ -34,7 +34,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Commercial & Residential' },
     ],
-    minEbitda: '>$1M',
+    minEbitda: '$1M',
   },
   electrical: {
     label: 'Electrical',
@@ -58,7 +58,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Commercial & Residential' },
     ],
-    minEbitda: '>$1M',
+    minEbitda: '$1M',
   },
   plumbing: {
     label: 'Plumbing',
@@ -82,7 +82,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Commercial & Residential' },
     ],
-    minEbitda: '>$750K',
+    minEbitda: '$750K',
   },
   construction: {
     label: 'Commercial Construction',
@@ -106,7 +106,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Specialty & General Contracting' },
     ],
-    minEbitda: '>$1.5M',
+    minEbitda: '$1.5M',
   },
   industrial: {
     label: 'Industrial Trades',
@@ -130,7 +130,7 @@ const sectors: Record<string, {
       { label: 'Geography', value: 'Arizona' },
       { label: 'Business Type', value: 'Specialty Industrial Services' },
     ],
-    minEbitda: '>$1M',
+    minEbitda: '$1M',
   },
 };
 
