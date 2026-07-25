@@ -271,9 +271,9 @@ export function MissionSection() {
 /* ─── Criteria / Stats section ─── */
 export function CriteriaSection() {
   const stats = [
-    { val: '$5M – $25M', label: 'Revenue Target Range' },
-    { val: '$500K – $3M', label: 'EBITDA Target Range' },
-    { val: '4×–5×', label: 'Target MOIC' },
+    { val: '$10M – $30M+', label: 'Revenue Target Range' },
+    { val: '$1M – $4M+', label: 'EBITDA Target Range' },
+    { val: '7x–9x', label: 'Valuation Exit Multiple' },
     { val: '5–7 yr', label: 'Hold Period' },
   ];
   const criteria = [
@@ -287,7 +287,7 @@ export function CriteriaSection() {
       <div className="criteria-inner">
         <div className="criteria-header">
           <div className="eyebrow">Investment Criteria</div>
-          <h2 className="criteria-headline">What we look for</h2>
+          <h2 className="criteria-headline">How we build success on core criteria</h2>
         </div>
         <div className="criteria-stats-row">
           {stats.map((s) => (
