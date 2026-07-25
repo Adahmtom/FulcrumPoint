@@ -113,7 +113,7 @@ const leadership = [
     bio: 'Sedar provides the strategic vision, disciplined leadership, and long-term direction guiding FulcrumPoint\'s growth. With nearly three decades of leadership experience in the medical diagnostics and semiconductor industries, he has built a career leading complex cross-functional initiatives that strengthened organizational performance, advanced operational excellence, and delivered measurable business results. Prior to founding FulcrumPoint, Sedar was selected for Roche Diagnostics\' prestigious Enterprise Leadership Development Program, where he helped execute enterprise-wide strategic initiatives at one of the world\'s leading healthcare companies. He holds both a Bachelor\'s in Business concentrated in Global Leadership and an MBA from Arizona State University\'s W. P. Carey School of Business and has completed executive education in Private Equity through Columbia Business School Executive Education, bringing together operational leadership, strategic management, and investment discipline.',
     focus: ['Vision & Strategy', 'Portfolio Direction', 'Operator Leadership'],
     initials: 'SB',
-    photo: '/images/sedar-brown.jpg',
+    photo: '/images/Sedar_Brown.jpg',
     isFounder: true,
   },
   {
@@ -122,7 +122,7 @@ const leadership = [
     bio: 'Dylan brings nearly two decades of operational leadership in the construction industry. As the founder and owner-operator of a successful general contracting company, he has built a reputation for delivering complex commercial and residential projects through disciplined execution, operational excellence, and trusted industry relationships. His hands-on experience managing cost control, project execution, quality, and subcontractor performance provides the practical expertise needed to scale and optimize operating businesses. He holds a bachelor\'s degree in Business with a minor in Construction Technology from Ohio State University. His ability to translate strategy into operational performance and build high-performing organizations strengthens post-acquisition strategic value creation plans, helping portfolio companies achieve sustainable growth, operational efficiency, and long-term profitability.',
     focus: ['Operations', 'Construction', 'Value Creation'],
     initials: 'DT',
-    photo: '/images/dylan-traver.jpg',
+    photo: '/images/Dylan_Traver.jpg',
     isFounder: false,
   },
   {
@@ -131,7 +131,7 @@ const leadership = [
     bio: 'Olaoluwa brings a rare combination of institutional-grade financial rigor and operator-minded execution, making him a strategic force in translating operational performance into measurable returns. With senior finance leadership experience at Microsoft and Intel, he has managed and influenced decisions across tens of billions of dollars in COGS, CapEx, and revenue.',
     focus: ['Financial Strategy', 'Capital Allocation', 'Deal Underwriting'],
     initials: 'OK',
-    photo: '/images/olaoluwa-kolawole.jpg',
+    photo: '/images/Olaoluwa_Kolawole.jpg',
     isFounder: false,
   },
   {
@@ -140,7 +140,7 @@ const leadership = [
     bio: 'Darrell brings more than 25 years of executive leadership experience overseeing complex organizations, strategic planning, and financial stewardship. Throughout his career, he has partnered with government agencies, community organizations, and executive leadership to develop sustainable initiatives while maintaining disciplined financial oversight and organizational accountability. His experience includes managing budgets exceeding $200 million, leading annual budget development and forecasting, and supporting strategic decision-making through financial analysis and modeling. His expertise in fiscal governance, financial planning, and organizational oversight provides FulcrumPoint with valuable insight, helping ensure disciplined capital management, financial transparency, and long-term organizational sustainability.',
     focus: ['Governance', 'Community Relations', 'Policy & Advocacy'],
     initials: 'DW',
-    photo: '/images/darrell-wright.jpg',
+    photo: '/images/Darrell_Wright.jpg',
     isFounder: false,
   },
   {
@@ -149,7 +149,7 @@ const leadership = [
     bio: 'Lurissa brings more than 25 years of experience developing talent pipelines and aligning human capital with strategic organizational objectives. Her career spans higher education, state government, legal operations, and immigration compliance, where she has worked closely with executive leadership on initiatives requiring sound judgment, regulatory awareness, stakeholder collaboration, and disciplined organizational practices that foster effective governance. As Associate Director on the Career Management Team at Arizona State University\'s W. P. Carey School of Business, she partners with university leaders and industry partners to strengthen workforce readiness.',
     focus: ['Talent Development', 'Workforce Systems', 'Strategic Partnerships'],
     initials: 'LB',
-    photo: '/images/lurissa-brown.jpg',
+    photo: '/images/Lurissa_Brown.jpg',
     isFounder: false,
   },
   {
@@ -158,7 +158,7 @@ const leadership = [
     bio: 'Chris brings an owner-operator perspective to FulcrumPoint\'s Investment Committee, with extensive experience building, acquiring, and operating businesses across construction, real estate, and development. As the founder of multiple companies, including a general contracting firm, he has spent years making investment decisions where capital allocation, operational execution, and risk management directly impact business performance. His experience evaluating, negotiating, and managing assets across changing market conditions provides a practical lens for assessing investment opportunities beyond financial models alone.',
     focus: ['Investment Oversight', 'Real Assets', 'Risk Management'],
     initials: 'CE',
-    photo: '/images/chris-ellington.jpg',
+    photo: '/images/Chris_Ellignton.jpg',
     isFounder: false,
   },
   {
@@ -167,7 +167,7 @@ const leadership = [
     bio: 'Tony adds strategic value to FulcrumPoint as a battle-tested operator of complex, capital-intensive programs where execution precision directly determines return outcomes. With more than two decades of global program management leadership in the Semiconductor and Automotive industries, Tony has consistently delivered high-stakes initiatives across engineering, manufacturing, and supply chain environments.',
     focus: ['Program Management', 'Quality Systems', 'Operational Risk'],
     initials: 'TJ',
-    photo: '/images/tony-jones.jpg',
+    photo: '/images/Tony_Jones.jpg',
     isFounder: false,
   },
   {
@@ -176,7 +176,7 @@ const leadership = [
     bio: 'Andre is a trusted valuation, transaction strategy, and deal execution advisor to FulcrumPoint\'s Investment Committee and Deal Team. As a licensed business broker (License #01774609) and owner of a successful advisory firm (bizbyandre.com), he supports the full investment lifecycle from initial assessment through closing and exit. Andre provides disciplined, market-aligned valuations and financial insights that guide pricing, structuring, and timing decisions — ensuring every opportunity is thoroughly vetted before closing.',
     focus: ['Business Valuation', 'Transaction Strategy', 'Deal Execution'],
     initials: 'AG',
-    photo: '/images/Andre Gulmesoff.jpg',
+    photo: '/images/Andre_Gulmesoff.jpg',
     isFounder: false,
   },
 ];
