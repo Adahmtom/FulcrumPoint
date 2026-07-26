@@ -763,6 +763,7 @@ body {
 .criteria-stat {
   padding: 36px 40px;
   border-right: 1px solid var(--mid-gray);
+  text-align: center;
 }
 .criteria-stat:last-child { border-right: none; }
 .criteria-stat-val {
@@ -2295,7 +2296,7 @@ body {
   margin: 0 auto;
   padding: 0 var(--inner-h);
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0;
 }
 .aw-stat {
@@ -2303,7 +2304,6 @@ body {
   border-right: 1px solid rgba(255,255,255,0.25);
   text-align: center;
 }
-.aw-stat:first-child { padding-left: 0; }
 .aw-stat:last-child { border-right: none; }
 .aw-stat-value {
   font-family: var(--font-display);

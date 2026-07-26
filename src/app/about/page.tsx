@@ -36,7 +36,6 @@ const values = [
 const stats = [
   { value: '$5M+',   label: 'Capital deployed' },
   { value: '2+',     label: 'Platform companies' },
-  { value: '5–7yr',  label: 'Avg. hold period' },
   { value: '3+',     label: 'Add-on Acquisitions' },
 ];
 
