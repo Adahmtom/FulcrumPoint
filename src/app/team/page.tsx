@@ -145,7 +145,7 @@ const leadership = [
   },
   {
     name: 'Lurissa Brown',
-    title: 'Board Member — Secretary',
+    title: 'Board Member — Secretary & Advisor',
     bio: 'Lurissa brings more than 25 years of experience developing talent pipelines and aligning human capital with strategic organizational objectives. Her career spans higher education, state government, legal operations, and immigration compliance, where she has worked closely with executive leadership on initiatives requiring sound judgment, regulatory awareness, stakeholder collaboration, and disciplined organizational practices that foster effective governance. As Associate Director on the Career Management Team at Arizona State University\'s W. P. Carey School of Business, she partners with university leaders and industry partners to strengthen workforce readiness.',
     focus: ['Talent Development', 'Workforce Systems', 'Strategic Partnerships'],
     initials: 'LB',
