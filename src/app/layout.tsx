@@ -10,6 +10,29 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.svg",
   },
+  openGraph: {
+    title: "FulcrumPoint Holdings — Operator-Led Holdings Company",
+    description:
+      "FulcrumPoint Holdings partners with skilled trade businesses in Phoenix, AZ to unlock growth through disciplined, operator-led value creation.",
+    url: "https://fulcrumpointholdings.com",
+    siteName: "FulcrumPoint Holdings",
+    images: [
+      {
+        url: "https://fulcrumpointholdings.com/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "FulcrumPoint Holdings — Operator-Led Holdings Company",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FulcrumPoint Holdings — Operator-Led Holdings Company",
+    description:
+      "FulcrumPoint Holdings partners with skilled trade businesses in Phoenix, AZ to unlock growth through disciplined, operator-led value creation.",
+    images: ["https://fulcrumpointholdings.com/images/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({

@@ -50,6 +50,14 @@ export default function Footer() {
         <span className="footer-copy">
           © {new Date().getFullYear()} FulcrumPoint Holdings, Inc. All rights reserved.
         </span>
+        <a
+          href="https://www.ourbrio.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-built-by"
+        >
+          Built by OurBrio
+        </a>
         <div className="footer-legal">
           <Link href="/disclaimer">Disclaimer</Link>
           <Link href="/privacy">Privacy Policy</Link>
